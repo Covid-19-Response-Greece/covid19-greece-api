@@ -20,6 +20,11 @@ This API combines data from multiple sources. All data are fetched from [here](h
 * World Health Organization: https://www.who.int
 
   ( [+ suggest a data source!](mailto:alex.delitzas@gmail.com) )
+  
+## Requirements
+
+* Python 3
+* Flask
 
 ## How to run
 
