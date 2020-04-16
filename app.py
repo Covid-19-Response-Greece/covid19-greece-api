@@ -8,11 +8,16 @@ import copy
 app = Flask(__name__)
 
 data_greece_JHCSSE = None
+data_greece_isMOOD_regions = None
 
 def init():
     global data_greece_JHCSSE
+    global data_greece_isMOOD_regions
+
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
+    with open('data/greece/isMOOD/regions.json') as regions_file:
+    	data_greece_isMOOD_regions = json.load(regions_file)
 
 @app.route('/all', methods=['GET'])
 def get_all():
@@ -48,6 +53,11 @@ def get_deaths():
         del date['recovered']
 
     return jsonify({'cases': out_json})
+
+@app.route('/regions', methods=['GET'])
+def get_regions():
+
+    return jsonify({'regions': data_greece_isMOOD_regions})
 
 
 @app.errorhandler(404)
