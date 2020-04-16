@@ -1,1 +1,1182 @@
-[{"date":"2020-03-23","deceased":2,"to_day_deceased":17,"to_day_cases":695,"new_cases":71,"recovered":0,"to_day_recovered":29,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.766042+03:00","updated":"2020-04-08T08:48:44.179680+03:00","to_day_active_cases":649},{"date":"2020-03-24","deceased":3,"to_day_deceased":20,"to_day_cases":743,"new_cases":48,"recovered":3,"to_day_recovered":32,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.778602+03:00","updated":"2020-04-08T08:49:15.129441+03:00","to_day_active_cases":691},{"date":"2020-03-25","deceased":2,"to_day_deceased":22,"to_day_cases":821,"new_cases":78,"recovered":4,"to_day_recovered":36,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.794337+03:00","updated":"2020-04-08T08:49:48.012183+03:00","to_day_active_cases":763},{"date":"2020-03-26","deceased":4,"to_day_deceased":26,"to_day_cases":892,"new_cases":71,"recovered":6,"to_day_recovered":42,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.849859+03:00","updated":"2020-04-08T08:50:18.068777+03:00","to_day_active_cases":824},{"date":"2020-03-27","deceased":2,"to_day_deceased":28,"to_day_cases":966,"new_cases":74,"recovered":10,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.879466+03:00","updated":"2020-04-08T08:50:50.335686+03:00","to_day_active_cases":886},{"date":"2020-03-28","deceased":4,"to_day_deceased":32,"to_day_cases":1061,"new_cases":95,"recovered":0,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.897506+03:00","updated":"2020-04-08T08:51:10.083889+03:00","to_day_active_cases":977},{"date":"2020-03-29","deceased":6,"to_day_deceased":38,"to_day_cases":1156,"new_cases":95,"recovered":0,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.921406+03:00","updated":"2020-04-08T08:51:27.508309+03:00","to_day_active_cases":1066},{"date":"2020-03-30","deceased":5,"to_day_deceased":43,"to_day_cases":1212,"new_cases":56,"recovered":0,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.937159+03:00","updated":"2020-04-08T08:51:52.320841+03:00","to_day_active_cases":1117},{"date":"2020-03-31","deceased":6,"to_day_deceased":49,"to_day_cases":1314,"new_cases":102,"recovered":0,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.948408+03:00","updated":"2020-04-08T08:52:12.787963+03:00","to_day_active_cases":1213},{"date":"2020-04-01","deceased":1,"to_day_deceased":50,"to_day_cases":1415,"new_cases":101,"recovered":0,"to_day_recovered":52,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.963508+03:00","updated":"2020-04-08T08:52:24.113980+03:00","to_day_active_cases":1313},{"date":"2020-04-02","deceased":3,"to_day_deceased":53,"to_day_cases":1544,"new_cases":129,"recovered":9,"to_day_recovered":61,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.990525+03:00","updated":"2020-04-08T08:52:46.993309+03:00","to_day_active_cases":1430},{"date":"2020-04-03","deceased":6,"to_day_deceased":59,"to_day_cases":1613,"new_cases":69,"recovered":17,"to_day_recovered":78,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:17.012974+03:00","updated":"2020-04-08T08:53:37.245191+03:00","to_day_active_cases":1476},{"date":"2020-04-04","deceased":9,"to_day_deceased":68,"to_day_cases":1673,"new_cases":60,"recovered":0,"to_day_recovered":78,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:17.037924+03:00","updated":"2020-04-08T08:54:13.941288+03:00","to_day_active_cases":1527},{"date":"2020-04-05","deceased":5,"to_day_deceased":73,"to_day_cases":1735,"new_cases":62,"recovered":0,"to_day_recovered":78,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:17.057994+03:00","updated":"2020-04-08T08:54:35.496847+03:00","to_day_active_cases":1584},{"date":"2020-04-06","deceased":6,"to_day_deceased":79,"to_day_cases":1755,"new_cases":20,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:17.075997+03:00","updated":"2020-04-08T08:55:12.371131+03:00","to_day_active_cases":1407},{"date":"2020-04-07","deceased":2,"to_day_deceased":81,"to_day_cases":1832,"new_cases":77,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-07T02:53:13.421972+03:00","updated":"2020-04-08T08:55:46.058918+03:00","to_day_active_cases":1482},{"date":"2020-04-08","deceased":2,"to_day_deceased":83,"to_day_cases":1884,"new_cases":52,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-08T00:00:00.462330+03:00","updated":"2020-04-08T19:13:43.860126+03:00","to_day_active_cases":1532},{"date":"2020-04-09","deceased":3,"to_day_deceased":86,"to_day_cases":1955,"new_cases":71,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-09T01:31:04.694461+03:00","updated":"2020-04-09T18:04:21.200192+03:00","to_day_active_cases":1600},{"date":"2020-04-14","deceased":2,"to_day_deceased":101,"to_day_cases":2170,"new_cases":25,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-14T18:03:26.881743+03:00","updated":"2020-04-14T18:07:41.608981+03:00","to_day_active_cases":1800},{"date":"2020-04-10","deceased":4,"to_day_deceased":90,"to_day_cases":2011,"new_cases":56,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-10T00:00:37.292740+03:00","updated":"2020-04-10T18:04:41.002908+03:00","to_day_active_cases":1652},{"date":"2020-04-11","deceased":0,"to_day_deceased":93,"to_day_cases":2081,"new_cases":72,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-11T00:23:35.389755+03:00","updated":"2020-04-11T18:06:31.003330+03:00","to_day_active_cases":1719},{"date":"2020-04-12","deceased":5,"to_day_deceased":98,"to_day_cases":2114,"new_cases":33,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-12T18:05:58.384497+03:00","updated":"2020-04-12T18:05:58.384524+03:00","to_day_active_cases":1747},{"date":"2020-04-13","deceased":1,"to_day_deceased":99,"to_day_cases":2145,"new_cases":31,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-13T03:30:37.871722+03:00","updated":"2020-04-13T18:05:26.032973+03:00","to_day_active_cases":1777},{"date":"2020-04-15","deceased":1,"to_day_deceased":102,"to_day_cases":2192,"new_cases":22,"recovered":0,"to_day_recovered":269,"totals":{"country":{"name":"Greece","slug":"greece"},"total_females":436,"total_males":564,"total_age_groups":{"cases":{"65+":408,"0-17":66,"18-39":596,"40-64":867},"deaths":{"65+":65,"0-17":0,"18-39":1,"40-64":24},"critical":{"65+":0,"0-17":0,"18-39":43,"40-64":50}},"total_critical":72,"age_average":49.0,"total_by_location":null,"created":"2020-04-06T19:19:11.771058+03:00","updated":"2020-04-15T18:05:44.121948+03:00","average_death_age":73.0},"country":{"name":"Greece","slug":"greece"},"created":"2020-04-15T18:04:22.048100+03:00","updated":"2020-04-15T18:04:55.496194+03:00","to_day_active_cases":1821},{"date":"2020-02-29","deceased":0,"to_day_deceased":0,"to_day_cases":7,"new_cases":3,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.231883+03:00","updated":"2020-04-08T08:33:48.829009+03:00","to_day_active_cases":7},{"date":"2020-03-01","deceased":0,"to_day_deceased":0,"to_day_cases":7,"new_cases":0,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.258812+03:00","updated":"2020-04-08T08:36:19.595046+03:00","to_day_active_cases":7},{"date":"2020-03-07","deceased":0,"to_day_deceased":0,"to_day_cases":66,"new_cases":21,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.405859+03:00","updated":"2020-04-08T08:37:01.917226+03:00","to_day_active_cases":66},{"date":"2020-03-08","deceased":0,"to_day_deceased":0,"to_day_cases":73,"new_cases":7,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.416239+03:00","updated":"2020-04-08T08:37:24.781945+03:00","to_day_active_cases":73},{"date":"2020-03-09","deceased":0,"to_day_deceased":0,"to_day_cases":84,"new_cases":11,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.433039+03:00","updated":"2020-04-08T08:38:07.461925+03:00","to_day_active_cases":84},{"date":"2020-03-10","deceased":0,"to_day_deceased":0,"to_day_cases":89,"new_cases":5,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.468716+03:00","updated":"2020-04-08T08:38:33.787407+03:00","to_day_active_cases":89},{"date":"2020-03-12","deceased":0,"to_day_deceased":1,"to_day_cases":117,"new_cases":18,"recovered":0,"to_day_recovered":2,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.526756+03:00","updated":"2020-04-08T08:41:40.016973+03:00","to_day_active_cases":114},{"date":"2020-03-13","deceased":0,"to_day_deceased":1,"to_day_cases":190,"new_cases":73,"recovered":0,"to_day_recovered":2,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.539951+03:00","updated":"2020-04-08T08:42:04.676415+03:00","to_day_active_cases":187},{"date":"2020-03-15","deceased":1,"to_day_deceased":4,"to_day_cases":331,"new_cases":103,"recovered":0,"to_day_recovered":10,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.575755+03:00","updated":"2020-04-08T08:42:50.624803+03:00","to_day_active_cases":317},{"date":"2020-03-16","deceased":0,"to_day_deceased":4,"to_day_cases":352,"new_cases":21,"recovered":0,"to_day_recovered":10,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.599254+03:00","updated":"2020-04-08T08:43:35.209568+03:00","to_day_active_cases":338},{"date":"2020-03-17","deceased":1,"to_day_deceased":5,"to_day_cases":387,"new_cases":35,"recovered":0,"to_day_recovered":14,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.643731+03:00","updated":"2020-04-08T08:44:12.456134+03:00","to_day_active_cases":368},{"date":"2020-03-18","deceased":0,"to_day_deceased":5,"to_day_cases":418,"new_cases":31,"recovered":0,"to_day_recovered":14,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.656505+03:00","updated":"2020-04-08T08:44:30.281042+03:00","to_day_active_cases":399},{"date":"2020-03-19","deceased":1,"to_day_deceased":6,"to_day_cases":464,"new_cases":46,"recovered":0,"to_day_recovered":19,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.680489+03:00","updated":"2020-04-08T08:45:12.014116+03:00","to_day_active_cases":439},{"date":"2020-03-20","deceased":0,"to_day_deceased":9,"to_day_cases":495,"new_cases":31,"recovered":11,"to_day_recovered":19,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.692866+03:00","updated":"2020-04-08T08:45:47.711835+03:00","to_day_active_cases":467},{"date":"2020-03-21","deceased":4,"to_day_deceased":13,"to_day_cases":530,"new_cases":35,"recovered":0,"to_day_recovered":19,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.735641+03:00","updated":"2020-04-08T08:46:33.440025+03:00","to_day_active_cases":498},{"date":"2020-03-22","deceased":2,"to_day_deceased":15,"to_day_cases":624,"new_cases":94,"recovered":0,"to_day_recovered":19,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.749038+03:00","updated":"2020-04-08T08:47:00.233677+03:00","to_day_active_cases":590},{"date":"2020-02-26","deceased":0,"to_day_deceased":0,"to_day_cases":1,"new_cases":1,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.162928+03:00","updated":"2020-04-06T19:18:18.470007+03:00","to_day_active_cases":1},{"date":"2020-02-27","deceased":0,"to_day_deceased":0,"to_day_cases":3,"new_cases":2,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.171562+03:00","updated":"2020-04-06T19:18:18.481187+03:00","to_day_active_cases":3},{"date":"2020-02-28","deceased":0,"to_day_deceased":0,"to_day_cases":4,"new_cases":1,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.213097+03:00","updated":"2020-04-06T19:18:18.497148+03:00","to_day_active_cases":4},{"date":"2020-03-02","deceased":0,"to_day_deceased":0,"to_day_cases":7,"new_cases":0,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.301790+03:00","updated":"2020-04-06T19:18:18.528225+03:00","to_day_active_cases":7},{"date":"2020-03-03","deceased":0,"to_day_deceased":0,"to_day_cases":7,"new_cases":0,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.323498+03:00","updated":"2020-04-06T19:18:18.538410+03:00","to_day_active_cases":7},{"date":"2020-03-04","deceased":0,"to_day_deceased":0,"to_day_cases":9,"new_cases":2,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.333017+03:00","updated":"2020-04-06T19:18:18.552452+03:00","to_day_active_cases":9},{"date":"2020-03-05","deceased":0,"to_day_deceased":0,"to_day_cases":31,"new_cases":22,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.350404+03:00","updated":"2020-04-06T19:18:18.562555+03:00","to_day_active_cases":31},{"date":"2020-03-06","deceased":0,"to_day_deceased":0,"to_day_cases":45,"new_cases":14,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.372872+03:00","updated":"2020-04-06T19:18:18.571322+03:00","to_day_active_cases":45},{"date":"2020-03-11","deceased":1,"to_day_deceased":1,"to_day_cases":99,"new_cases":10,"recovered":0,"to_day_recovered":0,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.494622+03:00","updated":"2020-04-06T19:18:18.635132+03:00","to_day_active_cases":98},{"date":"2020-03-14","deceased":2,"to_day_deceased":3,"to_day_cases":228,"new_cases":38,"recovered":8,"to_day_recovered":8,"totals":null,"country":{"name":"Greece","slug":"greece"},"created":"2020-04-06T19:18:16.562258+03:00","updated":"2020-04-06T19:18:18.658835+03:00","to_day_active_cases":217}]
+[
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.766042+03:00",
+        "date": "2020-03-23",
+        "deceased": 2,
+        "new_cases": 71,
+        "recovered": 0,
+        "to_day_active_cases": 649,
+        "to_day_cases": 695,
+        "to_day_deceased": 17,
+        "to_day_recovered": 29,
+        "totals": null,
+        "updated": "2020-04-08T08:48:44.179680+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.778602+03:00",
+        "date": "2020-03-24",
+        "deceased": 3,
+        "new_cases": 48,
+        "recovered": 3,
+        "to_day_active_cases": 691,
+        "to_day_cases": 743,
+        "to_day_deceased": 20,
+        "to_day_recovered": 32,
+        "totals": null,
+        "updated": "2020-04-08T08:49:15.129441+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.794337+03:00",
+        "date": "2020-03-25",
+        "deceased": 2,
+        "new_cases": 78,
+        "recovered": 4,
+        "to_day_active_cases": 763,
+        "to_day_cases": 821,
+        "to_day_deceased": 22,
+        "to_day_recovered": 36,
+        "totals": null,
+        "updated": "2020-04-08T08:49:48.012183+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.849859+03:00",
+        "date": "2020-03-26",
+        "deceased": 4,
+        "new_cases": 71,
+        "recovered": 6,
+        "to_day_active_cases": 824,
+        "to_day_cases": 892,
+        "to_day_deceased": 26,
+        "to_day_recovered": 42,
+        "totals": null,
+        "updated": "2020-04-08T08:50:18.068777+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.879466+03:00",
+        "date": "2020-03-27",
+        "deceased": 2,
+        "new_cases": 74,
+        "recovered": 10,
+        "to_day_active_cases": 886,
+        "to_day_cases": 966,
+        "to_day_deceased": 28,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:50:50.335686+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.897506+03:00",
+        "date": "2020-03-28",
+        "deceased": 4,
+        "new_cases": 95,
+        "recovered": 0,
+        "to_day_active_cases": 977,
+        "to_day_cases": 1061,
+        "to_day_deceased": 32,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:51:10.083889+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.921406+03:00",
+        "date": "2020-03-29",
+        "deceased": 6,
+        "new_cases": 95,
+        "recovered": 0,
+        "to_day_active_cases": 1066,
+        "to_day_cases": 1156,
+        "to_day_deceased": 38,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:51:27.508309+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.937159+03:00",
+        "date": "2020-03-30",
+        "deceased": 5,
+        "new_cases": 56,
+        "recovered": 0,
+        "to_day_active_cases": 1117,
+        "to_day_cases": 1212,
+        "to_day_deceased": 43,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:51:52.320841+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.948408+03:00",
+        "date": "2020-03-31",
+        "deceased": 6,
+        "new_cases": 102,
+        "recovered": 0,
+        "to_day_active_cases": 1213,
+        "to_day_cases": 1314,
+        "to_day_deceased": 49,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:52:12.787963+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.963508+03:00",
+        "date": "2020-04-01",
+        "deceased": 1,
+        "new_cases": 101,
+        "recovered": 0,
+        "to_day_active_cases": 1313,
+        "to_day_cases": 1415,
+        "to_day_deceased": 50,
+        "to_day_recovered": 52,
+        "totals": null,
+        "updated": "2020-04-08T08:52:24.113980+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.990525+03:00",
+        "date": "2020-04-02",
+        "deceased": 3,
+        "new_cases": 129,
+        "recovered": 9,
+        "to_day_active_cases": 1430,
+        "to_day_cases": 1544,
+        "to_day_deceased": 53,
+        "to_day_recovered": 61,
+        "totals": null,
+        "updated": "2020-04-08T08:52:46.993309+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:17.012974+03:00",
+        "date": "2020-04-03",
+        "deceased": 6,
+        "new_cases": 69,
+        "recovered": 17,
+        "to_day_active_cases": 1476,
+        "to_day_cases": 1613,
+        "to_day_deceased": 59,
+        "to_day_recovered": 78,
+        "totals": null,
+        "updated": "2020-04-08T08:53:37.245191+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:17.037924+03:00",
+        "date": "2020-04-04",
+        "deceased": 9,
+        "new_cases": 60,
+        "recovered": 0,
+        "to_day_active_cases": 1527,
+        "to_day_cases": 1673,
+        "to_day_deceased": 68,
+        "to_day_recovered": 78,
+        "totals": null,
+        "updated": "2020-04-08T08:54:13.941288+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:17.057994+03:00",
+        "date": "2020-04-05",
+        "deceased": 5,
+        "new_cases": 62,
+        "recovered": 0,
+        "to_day_active_cases": 1584,
+        "to_day_cases": 1735,
+        "to_day_deceased": 73,
+        "to_day_recovered": 78,
+        "totals": null,
+        "updated": "2020-04-08T08:54:35.496847+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:17.075997+03:00",
+        "date": "2020-04-06",
+        "deceased": 6,
+        "new_cases": 20,
+        "recovered": 0,
+        "to_day_active_cases": 1407,
+        "to_day_cases": 1755,
+        "to_day_deceased": 79,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-08T08:55:12.371131+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-07T02:53:13.421972+03:00",
+        "date": "2020-04-07",
+        "deceased": 2,
+        "new_cases": 77,
+        "recovered": 0,
+        "to_day_active_cases": 1482,
+        "to_day_cases": 1832,
+        "to_day_deceased": 81,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-08T08:55:46.058918+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-08T00:00:00.462330+03:00",
+        "date": "2020-04-08",
+        "deceased": 2,
+        "new_cases": 52,
+        "recovered": 0,
+        "to_day_active_cases": 1532,
+        "to_day_cases": 1884,
+        "to_day_deceased": 83,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-08T19:13:43.860126+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-09T01:31:04.694461+03:00",
+        "date": "2020-04-09",
+        "deceased": 3,
+        "new_cases": 71,
+        "recovered": 0,
+        "to_day_active_cases": 1600,
+        "to_day_cases": 1955,
+        "to_day_deceased": 86,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-09T18:04:21.200192+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-14T18:03:26.881743+03:00",
+        "date": "2020-04-14",
+        "deceased": 2,
+        "new_cases": 25,
+        "recovered": 0,
+        "to_day_active_cases": 1800,
+        "to_day_cases": 2170,
+        "to_day_deceased": 101,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-14T18:07:41.608981+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-10T00:00:37.292740+03:00",
+        "date": "2020-04-10",
+        "deceased": 4,
+        "new_cases": 56,
+        "recovered": 0,
+        "to_day_active_cases": 1652,
+        "to_day_cases": 2011,
+        "to_day_deceased": 90,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-10T18:04:41.002908+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-11T00:23:35.389755+03:00",
+        "date": "2020-04-11",
+        "deceased": 0,
+        "new_cases": 72,
+        "recovered": 0,
+        "to_day_active_cases": 1719,
+        "to_day_cases": 2081,
+        "to_day_deceased": 93,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-11T18:06:31.003330+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-12T18:05:58.384497+03:00",
+        "date": "2020-04-12",
+        "deceased": 5,
+        "new_cases": 33,
+        "recovered": 0,
+        "to_day_active_cases": 1747,
+        "to_day_cases": 2114,
+        "to_day_deceased": 98,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-12T18:05:58.384524+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-13T03:30:37.871722+03:00",
+        "date": "2020-04-13",
+        "deceased": 1,
+        "new_cases": 31,
+        "recovered": 0,
+        "to_day_active_cases": 1777,
+        "to_day_cases": 2145,
+        "to_day_deceased": 99,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-13T18:05:26.032973+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-15T18:04:22.048100+03:00",
+        "date": "2020-04-15",
+        "deceased": 1,
+        "new_cases": 22,
+        "recovered": 0,
+        "to_day_active_cases": 1821,
+        "to_day_cases": 2192,
+        "to_day_deceased": 102,
+        "to_day_recovered": 269,
+        "totals": {
+            "age_average": 49.0,
+            "average_death_age": 73.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 66,
+                    "18-39": 596,
+                    "40-64": 867,
+                    "65+": 408
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 43,
+                    "40-64": 50,
+                    "65+": 0
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 24,
+                    "65+": 65
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 72,
+            "total_females": 436,
+            "total_males": 564,
+            "updated": "2020-04-15T18:05:44.121948+03:00"
+        },
+        "updated": "2020-04-15T18:04:55.496194+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.231883+03:00",
+        "date": "2020-02-29",
+        "deceased": 0,
+        "new_cases": 3,
+        "recovered": 0,
+        "to_day_active_cases": 7,
+        "to_day_cases": 7,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:33:48.829009+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.258812+03:00",
+        "date": "2020-03-01",
+        "deceased": 0,
+        "new_cases": 0,
+        "recovered": 0,
+        "to_day_active_cases": 7,
+        "to_day_cases": 7,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:36:19.595046+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.405859+03:00",
+        "date": "2020-03-07",
+        "deceased": 0,
+        "new_cases": 21,
+        "recovered": 0,
+        "to_day_active_cases": 66,
+        "to_day_cases": 66,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:37:01.917226+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.416239+03:00",
+        "date": "2020-03-08",
+        "deceased": 0,
+        "new_cases": 7,
+        "recovered": 0,
+        "to_day_active_cases": 73,
+        "to_day_cases": 73,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:37:24.781945+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.433039+03:00",
+        "date": "2020-03-09",
+        "deceased": 0,
+        "new_cases": 11,
+        "recovered": 0,
+        "to_day_active_cases": 84,
+        "to_day_cases": 84,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:38:07.461925+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.468716+03:00",
+        "date": "2020-03-10",
+        "deceased": 0,
+        "new_cases": 5,
+        "recovered": 0,
+        "to_day_active_cases": 89,
+        "to_day_cases": 89,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-08T08:38:33.787407+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.526756+03:00",
+        "date": "2020-03-12",
+        "deceased": 0,
+        "new_cases": 18,
+        "recovered": 0,
+        "to_day_active_cases": 114,
+        "to_day_cases": 117,
+        "to_day_deceased": 1,
+        "to_day_recovered": 2,
+        "totals": null,
+        "updated": "2020-04-08T08:41:40.016973+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.539951+03:00",
+        "date": "2020-03-13",
+        "deceased": 0,
+        "new_cases": 73,
+        "recovered": 0,
+        "to_day_active_cases": 187,
+        "to_day_cases": 190,
+        "to_day_deceased": 1,
+        "to_day_recovered": 2,
+        "totals": null,
+        "updated": "2020-04-08T08:42:04.676415+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.575755+03:00",
+        "date": "2020-03-15",
+        "deceased": 1,
+        "new_cases": 103,
+        "recovered": 0,
+        "to_day_active_cases": 317,
+        "to_day_cases": 331,
+        "to_day_deceased": 4,
+        "to_day_recovered": 10,
+        "totals": null,
+        "updated": "2020-04-08T08:42:50.624803+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.599254+03:00",
+        "date": "2020-03-16",
+        "deceased": 0,
+        "new_cases": 21,
+        "recovered": 0,
+        "to_day_active_cases": 338,
+        "to_day_cases": 352,
+        "to_day_deceased": 4,
+        "to_day_recovered": 10,
+        "totals": null,
+        "updated": "2020-04-08T08:43:35.209568+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.643731+03:00",
+        "date": "2020-03-17",
+        "deceased": 1,
+        "new_cases": 35,
+        "recovered": 0,
+        "to_day_active_cases": 368,
+        "to_day_cases": 387,
+        "to_day_deceased": 5,
+        "to_day_recovered": 14,
+        "totals": null,
+        "updated": "2020-04-08T08:44:12.456134+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.656505+03:00",
+        "date": "2020-03-18",
+        "deceased": 0,
+        "new_cases": 31,
+        "recovered": 0,
+        "to_day_active_cases": 399,
+        "to_day_cases": 418,
+        "to_day_deceased": 5,
+        "to_day_recovered": 14,
+        "totals": null,
+        "updated": "2020-04-08T08:44:30.281042+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.680489+03:00",
+        "date": "2020-03-19",
+        "deceased": 1,
+        "new_cases": 46,
+        "recovered": 0,
+        "to_day_active_cases": 439,
+        "to_day_cases": 464,
+        "to_day_deceased": 6,
+        "to_day_recovered": 19,
+        "totals": null,
+        "updated": "2020-04-08T08:45:12.014116+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.692866+03:00",
+        "date": "2020-03-20",
+        "deceased": 0,
+        "new_cases": 31,
+        "recovered": 11,
+        "to_day_active_cases": 467,
+        "to_day_cases": 495,
+        "to_day_deceased": 9,
+        "to_day_recovered": 19,
+        "totals": null,
+        "updated": "2020-04-08T08:45:47.711835+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.735641+03:00",
+        "date": "2020-03-21",
+        "deceased": 4,
+        "new_cases": 35,
+        "recovered": 0,
+        "to_day_active_cases": 498,
+        "to_day_cases": 530,
+        "to_day_deceased": 13,
+        "to_day_recovered": 19,
+        "totals": null,
+        "updated": "2020-04-08T08:46:33.440025+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.749038+03:00",
+        "date": "2020-03-22",
+        "deceased": 2,
+        "new_cases": 94,
+        "recovered": 0,
+        "to_day_active_cases": 590,
+        "to_day_cases": 624,
+        "to_day_deceased": 15,
+        "to_day_recovered": 19,
+        "totals": null,
+        "updated": "2020-04-08T08:47:00.233677+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.162928+03:00",
+        "date": "2020-02-26",
+        "deceased": 0,
+        "new_cases": 1,
+        "recovered": 0,
+        "to_day_active_cases": 1,
+        "to_day_cases": 1,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.470007+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.171562+03:00",
+        "date": "2020-02-27",
+        "deceased": 0,
+        "new_cases": 2,
+        "recovered": 0,
+        "to_day_active_cases": 3,
+        "to_day_cases": 3,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.481187+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.213097+03:00",
+        "date": "2020-02-28",
+        "deceased": 0,
+        "new_cases": 1,
+        "recovered": 0,
+        "to_day_active_cases": 4,
+        "to_day_cases": 4,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.497148+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.301790+03:00",
+        "date": "2020-03-02",
+        "deceased": 0,
+        "new_cases": 0,
+        "recovered": 0,
+        "to_day_active_cases": 7,
+        "to_day_cases": 7,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.528225+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.323498+03:00",
+        "date": "2020-03-03",
+        "deceased": 0,
+        "new_cases": 0,
+        "recovered": 0,
+        "to_day_active_cases": 7,
+        "to_day_cases": 7,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.538410+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.333017+03:00",
+        "date": "2020-03-04",
+        "deceased": 0,
+        "new_cases": 2,
+        "recovered": 0,
+        "to_day_active_cases": 9,
+        "to_day_cases": 9,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.552452+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.350404+03:00",
+        "date": "2020-03-05",
+        "deceased": 0,
+        "new_cases": 22,
+        "recovered": 0,
+        "to_day_active_cases": 31,
+        "to_day_cases": 31,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.562555+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.372872+03:00",
+        "date": "2020-03-06",
+        "deceased": 0,
+        "new_cases": 14,
+        "recovered": 0,
+        "to_day_active_cases": 45,
+        "to_day_cases": 45,
+        "to_day_deceased": 0,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.571322+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.494622+03:00",
+        "date": "2020-03-11",
+        "deceased": 1,
+        "new_cases": 10,
+        "recovered": 0,
+        "to_day_active_cases": 98,
+        "to_day_cases": 99,
+        "to_day_deceased": 1,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.635132+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-04-06T19:18:16.562258+03:00",
+        "date": "2020-03-14",
+        "deceased": 2,
+        "new_cases": 38,
+        "recovered": 8,
+        "to_day_active_cases": 217,
+        "to_day_cases": 228,
+        "to_day_deceased": 3,
+        "to_day_recovered": 8,
+        "totals": null,
+        "updated": "2020-04-06T19:18:18.658835+03:00"
+    }
+]
