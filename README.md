@@ -25,6 +25,7 @@ This API combines data from multiple sources. All data are fetched from [here](h
 
 * Python 3
 * Flask
+* Pandas
 
 ## How to run
 
