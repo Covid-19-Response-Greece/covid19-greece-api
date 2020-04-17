@@ -65,6 +65,10 @@ def get_active():
     out_json = copy.deepcopy(data_greece_JHCSSE)
     for date in out_json:
         date['active'] = date['confirmed'] - date['deaths'] - date['recovered']
+        del date['confirmed']
+        del date['recovered']
+        del date['deaths']
+
 
     return jsonify({'cases': out_json})
 
