@@ -28,7 +28,11 @@ def init():
 @app.route('/all', methods=['GET'])
 def get_all():
 
-    return jsonify({'cases': data_greece_JHCSSE})
+    out_json = copy.deepcopy(data_greece_JHCSSE)
+    for date in out_json:
+        date['active'] = date['confirmed'] - date['deaths'] - date['recovered']
+
+    return jsonify({'cases': out_json})
 
 @app.route('/confirmed', methods=['GET'])
 def get_confirmed():
