@@ -86,7 +86,7 @@ def get_total_tests():
     total_tests = [int(i) if i!=None else None for i in total_tests]
     out_json = [{'date': date, 'tests':tests} for date, tests in zip(date, total_tests)] 
 
-    return jsonify({'tests_performed_cumulative': out_json})
+    return jsonify({'total-tests': out_json})
 
 
 @app.errorhandler(404)
