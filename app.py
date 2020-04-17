@@ -81,8 +81,8 @@ def get_active():
 @app.route('/total-tests', methods=['GET'])
 def get_total_tests():
     
-    date = list(data_greece_wikipedia['Ημέρα'])[:-1]
-    total_tests = list(data_greece_wikipedia['Έλεγχοι δειγμάτων'])[:-1] 
+    date = list(data_greece_wikipedia['Date'])[:-1]
+    total_tests = list(data_greece_wikipedia['Cumulative tests performed'])[:-1] 
     total_tests = [int(i) if i!=None else None for i in total_tests]
     out_json = [{'date': date, 'tests':tests} for date, tests in zip(date, total_tests)] 
 
