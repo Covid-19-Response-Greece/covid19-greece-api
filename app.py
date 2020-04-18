@@ -59,6 +59,20 @@ def get_regions():
 
     return jsonify({'regions': data_greece_isMOOD_regions})
 
+@app.route('/active', methods=['GET'])
+def get_active():
+
+    out_json = copy.deepcopy(data_greece_JHCSSE)
+    for date in out_json:
+        date['active'] = date['confirmed'] - date['deaths'] - date['recovered']
+        del date['confirmed']
+        del date['recovered']
+        del date['deaths']
+
+
+    return jsonify({'cases': out_json})
+
+
 
 @app.errorhandler(404)
 def not_found(error):
