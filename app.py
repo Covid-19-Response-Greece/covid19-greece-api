@@ -1,11 +1,13 @@
 from flask import Flask, jsonify
 from flask import abort
 from flask import make_response
+from flask_cors import CORS
 
 import json
 import copy
 
 app = Flask(__name__)
+cors = CORS(app)
 
 data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
