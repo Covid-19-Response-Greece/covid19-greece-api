@@ -82,16 +82,8 @@ def get_active():
 def get_total():
     out_json = copy.deepcopy(data_greece_JHCSSE[-1])
     out_json['active'] = out_json['confirmed'] - out_json['deaths'] - out_json['recovered']
+
     return jsonify({'cases': out_json})
-
-#    for date in out_json:
-#        date['confirmed']
-#        date['recovered']
-#        date['deaths']
-
-
-
-
 
 @app.errorhandler(404)
 def not_found(error):
