@@ -491,6 +491,48 @@
 			"confirmed": 2114,
 			"recovered": 269,
 			"deaths": 98
+		},
+		{
+			"date": "2020-04-13",
+			"confirmed": 2145,
+			"recovered": 269,
+			"deaths": 99
+		},
+		{
+			"date": "2020-04-14",
+			"confirmed": 2170,
+			"recovered": 269,
+			"deaths": 101
+		},
+		{
+			"date": "2020-04-15",
+			"confirmed": 2192,
+			"recovered": 269,
+			"deaths": 102
+		},
+		{
+			"date": "2020-04-16",
+			"confirmed": 2207,
+			"recovered": 269,
+			"deaths": 105
+		},
+		{
+			"date": "2020-04-17",
+			"confirmed": 2224,
+			"recovered": 269,
+			"deaths": 108
+		},
+		{
+			"date": "2020-04-18",
+			"confirmed": 2235,
+			"recovered": 269,
+			"deaths": 110
+		},
+		{
+			"date": "2020-04-19",
+			"confirmed": 2235,
+			"recovered": 269,
+			"deaths": 113
 		}
 	]
 }
