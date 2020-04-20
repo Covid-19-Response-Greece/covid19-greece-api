@@ -1,5 +1,6 @@
-from flask import Flask, jsonify, abort, make_response
+from flask import Flask, jsonify, abort, make_response, send_from_directory
 from flask_cors import CORS
+from flask_swagger_ui import get_swaggerui_blueprint
 
 import json
 import copy
@@ -24,6 +25,22 @@ def init():
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
+
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
+
+SWAGGER_URL = '/docs'
+API_URL = '/static/openapi.json'
+swaggerui_blueprint = get_swaggerui_blueprint(
+    SWAGGER_URL,
+    API_URL,
+    config = {
+        'app_name': 'Coronavirus Greece API',
+        'layout': 'BaseLayout'
+    }
+)
+app.register_blueprint(swaggerui_blueprint, url_prefix = SWAGGER_URL)
 
 @app.route('/all', methods=['GET'])
 def get_all():
