@@ -1,6 +1,4 @@
-from flask import Flask, jsonify
-from flask import abort
-from flask import make_response
+from flask import Flask, jsonify, abort, make_response
 from flask_cors import CORS
 
 import json
@@ -26,7 +24,7 @@ def init():
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
-    
+
 @app.route('/all', methods=['GET'])
 def get_all():
 
@@ -92,14 +90,14 @@ def get_total():
 
     return jsonify({'cases': out_json})
 
-  
+
 @app.route('/total-tests', methods=['GET'])
 def get_total_tests():
-    
+
     date = list(data_greece_wikipedia['Date'])[:-1]
-    total_tests = list(data_greece_wikipedia['Cumulative tests performed'])[:-1] 
+    total_tests = list(data_greece_wikipedia['Cumulative tests performed'])[:-1]
     total_tests = [int(i) if i!=None else None for i in total_tests]
-    out_json = [{'date': date, 'tests':tests} for date, tests in zip(date, total_tests)] 
+    out_json = [{'date': date, 'tests':tests} for date, tests in zip(date, total_tests)]
 
     return jsonify({'total-tests': out_json})
 
