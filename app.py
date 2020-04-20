@@ -101,7 +101,15 @@ def get_total_tests():
 
     return jsonify({'total-tests': out_json})
 
+@app.route('/intensive-care', methods=['GET'])
+def get_intensive_care():
 
+    date = list(data_greece_wikipedia['Date'])[:-1]
+    intensive_care = list(data_greece_wikipedia['In intensive care (total)'])[:-1]
+    intensive_care = [int(i) if i!=None else None for i in intensive_care]
+    out_json = [{'date': date, 'intensive-care':num_patients} for date, num_patients in zip(date, intensive_care)]
+
+    return jsonify({'intensive-care': out_json})
 
 @app.errorhandler(404)
 def not_found(error):
