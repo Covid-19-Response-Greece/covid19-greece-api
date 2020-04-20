@@ -9,7 +9,7 @@ This repository provides an API with up-to-date data about the Coronavirus (COVI
 This project is performed by volunteers of [COVID-19 Response Greece](https://www.covid19response.gr).
 
 ## Data sources
-This API combines data from multiple sources. All data are fetched from [here](https://github.com/Covid-19-Response-Greece/covid19-data-greece).
+This API combines data from multiple sources. All data are fetched from [here](https://github.com/Covid-19-Response-Greece/covid19-data-greece) and updated 3 times a day using Github Actions.
 
 * Johns Hopkins CSSE: https://systems.jhu.edu/research/public-health/ncov
 
