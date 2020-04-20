@@ -23,9 +23,9 @@ This API combines data from multiple sources. All data are fetched from [here](h
   
 ## Requirements
 
-* Python 3
-* Flask
-* Pandas
+Run the following command to install depedencies:
+
+    pip install -r requirements.txt 
 
 ## How to run
 
