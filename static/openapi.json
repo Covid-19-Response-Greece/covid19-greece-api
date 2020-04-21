@@ -208,12 +208,50 @@
         }
       }
     },
+    "/intensive-care": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Patients in intensive care",
+        "description": "Get the number of patients in intensive care unit reported in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "intensive_care":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/total-tests": {
       "get": {
         "tags": [
           "Daily recorded events"
         ],
-        "summary": "Tests",
+        "summary": "Tests performed",
         "description": "Get the number of tests performed in Greece as timeseries",
         "responses": {
           "200": {
@@ -319,6 +357,130 @@
                           "region_cases":{
                             "type": "number"
                           }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/age-distribution": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Age distribution of patients",
+        "description": "Get the age distribution of the patients reported in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "age_distribution": {
+                      "type": "object",
+                      "properties": {
+                        "age_average":{
+                          "type": "string"
+                        },
+                        "average_death_age":{
+                          "type": "string"
+                        },
+                        "total_age_groups":{
+                          "type": "object",
+                          "properties": {
+                            "cases": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "critical": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "deaths": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gender-distribution": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Gender distribution of patients",
+        "description": "Get the gender ratio of the patients reported in Greece as a percentage (%)",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "gender_percentages": {
+                      "type": "object",
+                      "properties": {
+                        "total_females":{
+                          "type": "number"
+                        },
+                        "total_males":{
+                          "type": "number"
                         }
                       }
                     }
