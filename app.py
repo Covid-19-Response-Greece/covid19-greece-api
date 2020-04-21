@@ -120,7 +120,7 @@ def get_total_tests():
     total_tests = [int(i) if i!=None else None for i in total_tests]
     out_json = [{'date': date, 'tests':tests} for date, tests in zip(date, total_tests)]
 
-    return jsonify({'total-tests': out_json})
+    return jsonify({'total_tests': out_json})
 
 @app.route('/intensive-care', methods=['GET'])
 def get_intensive_care():
@@ -128,9 +128,9 @@ def get_intensive_care():
     date = list(data_greece_wikipedia['Date'])[:-1]
     intensive_care = list(data_greece_wikipedia['In intensive care (total)'])[:-1]
     intensive_care = [int(i) if i!=None else None for i in intensive_care]
-    out_json = [{'date': date, 'intensive-care':num_patients} for date, num_patients in zip(date, intensive_care)]
+    out_json = [{'date': date, 'intensive_care':num_patients} for date, num_patients in zip(date, intensive_care)]
 
-    return jsonify({'intensive-care': out_json})
+    return jsonify({'cases': out_json})
 
 @app.route('/gender-distribution', methods=['GET'])
 def get_genders():
