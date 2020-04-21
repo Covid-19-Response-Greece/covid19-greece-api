@@ -9,21 +9,85 @@
       "url": "https://www.covid19response.gr/index_en.html",
       "email": "contact@covid19response.gr"
     }
+
   },
+  "servers": [],
   "paths": {
+    "/all": {
+      "get": {
+        "tags": ["Daily recorded events"],
+        "summary": "All the information about the cases",
+        "description": "Get all the available iformation about cases reported in Greece as timeseries",
+        "responses": {
+          "200" :{
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "active":{
+                            "type": "number"
+                          },
+                          "confirmed":{
+                            "type": "number"
+                          },
+                          "deaths":{
+                            "type": "number"
+                          },
+                          "recovered":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/confirmed": {
       "get": {
-        "tags": [
-          "default"
-        ],
+        "tags": ["Daily recorded events"],
         "summary": "Confirmed cases",
         "description": "Get all the confirmed cases reported in Greece as timeseries",
         "responses": {
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json": {
-                "schema": {}
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "confirmed":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }
@@ -33,7 +97,7 @@
     "/recovered": {
       "get": {
         "tags": [
-          "default"
+          "Daily recorded events"
         ],
         "summary": "Recovered cases",
         "description": "Get all the recovered cases reported in Greece as timeseries",
@@ -41,8 +105,225 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json": {
-                "schema": {}
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "recovered":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/deaths": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Deaths",
+        "description": "Get all the deaths reported in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "deaths":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/active": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Active cases",
+        "description": "Get all the active cases reported in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "active":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/total-tests": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Tests",
+        "description": "Get the number of tests performed in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "tests":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/total": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Total data",
+        "description": "Get the latest cumulative data in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "cases": {
+                      "type": "object",
+                      "properties": {
+                        "active":{
+                          "type": "number"
+                        },
+                        "confirmed":{
+                          "type": "number"
+                        },
+                        "deaths":{
+                          "type": "number"
+                        },
+                        "recovered":{
+                          "type": "number"
+                        },
+                        "date": {
+                          "type": "string",
+                          "format": "date"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/regions": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Per region data",
+        "description": "Get the latest cumulative data per region in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "regions": {
+                      "type": "array",
+                      "items":{
+                        "type": "object",
+                        "properties": {
+                          "region_en_name":{
+                            "type": "string"
+                          },
+                          "region_gr_name":{
+                            "type": "string"
+                          },
+                          "region_cases":{
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }
