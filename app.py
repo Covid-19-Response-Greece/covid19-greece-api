@@ -11,17 +11,21 @@ cors = CORS(app)
 
 data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
+data_greece_isMOOD_total_info = None
 data_greece_wikipedia = None
 
 def init():
     global data_greece_JHCSSE
     global data_greece_isMOOD_regions
+    global data_greece_isMOOD_total_info
     global data_greece_wikipedia
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
     with open('data/greece/isMOOD/regions.json') as regions_file:
     	data_greece_isMOOD_regions = json.load(regions_file)
+    with open('data/greece/isMOOD/total-info.json') as f:
+    	data_greece_isMOOD_total_info = json.load(f)
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
@@ -127,6 +131,27 @@ def get_intensive_care():
     out_json = [{'date': date, 'intensive-care':num_patients} for date, num_patients in zip(date, intensive_care)]
 
     return jsonify({'intensive-care': out_json})
+
+@app.route('/gender-distribution', methods=['GET'])
+def get_genders():
+
+    out_json = {
+        'total_females': data_greece_isMOOD_total_info[0]['total_females'],
+        'total_males': data_greece_isMOOD_total_info[0]['total_males']
+    }
+
+    return jsonify({'gender_percentages': out_json})
+
+@app.route('/age-distribution', methods=['GET'])
+def get_age_groups():
+
+    out_json = {
+        'age_average': data_greece_isMOOD_total_info[0]['age_average'],
+        'average_death_age': data_greece_isMOOD_total_info[0]['average_death_age'],
+        'total_age_groups': data_greece_isMOOD_total_info[0]['total_age_groups']
+    }
+
+    return jsonify({'age_distribution': out_json})
 
 @app.errorhandler(404)
 def not_found(error):
