@@ -30,6 +30,8 @@ def init():
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
 
+init()
+
 @app.route('/static/<path:path>')
 def send_static(path):
     return send_from_directory('static', path)
@@ -158,7 +160,4 @@ def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 if __name__ == '__main__':
-    init()
-    print('\n\n ***** STARTED ***** \n\n')
-    print(data_greece_JHCSSE)
     app.run(debug=True)
