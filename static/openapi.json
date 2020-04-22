@@ -387,10 +387,10 @@
                       "type": "object",
                       "properties": {
                         "age_average":{
-                          "type": "string"
+                          "type": "number"
                         },
                         "average_death_age":{
-                          "type": "string"
+                          "type": "number"
                         },
                         "total_age_groups":{
                           "type": "object",
