@@ -52,7 +52,7 @@ jobs:
           git add -A
           git commit -m "Automated Data Update using Workflows"
       
-      - name: Push changes                               
-        uses: ad-m/github-push-action@master
+      - name: Push changes to development branch                               
+        uses: ad-m/github-push-action@development
         with:                                 
          github_token: ${{ secrets.GITHUB_TOKEN }}
