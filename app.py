@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, abort, make_response, send_from_directory
+from flask import Flask, jsonify, abort, make_response, send_from_directory, render_template
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 
@@ -47,6 +47,11 @@ swaggerui_blueprint = get_swaggerui_blueprint(
     }
 )
 app.register_blueprint(swaggerui_blueprint, url_prefix = SWAGGER_URL)
+
+@app.route('/', methods=['GET'])
+def get_index():
+
+    return render_template('index.html')
 
 @app.route('/all', methods=['GET'])
 def get_all():
