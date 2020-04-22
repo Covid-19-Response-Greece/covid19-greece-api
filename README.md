@@ -31,6 +31,12 @@ Run the following command to install depedencies:
 
     python app.py
     
+## Documentation
+
+Visit the following address in a browser:
+
+    localhost:5000/docs
+    
 ## How to test
 
 *Example*: Get the number of confirmed cases
