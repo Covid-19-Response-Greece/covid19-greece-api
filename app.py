@@ -159,4 +159,6 @@ def not_found(error):
 
 if __name__ == '__main__':
     init()
+    print('\n\n ***** STARTED ***** \n\n')
+    print(data_greece_JHCSSE)
     app.run(debug=True)
