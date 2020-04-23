@@ -58,6 +58,5 @@ jobs:
          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes to development branch                               
-        uses: ad-m/github-push-action@development
-        with:                                 
-         github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push origin development
