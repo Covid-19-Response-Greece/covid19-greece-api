@@ -17,7 +17,7 @@
       "get": {
         "tags": ["Daily recorded events"],
         "summary": "All the information about the cases",
-        "description": "Get all the available iformation about cases reported in Greece as timeseries",
+        "description": "Get all the confirmed, recovered, fatal and active cases reported in Greece as timeseries",
         "responses": {
           "200" :{
             "description": "Successful Response",
@@ -214,7 +214,7 @@
           "Daily recorded events"
         ],
         "summary": "Patients in intensive care",
-        "description": "Get the number of patients in intensive care unit reported in Greece as timeseries",
+        "description": "Get the number of patients in intensive care units reported in Greece as timeseries",
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -334,7 +334,7 @@
           "Cumulative data"
         ],
         "summary": "Per region data",
-        "description": "Get the latest cumulative data per region in Greece",
+        "description": "Get the latest cumulative number of confirmed cases per region in Greece",
         "responses": {
           "200": {
             "description": "Successful Response",
