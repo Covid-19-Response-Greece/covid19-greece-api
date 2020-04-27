@@ -143,8 +143,8 @@ def get_intensive_care():
 def get_genders():
 
     out_json = {
-        'total_females': data_greece_isMOOD_total_info[0]['total_females'],
-        'total_males': data_greece_isMOOD_total_info[0]['total_males']
+        'total_females': data_greece_isMOOD_total_info[0]['total_females'] / 10.0,
+        'total_males': data_greece_isMOOD_total_info[0]['total_males'] / 10.0
     }
 
     return jsonify({'gender_percentages': out_json})
