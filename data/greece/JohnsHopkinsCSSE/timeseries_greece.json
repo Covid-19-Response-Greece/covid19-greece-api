@@ -575,6 +575,24 @@
 			"confirmed": 2517,
 			"recovered": 577,
 			"deaths": 134
+		},
+		{
+			"date": "2020-04-27",
+			"confirmed": 2534,
+			"recovered": 577,
+			"deaths": 136
+		},
+		{
+			"date": "2020-04-28",
+			"confirmed": 2566,
+			"recovered": 577,
+			"deaths": 138
+		},
+		{
+			"date": "2020-04-29",
+			"confirmed": 2576,
+			"recovered": 577,
+			"deaths": 139
 		}
 	]
 }
