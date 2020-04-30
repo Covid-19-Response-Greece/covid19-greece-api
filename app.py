@@ -13,12 +13,14 @@ data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
 data_greece_isMOOD_total_info = None
 data_greece_wikipedia = None
+population_per_region = None 
 
 def init():
     global data_greece_JHCSSE
     global data_greece_isMOOD_regions
     global data_greece_isMOOD_total_info
     global data_greece_wikipedia
+    global population_per_region
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
@@ -29,6 +31,9 @@ def init():
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
+
+    with open('data/greece/isMOOD/population_per_region.json') as f:
+        population_per_region = json.load(f)
 
 init()
 
@@ -95,7 +100,18 @@ def get_deaths():
 @app.route('/regions', methods=['GET'])
 def get_regions():
 
-    return jsonify({'regions': data_greece_isMOOD_regions})
+    out_json = copy.deepcopy(data_greece_isMOOD_regions)
+    for region in out_json:
+
+        region['population'] = None 
+        region['cases_per_100000_people'] = None
+
+        for region_pop in population_per_region:
+            if region['region_en_name'] == region_pop['region']:
+                region['population'] = region_pop['population']
+                region['cases_per_100000_people'] = round(region['region_cases'] / region['population'] * 100000.0, 2)
+
+    return jsonify({'regions': out_json})
 
 @app.route('/active', methods=['GET'])
 def get_active():
