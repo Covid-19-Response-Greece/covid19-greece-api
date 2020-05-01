@@ -5,6 +5,7 @@ from flask_swagger_ui import get_swaggerui_blueprint
 import json
 import copy
 import pandas as pd
+import datetime
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -12,13 +13,18 @@ cors = CORS(app)
 data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
 data_greece_isMOOD_total_info = None
+data_greece_isMOOD_cases_region_timeline = None
 data_greece_wikipedia = None
+population_per_region = None 
 
 def init():
     global data_greece_JHCSSE
     global data_greece_isMOOD_regions
     global data_greece_isMOOD_total_info
+    global data_greece_isMOOD_cases_region_timeline
     global data_greece_wikipedia
+    global population_per_region
+
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
@@ -26,9 +32,16 @@ def init():
     	data_greece_isMOOD_regions = json.load(regions_file)
     with open('data/greece/isMOOD/total-info.json') as f:
     	data_greece_isMOOD_total_info = json.load(f)
+    with open('data/greece/isMOOD/cases_by_region_timeline.csv', encoding = 'utf-8') as f:
+    	data_greece_isMOOD_cases_region_timeline = pd.read_csv(f)
+    data_greece_isMOOD_cases_region_timeline = data_greece_isMOOD_cases_region_timeline.where(pd.notnull(data_greece_isMOOD_cases_region_timeline), None)
+
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
+
+    with open('data/greece/isMOOD/population_per_region.json') as f:
+        population_per_region = json.load(f)
 
 init()
 
@@ -95,7 +108,50 @@ def get_deaths():
 @app.route('/regions', methods=['GET'])
 def get_regions():
 
-    return jsonify({'regions': data_greece_isMOOD_regions})
+    out_json = copy.deepcopy(data_greece_isMOOD_regions)
+    for region in out_json:
+
+        region['population'] = None 
+        region['cases_per_100000_people'] = None
+
+        for region_pop in population_per_region:
+            if region['region_en_name'] == region_pop['region']:
+                region['population'] = region_pop['population']
+                region['cases_per_100000_people'] = round(region['region_cases'] / region['population'] * 100000.0, 2)
+
+    return jsonify({'regions': out_json})
+
+@app.route('/regions-history', methods=['GET'])
+def get_regions_history():
+
+    region_gr_name = list(data_greece_isMOOD_cases_region_timeline['Περιφέρεια'])
+    region_en_name = list(data_greece_isMOOD_cases_region_timeline['Region'])
+    population = list(data_greece_isMOOD_cases_region_timeline['Population_2011'])
+    dates = data_greece_isMOOD_cases_region_timeline.columns[3:]
+    tot_json = []
+    
+    for date in dates:
+       
+        regions_cases = list(data_greece_isMOOD_cases_region_timeline[date])
+        transformed_date = datetime.datetime.strptime(date, '%d/%m/%Y').strftime('%Y-%m-%d')
+        inner_json = []
+        
+        for reg_gr, reg_en, pop, reg_cases in zip(region_gr_name, region_en_name, population, regions_cases):
+           
+            region_data = {}
+            region_data['region_gr_name'] = reg_gr
+            region_data['region_en_name'] = reg_en
+            region_data['population'] = int(pop) if pop!=None else None
+            region_data['region_cases'] = reg_cases
+            region_data['cases_per_100000_people'] = round(reg_cases / pop * 100000.0, 2) if pop!=None else None 
+            inner_json.append(region_data) 
+        
+        outer_json = {}
+        outer_json['date'] = transformed_date
+        outer_json['regions'] = inner_json
+        tot_json.append(outer_json)
+            
+    return jsonify({'regions-history': tot_json})
 
 @app.route('/active', methods=['GET'])
 def get_active():
