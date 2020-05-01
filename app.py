@@ -142,7 +142,7 @@ def get_regions_history():
             region_data['region_gr_name'] = reg_gr
             region_data['region_en_name'] = reg_en
             region_data['population'] = int(pop) if pop!=None else None
-            region_data['cases'] = reg_cases
+            region_data['region_cases'] = reg_cases
             region_data['cases_per_100000_people'] = round(reg_cases / pop * 100000.0, 2) if pop!=None else None 
             inner_json.append(region_data) 
         
