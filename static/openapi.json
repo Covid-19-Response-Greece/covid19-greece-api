@@ -284,6 +284,64 @@
         }
       }
     },
+    "/regions-history": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Per region data",
+        "description": "Get the number of confirmed cases per region in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "regions-history": {
+                      "type": "array",
+                      "items":{
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "regions": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "region_en_name":{
+                                  "type": "string"
+                                },
+                                "region_gr_name":{
+                                  "type": "string"
+                                },
+                                "region_cases":{
+                                  "type": "number"
+                                },
+                                "population":{
+                                  "type": "number"
+                                },
+                                "cases_per_100000_people":{
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/total": {
       "get": {
         "tags": [
@@ -355,6 +413,12 @@
                             "type": "string"
                           },
                           "region_cases":{
+                            "type": "number"
+                          },
+                          "population":{
+                            "type": "number"
+                          },
+                          "cases_per_100000_people":{
                             "type": "number"
                           }
                         }
