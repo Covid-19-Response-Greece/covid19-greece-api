@@ -1,7 +1,7 @@
 [
     {
         "age_average": 49.0,
-        "average_death_age": 74.0,
+        "average_death_age": 75.0,
         "country": {
             "name": "Greece",
             "slug": "greece"
@@ -29,8 +29,8 @@
         },
         "total_by_location": null,
         "total_critical": 37,
-        "total_females": 445,
-        "total_males": 555,
-        "updated": "2020-05-02T18:17:44.504237+03:00"
+        "total_females": 446,
+        "total_males": 554,
+        "updated": "2020-05-03T18:04:01.197272+03:00"
     }
 ]
