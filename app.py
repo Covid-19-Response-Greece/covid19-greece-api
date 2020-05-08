@@ -15,7 +15,9 @@ data_greece_isMOOD_regions = None
 data_greece_isMOOD_total_info = None
 data_greece_isMOOD_cases_region_timeline = None
 data_greece_wikipedia = None
+data_greece_social_distancing_timeline = None
 population_per_region = None 
+
 
 def init():
     global data_greece_JHCSSE
@@ -23,6 +25,7 @@ def init():
     global data_greece_isMOOD_total_info
     global data_greece_isMOOD_cases_region_timeline
     global data_greece_wikipedia
+    global data_greece_social_distancing_timeline
     global population_per_region
 
 
@@ -39,6 +42,9 @@ def init():
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
+
+    with open('data/greece/greece_social_distancing_measures_timeline.json') as f:
+        data_greece_social_distancing_timeline = json.load(f)
 
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
@@ -215,6 +221,13 @@ def get_age_groups():
     }
 
     return jsonify({'age_distribution': out_json})
+
+@app.route('/measures_timeline', methods=['GET'])
+def get_measures_timeline():
+
+    out_json = copy.deepcopy(data_greece_social_distancing_timeline)
+    
+    return jsonify({'measures': out_json})
 
 @app.errorhandler(404)
 def not_found(error):
