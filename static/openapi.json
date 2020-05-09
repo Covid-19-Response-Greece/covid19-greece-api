@@ -522,6 +522,40 @@
         }
       }
     },
+    "/gender-distribution": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Gender distribution of patients",
+        "description": "Get the gender ratio of the patients reported in Greece as a percentage (%)",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "gender_percentages": {
+                      "type": "object",
+                      "properties": {
+                        "total_females":{
+                          "type": "number"
+                        },
+                        "total_males":{
+                          "type": "number"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/measures-timeline": {
       "get": {
         "tags": [
@@ -557,40 +591,6 @@
                             "type": "string",
                             "format": "date"
                           }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/gender-distribution": {
-      "get": {
-        "tags": [
-          "Cumulative data"
-        ],
-        "summary": "Gender distribution of patients",
-        "description": "Get the gender ratio of the patients reported in Greece as a percentage (%)",
-        "responses": {
-          "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json" : {
-                "schema" :{
-                  "type": "object",
-                  "properties": {
-                    "gender_percentages": {
-                      "type": "object",
-                      "properties": {
-                        "total_females":{
-                          "type": "number"
-                        },
-                        "total_males":{
-                          "type": "number"
                         }
                       }
                     }
