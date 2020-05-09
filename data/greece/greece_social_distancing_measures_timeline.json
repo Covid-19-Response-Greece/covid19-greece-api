@@ -2,19 +2,19 @@
     {
         "event": "Any gathering restrictions",
         "date_from": "2020-03-08",
-        "date_to": "unknown",
+        "date_to": "2020-08-04",
         "updated": "2020-05-08"
     },
     {
         "event": "Education facilities closed",
         "date_from": "2020-03-11",
-        "date_to": "unknown",
+        "date_to": "2020-08-04",
         "updated": "2020-05-08"
     },
     {
         "event": "Any business closure",
         "date_from": "2020-03-12",
-        "date_to": "unknown",
+        "date_to": "2020-08-04",
         "updated": "2020-05-08"
     },
     {
@@ -32,7 +32,7 @@
     {
         "event": "Travel severely limited",
         "date_from": "2020-03-23",
-        "date_to": "unknown",
+        "date_to": "2020-08-04",
         "updated": "2020-05-08"
-    },
+    }
 ]

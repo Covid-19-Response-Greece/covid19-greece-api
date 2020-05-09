@@ -222,7 +222,7 @@ def get_age_groups():
 
     return jsonify({'age_distribution': out_json})
 
-@app.route('/measures_timeline', methods=['GET'])
+@app.route('/measures-timeline', methods=['GET'])
 def get_measures_timeline():
 
     out_json = copy.deepcopy(data_greece_social_distancing_timeline)

@@ -522,6 +522,52 @@
         }
       }
     },
+    "/measures-timeline": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Social distancing measures timeline",
+        "description": "Get the timeline of social distancing measures enforcement in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "measures": {
+                      "type": "array",
+                      "items":{
+                        "type": "object",
+                        "properties": {
+                          "event":{
+                            "type": "string"
+                          },
+                          "date_from":{
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "date_to":{
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "updated":{
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/gender-distribution": {
       "get": {
         "tags": [
