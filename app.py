@@ -44,9 +44,9 @@ def init():
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
     
     with open('data/greece/Regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
-    	data_greece_regions_wm = pd.read_csv(f)
+    	data_greece_regions_wm = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))
     data_greece_regions_wm = data_greece_regions_wm.where(pd.notnull(data_greece_regions_wm), None)
-    data_greece_regions_wm['Ημερομηνία Αναφοράς'] = pd.to_datetime(data_greece_regions_wm['Ημερομηνία Αναφοράς'])
+    data_greece_regions_wm['Ημερομηνία Αναφοράς'] = pd.to_datetime(data_greece_regions_wm['Ημερομηνία Αναφοράς'], format='%d/%m/%Y')
     data_greece_regions_wm = data_greece_regions_wm.sort_values(by=['Ημερομηνία Αναφοράς'], ascending=True)
     email_trust_list_wm = ['litsios.apo@gmail.com', 'evpapadopoulos@gmail.com']
     data_greece_regions_wm = data_greece_regions_wm[data_greece_regions_wm['Διεύθυνση ηλεκτρονικού ταχυδρομείου'].isin(email_trust_list_wm)]
