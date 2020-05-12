@@ -258,7 +258,7 @@ def get_western_macedonia():
             inner_json.append(hospital_data) 
         
         total = {} 
-        total['hospitalized_icu_current'] = row['Νοσηλευόμενοι σε ΜΕΘ (Τρέχων Αριθμός - Μποδοσάκειο)']
+        total['hospitalized_ICU_current'] = row['Νοσηλευόμενοι σε ΜΕΘ (Τρέχων Αριθμός - Μποδοσάκειο)']
         total['total_samples'] = row['Συνολικοί Έλεγχοι Δειγμάτων']
         total['total_samples_positive'] = row['Συνολικά Θετικά Δείγματα']
         total['total_samples_negative'] = row['Συνολικά Αρνητικά Δείγματα']
