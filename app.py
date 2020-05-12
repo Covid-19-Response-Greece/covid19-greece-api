@@ -43,7 +43,7 @@ def init():
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
     
-    with open('data/greece/regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
+    with open('data/greece/Regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
     	data_greece_regions_wm = pd.read_csv(f)
     data_greece_regions_wm = data_greece_regions_wm.where(pd.notnull(data_greece_regions_wm), None)
     data_greece_regions_wm['Ημερομηνία Αναφοράς'] = pd.to_datetime(data_greece_regions_wm['Ημερομηνία Αναφοράς'])
