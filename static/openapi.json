@@ -555,6 +555,93 @@
           }
         }
       }
+    },
+    "/western-macedonia": {
+      "get": {
+        "tags": [
+          "Per hospital data"
+        ],
+        "summary": "Hospital data from the Region of Western Macedonia",
+        "description": "Get the daily reported data from the hospitals of Western Macedonia as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "western-macedonia": {
+                      "type": "array",
+                      "items":{
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "total": {
+                            "type": "object",
+                            "properties": {
+                              "hospitalized_ICU_current":{
+                                "type": "number"
+                              },
+                              "total_deaths": {
+                                "type": "number"
+                              },
+                              "total_samples": {
+                                "type": "number"
+                              },
+                              "total_samples_negative": {
+                                "type": "number"
+                              },
+                              "total_samples_positive": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "hospitals": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "home_restriction_current":{
+                                  "type": "number"
+                                },
+                                "hospital_name":{
+                                  "type": "string"
+                                },
+                                "hospitalized_current":{
+                                  "type": "number"
+                                },
+                                "hospitalized_negative":{
+                                  "type": "number"
+                                },
+                                "hospitalized_pending_result":{
+                                  "type": "number"
+                                },
+                                "hospitalized_positive":{
+                                  "type": "number"
+                                },
+                                "new_recoveries":{
+                                  "type": "number"
+                                },
+                                "new_samples":{
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
