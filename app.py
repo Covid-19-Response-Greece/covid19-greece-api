@@ -16,6 +16,7 @@ data_greece_isMOOD_total_info = None
 data_greece_isMOOD_cases_region_timeline = None
 data_greece_wikipedia = None
 data_greece_regions_wm = None
+data_greece_regions_wm_deaths = None
 population_per_region = None
  
 
@@ -26,6 +27,7 @@ def init():
     global data_greece_isMOOD_cases_region_timeline
     global data_greece_wikipedia
     global data_greece_regions_wm
+    global data_greece_regions_wm_deaths
     global population_per_region
 
 
@@ -51,7 +53,10 @@ def init():
     email_trust_list_wm = ['litsios.apo@gmail.com', 'evpapadopoulos@gmail.com']
     data_greece_regions_wm = data_greece_regions_wm[data_greece_regions_wm['Διεύθυνση ηλεκτρονικού ταχυδρομείου'].isin(email_trust_list_wm)]
     data_greece_regions_wm = data_greece_regions_wm.reset_index(drop = True)
-
+    
+    with open('data/greece/Regions/western_macedonia_deaths.csv', encoding = 'utf-8') as f:
+        data_greece_regions_wm_deaths = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
+    
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
 
@@ -272,6 +277,34 @@ def get_western_macedonia():
         tot_json.append(outer_json)
             
     return jsonify({'western-macedonia': tot_json})
+    
+@app.route('/western-macedonia-deaths', methods=['GET'])
+def get_western_macedonia_deaths():
+    
+    sex_dict = {'Άνδρας':'male', 'Γυναίκα':'female'}
+    underlying_diseases_dict = {'Ναι':'yes', 'Όχι':'no', 'Άγνωστο':'unkwown'}
+    municipality_dict = {'ΔΗΜΟΣ ΓΡΕΒΕΝΩΝ': 'dimos_grevenon' , 'ΔΗΜΟΣ ΔΕΣΚΑΤΗΣ': 'dimos_deskatis',
+                         'ΔΗΜΟΣ ΚΑΣΤΟΡΙΑΣ': 'dimos_kastorias', 'ΔΗΜΟΣ ΝΕΣΤΟΡΙΟΥ': 'dimos_nestoriou',
+                         'ΔΗΜΟΣ ΟΡΕΣΤΙΔΟΣ': 'dimos_orestidos', 'ΔΗΜΟΣ ΒΟΪΟΥ': 'dimos_voiou',
+                         'ΔΗΜΟΣ ΕΟΡΔΑΙΑΣ': 'dimos_eordaias', 'ΔΗΜΟΣ ΚΟΖΑΝΗΣ': 'dimos_kozanis', 
+                         'ΔΗΜΟΣ ΣΕΡΒΙΩΝ': 'dimos_servion', 'ΔΗΜΟΣ ΒΕΛΒΕΝΤΟΥ':'dimos_velventou', 
+                         'ΔΗΜΟΣ ΑΜΥΝΤΑΙΟΥ': 'dimos_amintaiou', 'ΔΗΜΟΣ ΠΡΕΣΠΩΝ': 'dimos_prespon', 
+                         'ΔΗΜΟΣ ΦΛΩΡΙΝΑΣ': 'dimos_florinas'}
+    tot_json = []
+    
+    for i, row in data_greece_regions_wm_deaths.iterrows():       
+        
+        transformed_date = datetime.datetime.strptime(row['Ημερομηνία Αναφοράς Θανάτου'], '%d/%m/%Y').strftime('%Y-%m-%d')
+        out_json = {}
+        out_json['date'] = transformed_date
+        out_json['age'] = row['Ηλικία']
+        out_json['sex'] = sex_dict[row['Φύλο']]
+        out_json['underlying_diseases'] = underlying_diseases_dict[row['Υποκείμενα Νοσήματα']]
+        out_json['permanent_residence_municipality_gr'] = row['Δήμος Μόνιμης Κατοικίας']
+        out_json['permanent_residence_municipality_en'] = municipality_dict[row['Δήμος Μόνιμης Κατοικίας']]
+        tot_json.append(out_json)
+
+    return jsonify({'western-macedonia-deaths': tot_json})
     
 @app.errorhandler(404)
 def not_found(error):
