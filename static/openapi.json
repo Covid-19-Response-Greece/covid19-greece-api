@@ -642,6 +642,73 @@
           }
         }
       }
+    },
+    "/measures-timeline": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Social distancing measures timeline",
+        "description": "Get the timeline of social distancing measures in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "imposition": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "category":{
+                            "type": "string"
+                          },
+                          "event":{
+                            "type": "string"
+                          },
+                          "date":{
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "updated":{
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    },
+                    "lifting": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "category":{
+                            "type": "string"
+                          },
+                          "event":{
+                            "type": "string"
+                          },
+                          "date":{
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "updated":{
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

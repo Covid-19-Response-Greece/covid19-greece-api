@@ -15,10 +15,11 @@ data_greece_isMOOD_regions = None
 data_greece_isMOOD_total_info = None
 data_greece_isMOOD_cases_region_timeline = None
 data_greece_wikipedia = None
+data_greece_social_distancing_timeline = None
 data_greece_regions_wm = None
 data_greece_regions_wm_deaths = None
 population_per_region = None
- 
+
 
 def init():
     global data_greece_JHCSSE
@@ -26,6 +27,7 @@ def init():
     global data_greece_isMOOD_total_info
     global data_greece_isMOOD_cases_region_timeline
     global data_greece_wikipedia
+    global data_greece_social_distancing_timeline
     global data_greece_regions_wm
     global data_greece_regions_wm_deaths
     global population_per_region
@@ -44,7 +46,10 @@ def init():
     with open('data/greece/wikipedia/cases.csv', encoding = 'utf-8') as cases_file:
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
-    
+
+    with open('data/greece/greece_social_distancing_measures_timeline.json') as f:
+        data_greece_social_distancing_timeline = json.load(f)
+
     with open('data/greece/Regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
     	data_greece_regions_wm = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))
     data_greece_regions_wm = data_greece_regions_wm.where(pd.notnull(data_greece_regions_wm), None)
@@ -53,10 +58,10 @@ def init():
     email_trust_list_wm = ['litsios.apo@gmail.com', 'evpapadopoulos@gmail.com']
     data_greece_regions_wm = data_greece_regions_wm[data_greece_regions_wm['Διεύθυνση ηλεκτρονικού ταχυδρομείου'].isin(email_trust_list_wm)]
     data_greece_regions_wm = data_greece_regions_wm.reset_index(drop = True)
-    
+
     with open('data/greece/Regions/western_macedonia_deaths.csv', encoding = 'utf-8') as f:
         data_greece_regions_wm_deaths = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
-    
+
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
 
@@ -183,14 +188,12 @@ def get_active():
 
     return jsonify({'cases': out_json})
 
-
 @app.route('/total', methods=['GET'])
 def get_total():
     out_json = copy.deepcopy(data_greece_JHCSSE[-1])
     out_json['active'] = out_json['confirmed'] - out_json['deaths'] - out_json['recovered']
 
     return jsonify({'cases': out_json})
-
 
 @app.route('/total-tests', methods=['GET'])
 def get_total_tests():
@@ -232,6 +235,13 @@ def get_age_groups():
     }
 
     return jsonify({'age_distribution': out_json})
+
+@app.route('/measures-timeline', methods=['GET'])
+def get_measures_timeline():
+
+    out_json = copy.deepcopy(data_greece_social_distancing_timeline)
+    
+    return jsonify({'measures': out_json})
 
 @app.route('/western-macedonia', methods=['GET'])
 def get_western_macedonia():
@@ -277,7 +287,7 @@ def get_western_macedonia():
         tot_json.append(outer_json)
             
     return jsonify({'western-macedonia': tot_json})
-    
+
 @app.route('/western-macedonia-deaths', methods=['GET'])
 def get_western_macedonia_deaths():
     
@@ -305,7 +315,7 @@ def get_western_macedonia_deaths():
         tot_json.append(out_json)
 
     return jsonify({'western-macedonia-deaths': tot_json})
-    
+
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
