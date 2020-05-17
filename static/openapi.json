@@ -429,6 +429,54 @@
         }
       }
     },
+    "/western-macedonia-deaths": {
+      "get": {
+        "tags": ["Per hospital data"],
+        "summary": "Death records in Western Macedonia",
+        "description": "Get information of Covid-19 victims in Western Macedonia",
+        "responses": {
+          "200" :{
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "western-macedonia-deaths": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "age":{
+                            "type": "number"
+                          },
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "permanent_residence_municipality_en":{
+                            "type": "string"
+                          },
+                          "permanent_residence_municipality_gr":{
+                            "type": "string"
+                          },
+                          "sex":{
+                            "type": "string"
+                          },
+                          "underlying_diseases": {
+                            "type": "string",
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/total": {
       "get": {
         "tags": [
