@@ -47,7 +47,7 @@ def init():
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
 
-    with open('data/greece/greece_social_distancing_measures_timeline.json') as f:
+    with open('data/greece/Measures/greece_social_distancing_measures_timeline.json') as f:
         data_greece_social_distancing_timeline = json.load(f)
 
     with open('data/greece/Regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
