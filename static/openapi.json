@@ -562,7 +562,7 @@
           "Cumulative data"
         ],
         "summary": "Social distancing measures timeline",
-        "description": "Get the timeline of social distancing measures enforcement in Greece",
+        "description": "Get the timeline of social distancing measures in Greece",
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -571,19 +571,40 @@
                 "schema" :{
                   "type": "object",
                   "properties": {
-                    "measures": {
+                    "imposition": {
                       "type": "array",
-                      "items":{
+                      "items": {
                         "type": "object",
                         "properties": {
+                          "category":{
+                            "type": "string"
+                          },
                           "event":{
                             "type": "string"
                           },
-                          "date_from":{
+                          "date":{
                             "type": "string",
                             "format": "date"
                           },
-                          "date_to":{
+                          "updated":{
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
+                    },
+                    "lifting": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "category":{
+                            "type": "string"
+                          },
+                          "event":{
+                            "type": "string"
+                          },
+                          "date":{
                             "type": "string",
                             "format": "date"
                           },
