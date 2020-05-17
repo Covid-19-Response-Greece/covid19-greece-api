@@ -19,7 +19,9 @@ urls = [
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/greece_cases.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/greece_deaths.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/cases_by_region_timeline.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/population_per_region.json'
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/population_per_region.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_daily_reports.csv',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_deaths.csv'
 ]
 
 paths_to_store = [
@@ -34,7 +36,9 @@ paths_to_store = [
     'greece/iMEdD-Lab',
     'greece/iMEdD-Lab',
     'greece/isMOOD',
-    'greece/isMOOD'
+    'greece/isMOOD',
+    'greece/Regions',
+    'greece/Regions'
 ]
 
 def download():
