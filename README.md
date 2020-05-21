@@ -78,7 +78,7 @@ Request:
 
 ## Projects & Organizations utilizing Coronavirus Greece API ([+ add yours!](#user-content-adding-your-project-to-the-list))
 
- * [CovidDEXP-COVID-19 Data Exploration](https://covid19.csd.auth.gr) ([repo](https://github.com/Datalab-AUTH/covid19_dashboard)): An exploratory data analysis tool to worldwide monitor and detail the COVID-19 pandemic outbreak with visually rich presentation. A special segment about Greece can be found [here](https://covid19.csd.auth.gr/?tab=greece).
+ * [CovidDEXP-COVID-19 Data Exploration](https://covid19.csd.auth.gr) ([repo](https://github.com/Datalab-AUTH/covid19_dashboard)): An exploratory data analysis tool to worldwide monitor and detail the COVID-19 pandemic outbreak with visually rich presentation. A special segment about Greece can be found [here](https://covid19.csd.auth.gr/?tab=greece)
  
  * [Region of Western Macedonia](https://www.pdm.gov.gr/): Enrich daily region reports with explanatory visualizations
  
