@@ -11,7 +11,7 @@
             "cases": {
                 "0-17": 160,
                 "18-39": 844,
-                "40-64": 1138,
+                "40-64": 1139,
                 "65+": 576
             },
             "critical": {
@@ -28,9 +28,9 @@
             }
         },
         "total_by_location": null,
-        "total_critical": 14,
+        "total_critical": 13,
         "total_females": 448,
         "total_males": 552,
-        "updated": "2020-05-30T18:44:12.329691+03:00"
+        "updated": "2020-05-31T18:55:00.504343+03:00"
     }
 ]
