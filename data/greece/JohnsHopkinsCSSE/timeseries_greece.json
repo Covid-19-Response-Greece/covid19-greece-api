@@ -803,6 +803,18 @@
 			"confirmed": 2937,
 			"recovered": 1374,
 			"deaths": 179
+		},
+		{
+			"date": "2020-06-04",
+			"confirmed": 2952,
+			"recovered": 1374,
+			"deaths": 180
+		},
+		{
+			"date": "2020-06-05",
+			"confirmed": 2967,
+			"recovered": 1374,
+			"deaths": 180
 		}
 	]
 }
