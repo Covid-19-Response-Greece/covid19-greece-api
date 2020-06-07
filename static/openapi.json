@@ -714,7 +714,13 @@
                           "category":{
                             "type": "string"
                           },
+                          "category_el":{
+                            "type": "string"
+                          },
                           "event":{
+                            "type": "string"
+                          },
+                          "event_el":{
                             "type": "string"
                           },
                           "date":{
