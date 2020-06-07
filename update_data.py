@@ -22,7 +22,8 @@ urls = [
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/population_per_region.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_daily_reports.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_deaths.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Measures/greece_social_distancing_measures_timeline.json'
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Measures/greece_social_distancing_measures_timeline.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Refugee_camps/refugee_camps.csv'
 ]
 
 paths_to_store = [
@@ -40,7 +41,8 @@ paths_to_store = [
     'greece/isMOOD',
     'greece/Regions',
     'greece/Regions',
-    'greece/Measures'
+    'greece/Measures',
+    'greece/Refugee_camps'
 ]
 
 def download():
