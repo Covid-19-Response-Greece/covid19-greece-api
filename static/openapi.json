@@ -477,6 +477,88 @@
         }
       }
     },
+	"/refugee-camps": {
+      "get": {
+        "tags": ["Per refugee camp data"],
+        "summary": "Recorded cases in Refugee Camps",
+        "description": "Get information of Covid-19 spread in Refugee Camps",
+        "responses": {
+          "200" :{
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "refugee-camps": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "area_type_en":{
+                            "type": "string"
+                          },
+                          "area_type_gr": {
+                            "type": "string",
+                          },
+                          "capacity":{
+                            "type": "number"
+                          },
+                          "current_hosts":{
+                            "type": "number"
+                          },
+                          "description":{
+                            "type": "string"
+                          },
+                          "name_en": {
+                            "type": "string",
+                          },
+                          "name_gr": {
+                            "type": "string",
+                          },
+                          "recorded_events": {
+                            "type": "array",
+							"items": {
+								"type": "object",
+								"properties":{
+									"case_detection_week":{
+										"type": "string"
+									},
+									"confirmed_cases": {
+										"type": "number",
+									},
+									"quarantine_duration_days":{
+										"type": "number"
+									},
+									"samples":{
+										"type": "number"
+									}
+								}
+							}	   
+                          },						  
+                          "region_en": {
+                            "type": "string",
+                          },
+                          "region_gr": {
+                            "type": "string",
+                          },
+                          "total_confirmed_cases": {
+                            "type": "number",
+                          },
+                          "total_confirmed_samples": {
+                            "type": "number",
+                          }						  
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/total": {
       "get": {
         "tags": [
