@@ -16,10 +16,11 @@ data_greece_isMOOD_total_info = None
 data_greece_isMOOD_cases_region_timeline = None
 data_greece_wikipedia = None
 data_greece_social_distancing_timeline = None
+data_greece_refugee_camps = None
+data_greece_regions_wm_deaths = None
 data_greece_regions_wm = None
 data_greece_regions_wm_deaths = None
 population_per_region = None
-
 
 def init():
     global data_greece_JHCSSE
@@ -28,10 +29,12 @@ def init():
     global data_greece_isMOOD_cases_region_timeline
     global data_greece_wikipedia
     global data_greece_social_distancing_timeline
+    global data_greece_refugee_camps
+    global data_greece_regions_wm_deaths
     global data_greece_regions_wm
     global data_greece_regions_wm_deaths
     global population_per_region
-
+    
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
@@ -47,7 +50,7 @@ def init():
     	data_greece_wikipedia = pd.read_csv(cases_file)
     data_greece_wikipedia = data_greece_wikipedia.where(pd.notnull(data_greece_wikipedia), None)
 
-    with open('data/greece/Measures/greece_social_distancing_measures_timeline.json') as f:
+    with open('data/greece/Measures/greece_social_distancing_measures_timeline.json', encoding = 'utf-8') as f:
         data_greece_social_distancing_timeline = json.load(f)
 
     with open('data/greece/Regions/western_macedonia_daily_reports.csv', encoding = 'utf-8') as f:
@@ -61,7 +64,11 @@ def init():
 
     with open('data/greece/Regions/western_macedonia_deaths.csv', encoding = 'utf-8') as f:
         data_greece_regions_wm_deaths = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
-
+   
+    with open('data/greece/Refugee_camps/refugee_camps.csv', encoding = 'utf-8') as f:
+        data_greece_refugee_camps = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
+    data_greece_refugee_camps = data_greece_refugee_camps.where(pd.notnull(data_greece_refugee_camps), None)
+    
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
 
@@ -315,6 +322,77 @@ def get_western_macedonia_deaths():
         tot_json.append(out_json)
 
     return jsonify({'western-macedonia-deaths': tot_json})
+
+@app.route('/refugee-camps', methods=['GET'])
+def get_refugee_camps():
+    
+    area_type_dict = {'Ηπειρωτική':'mainland', 'Νησιωτική':'island'}
+    region_dict = {'Ανατολικής Μακεδονίας και Θράκης': 'Eastern Macedonia and Thrace', 'Αττικής': 'Attica',
+                   'Βορείου Αιγαίου': 'North Aegean', 'Δυτικής Ελλάδας': 'Western Greece',
+                   'Δυτικής Μακεδονίας': 'Western Macedonia',  'Ηπείρου': 'Epirus', 'Θεσσαλίας': 'Thessaly', 
+                   'Κεντρικής Μακεδονίας':'Central Macedonia','Νοτίου Αιγαίου': 'South Aegean', 
+                   'Πελλοπονήσου': 'Peloponnese', 'Στερεάς Ελλάδας': 'Central Greece'}
+
+    tot_json = []
+    
+    for i, row in data_greece_refugee_camps.iterrows():  
+        
+        if row['Όνομα Δομής'] != None :
+            
+            camp_data = {}
+            camp_data['name_gr'] = row['Όνομα Δομής']
+            camp_data['name_en'] = row['Refugee Camp Name']
+            camp_data['region_gr'] = row['Περιφέρεια']
+            camp_data['region_en'] = region_dict[row['Περιφέρεια']]
+            camp_data['description'] = row['Περιγραφή Δομής']
+            camp_data['capacity'] = int(row['Χωρητικότητα']) if row['Χωρητικότητα'] != None else None
+            camp_data['current_hosts'] = int(row['Αριθμός Φιλοξενούμενων']) if row['Αριθμός Φιλοξενούμενων'] != None else None
+            camp_data['area_type_gr'] = row['Έκταση']
+            camp_data['area_type_en'] = area_type_dict[row['Έκταση']]
+            camp_data['total_confirmed_cases'] = 0
+            camp_data['total_samples'] = 0
+            recorded_events = []
+            
+            k = 0
+            
+            inner_json = {}
+            inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 7]) if data_greece_refugee_camps.iloc[i+k, 7] != None else None 
+            if inner_json['confirmed_cases'] != None: camp_data['total_confirmed_cases'] += inner_json['confirmed_cases']
+            
+            inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 8]) if data_greece_refugee_camps.iloc[i+k, 8] != None else None
+            if inner_json['samples'] != None: camp_data['total_samples'] += inner_json['samples'] 
+            
+            inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 9]
+            inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10]!= None else None 
+            recorded_events.append(inner_json)
+            
+            k += 1
+            
+            while data_greece_refugee_camps.iloc[i+k, 0] == None:
+                
+                inner_json = {}
+                inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 7]) if data_greece_refugee_camps.iloc[i+k, 7] != None else None 
+                if inner_json['confirmed_cases'] != None: camp_data['total_confirmed_cases'] += inner_json['confirmed_cases']
+                
+                inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 8]) if data_greece_refugee_camps.iloc[i+k, 8] != None else None
+                if inner_json['samples'] != None: camp_data['total_samples'] += inner_json['samples']  
+                inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 9]
+                inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10] != None else None 
+                
+                recorded_events.append(inner_json)
+                k += 1
+                
+                if i+k >= len(data_greece_refugee_camps):
+                    break
+               
+            camp_data['recorded_events'] = recorded_events
+            tot_json.append(camp_data)
+            
+        else: 
+           
+            continue
+            
+    return jsonify({'refugee-camps': tot_json})
 
 @app.errorhandler(404)
 def not_found(error):
