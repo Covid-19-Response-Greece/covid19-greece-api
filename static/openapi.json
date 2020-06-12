@@ -464,7 +464,7 @@
                             "type": "string"
                           },
                           "underlying_diseases": {
-                            "type": "string",
+                            "type": "string"
                           }
                         }
                       }
@@ -499,7 +499,7 @@
                             "type": "string"
                           },
                           "area_type_gr": {
-                            "type": "string",
+                            "type": "string"
                           },
                           "capacity":{
                             "type": "number"
@@ -511,7 +511,7 @@
                             "type": "string"
                           },
                           "last_update":{
-                            "type": "string"
+                            "type": "string",
 							"format": "date"
                           },
                           "latitude":{
@@ -521,10 +521,10 @@
                             "type": "number"
                           },						  
                           "name_en": {
-                            "type": "string",
+                            "type": "string"
                           },
                           "name_gr": {
-                            "type": "string",
+                            "type": "string"
                           },
                           "recorded_events": {
                             "type": "array",
@@ -535,7 +535,7 @@
 										"type": "string"
 									},
 									"confirmed_cases": {
-										"type": "number",
+										"type": "number"
 									},
 									"quarantine_duration_days":{
 										"type": "number"
@@ -547,16 +547,16 @@
 							}	   
                           },						  
                           "region_en": {
-                            "type": "string",
+                            "type": "string"
                           },
                           "region_gr": {
-                            "type": "string",
+                            "type": "string"
                           },
                           "total_confirmed_cases": {
-                            "type": "number",
+                            "type": "number"
                           },
                           "total_confirmed_samples": {
-                            "type": "number",
+                            "type": "number"
                           }						  
                         }
                       }
