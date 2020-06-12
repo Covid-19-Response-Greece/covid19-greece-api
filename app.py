@@ -349,6 +349,9 @@ def get_refugee_camps():
             camp_data['current_hosts'] = int(row['Αριθμός Φιλοξενούμενων']) if row['Αριθμός Φιλοξενούμενων'] != None else None
             camp_data['area_type_gr'] = row['Έκταση']
             camp_data['area_type_en'] = area_type_dict[row['Έκταση']]
+            camp_data['longtitude'] = float(row['Γεωγραφικό Μήκος'].replace(',','.')) if row['Γεωγραφικό Μήκος'] != None else None  
+            camp_data['latitude'] =  float(row['Γεωγραφικό Πλάτος'].replace(',','.')) if row['Γεωγραφικό Πλάτος'] != None else None 
+            camp_data['last update'] = datetime.datetime.strptime(row['Τελευταία Ενημέρωση'], '%d/%m/%Y').strftime('%Y-%m-%d')
             camp_data['total_confirmed_cases'] = 0
             camp_data['total_samples'] = 0
             recorded_events = []
@@ -356,14 +359,14 @@ def get_refugee_camps():
             k = 0
             
             inner_json = {}
-            inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 7]) if data_greece_refugee_camps.iloc[i+k, 7] != None else None 
+            inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10] != None else None 
             if inner_json['confirmed_cases'] != None: camp_data['total_confirmed_cases'] += inner_json['confirmed_cases']
             
-            inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 8]) if data_greece_refugee_camps.iloc[i+k, 8] != None else None
+            inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 11]) if data_greece_refugee_camps.iloc[i+k, 11] != None else None
             if inner_json['samples'] != None: camp_data['total_samples'] += inner_json['samples'] 
             
-            inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 9]
-            inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10]!= None else None 
+            inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 12]
+            inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 13]) if data_greece_refugee_camps.iloc[i+k, 13]!= None else None 
             recorded_events.append(inner_json)
             
             k += 1
@@ -371,13 +374,13 @@ def get_refugee_camps():
             while data_greece_refugee_camps.iloc[i+k, 0] == None:
                 
                 inner_json = {}
-                inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 7]) if data_greece_refugee_camps.iloc[i+k, 7] != None else None 
+                inner_json['confirmed_cases'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10] != None else None 
                 if inner_json['confirmed_cases'] != None: camp_data['total_confirmed_cases'] += inner_json['confirmed_cases']
                 
-                inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 8]) if data_greece_refugee_camps.iloc[i+k, 8] != None else None
+                inner_json['samples'] = int(data_greece_refugee_camps.iloc[i+k, 11]) if data_greece_refugee_camps.iloc[i+k, 11] != None else None
                 if inner_json['samples'] != None: camp_data['total_samples'] += inner_json['samples']  
-                inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 9]
-                inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 10]) if data_greece_refugee_camps.iloc[i+k, 10] != None else None 
+                inner_json['case_detection_week'] = data_greece_refugee_camps.iloc[i+k, 12]
+                inner_json['quarantine_duration_days'] = int(data_greece_refugee_camps.iloc[i+k, 13]) if data_greece_refugee_camps.iloc[i+k, 13] != None else None 
                 
                 recorded_events.append(inner_json)
                 k += 1
