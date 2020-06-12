@@ -510,6 +510,16 @@
                           "description":{
                             "type": "string"
                           },
+                          "last_update":{
+                            "type": "string"
+							"format": "date"
+                          },
+                          "latitude":{
+                            "type": "number"
+                          },
+                          "longtitude":{
+                            "type": "number"
+                          },						  
                           "name_en": {
                             "type": "string",
                           },
