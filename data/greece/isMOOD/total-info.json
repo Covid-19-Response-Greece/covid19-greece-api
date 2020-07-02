@@ -10,9 +10,9 @@
         "total_age_groups": {
             "cases": {
                 "0-17": 201,
-                "18-39": 995,
-                "40-64": 1339,
-                "65+": 665
+                "18-39": 1003,
+                "40-64": 1350,
+                "65+": 669
             },
             "critical": {
                 "0-17": 0,
@@ -28,9 +28,9 @@
             }
         },
         "total_by_location": null,
-        "total_critical": 9,
+        "total_critical": 8,
         "total_females": 45,
         "total_males": 55,
-        "updated": "2020-07-01T18:04:15.222753+03:00"
+        "updated": "2020-07-02T18:26:08.424794+03:00"
     }
 ]
