@@ -58,7 +58,7 @@ def init():
     data_greece_regions_wm = data_greece_regions_wm.where(pd.notnull(data_greece_regions_wm), None)
     data_greece_regions_wm['Ημερομηνία Αναφοράς'] = pd.to_datetime(data_greece_regions_wm['Ημερομηνία Αναφοράς'], format='%d/%m/%Y')
     data_greece_regions_wm = data_greece_regions_wm.sort_values(by=['Ημερομηνία Αναφοράς'], ascending=True)
-    email_trust_list_wm = ['litsios.apo@gmail.com', 'evpapadopoulos@gmail.com']
+    email_trust_list_wm = ['litsios.apo@gmail.com', 'evpapadopoulos@gmail.com', 'georkozari@gmail.com']
     data_greece_regions_wm = data_greece_regions_wm[data_greece_regions_wm['Διεύθυνση ηλεκτρονικού ταχυδρομείου'].isin(email_trust_list_wm)]
     data_greece_regions_wm = data_greece_regions_wm.reset_index(drop = True)
 
