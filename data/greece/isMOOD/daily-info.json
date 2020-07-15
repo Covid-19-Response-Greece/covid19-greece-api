@@ -5335,23 +5335,6 @@
             "name": "Greece",
             "slug": "greece"
         },
-        "created": "2020-07-11T20:24:32.159782+03:00",
-        "date": "2020-07-11",
-        "deceased": 0,
-        "new_cases": 41,
-        "recovered": 0,
-        "to_day_active_cases": 3772,
-        "to_day_cases": 3772,
-        "to_day_deceased": 0,
-        "to_day_recovered": 0,
-        "totals": null,
-        "updated": "2020-07-11T20:24:32.159816+03:00"
-    },
-    {
-        "country": {
-            "name": "Greece",
-            "slug": "greece"
-        },
         "created": "2020-07-12T18:34:25.418049+03:00",
         "date": "2020-07-12",
         "deceased": 0,
@@ -5496,5 +5479,22 @@
             "updated": "2020-07-14T18:50:45.293846+03:00"
         },
         "updated": "2020-07-14T18:49:42.851697+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-07-11T20:24:32.159782+03:00",
+        "date": "2020-07-11",
+        "deceased": 0,
+        "new_cases": 41,
+        "recovered": 0,
+        "to_day_active_cases": 3579,
+        "to_day_cases": 3772,
+        "to_day_deceased": 193,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-07-15T15:59:35.760093+03:00"
     }
 ]
