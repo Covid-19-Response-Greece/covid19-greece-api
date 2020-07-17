@@ -3234,6 +3234,23 @@
             "name": "Greece",
             "slug": "greece"
         },
+        "created": "2020-07-16T19:41:24.175714+03:00",
+        "date": "2020-07-16",
+        "deceased": 0,
+        "new_cases": 35,
+        "recovered": 0,
+        "to_day_active_cases": 3746,
+        "to_day_cases": 3939,
+        "to_day_deceased": 193,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-07-16T19:41:24.175775+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
         "created": "2020-05-28T18:09:07.794961+03:00",
         "date": "2020-05-28",
         "deceased": 0,
