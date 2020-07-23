@@ -39372,9 +39372,9 @@
 		},
 		{
 			"date": "2020-07-20",
-			"confirmed": 330930,
-			"recovered": 301794,
-			"deaths": 8503
+			"confirmed": 333029,
+			"recovered": 303992,
+			"deaths": 8633
 		},
 		{
 			"date": "2020-07-21",
@@ -40442,39 +40442,39 @@
 		},
 		{
 			"date": "2020-07-16",
-			"confirmed": 85314,
-			"recovered": 80018,
+			"confirmed": 85327,
+			"recovered": 80038,
 			"deaths": 4644
 		},
 		{
 			"date": "2020-07-17",
-			"confirmed": 85314,
-			"recovered": 80018,
-			"deaths": 4644
+			"confirmed": 85402,
+			"recovered": 80064,
+			"deaths": 4645
 		},
 		{
 			"date": "2020-07-18",
-			"confirmed": 85314,
-			"recovered": 80018,
-			"deaths": 4644
+			"confirmed": 85418,
+			"recovered": 80092,
+			"deaths": 4646
 		},
 		{
 			"date": "2020-07-19",
-			"confirmed": 85314,
-			"recovered": 80018,
-			"deaths": 4644
+			"confirmed": 85503,
+			"recovered": 80137,
+			"deaths": 4646
 		},
 		{
 			"date": "2020-07-20",
-			"confirmed": 85314,
-			"recovered": 80018,
-			"deaths": 4644
+			"confirmed": 85622,
+			"recovered": 80162,
+			"deaths": 4646
 		},
 		{
 			"date": "2020-07-21",
-			"confirmed": 85314,
-			"recovered": 80018,
-			"deaths": 4644
+			"confirmed": 85708,
+			"recovered": 80204,
+			"deaths": 4648
 		}
 	],
 	"Colombia": [
@@ -86204,8 +86204,8 @@
 		},
 		{
 			"date": "2020-06-15",
-			"confirmed": 1810,
-			"recovered": 1796,
+			"confirmed": 1811,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
@@ -86216,206 +86216,206 @@
 		},
 		{
 			"date": "2020-06-17",
+			"confirmed": 1812,
+			"recovered": 1793,
+			"deaths": 10
+		},
+		{
+			"date": "2020-06-18",
+			"confirmed": 1814,
+			"recovered": 1795,
+			"deaths": 10
+		},
+		{
+			"date": "2020-06-19",
 			"confirmed": 1815,
 			"recovered": 1797,
 			"deaths": 10
 		},
 		{
-			"date": "2020-06-18",
-			"confirmed": 1816,
-			"recovered": 1801,
-			"deaths": 10
-		},
-		{
-			"date": "2020-06-19",
-			"confirmed": 1819,
-			"recovered": 1801,
-			"deaths": 10
-		},
-		{
 			"date": "2020-06-20",
-			"confirmed": 1822,
-			"recovered": 1805,
+			"confirmed": 1815,
+			"recovered": 1794,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-21",
-			"confirmed": 1823,
-			"recovered": 1805,
+			"confirmed": 1815,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-22",
-			"confirmed": 1823,
-			"recovered": 1805,
+			"confirmed": 1815,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-23",
-			"confirmed": 1824,
-			"recovered": 1806,
+			"confirmed": 1815,
+			"recovered": 1796,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-24",
-			"confirmed": 1824,
-			"recovered": 1806,
+			"confirmed": 1817,
+			"recovered": 1799,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-25",
-			"confirmed": 1830,
-			"recovered": 1811,
+			"confirmed": 1818,
+			"recovered": 1794,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-26",
-			"confirmed": 1832,
-			"recovered": 1813,
+			"confirmed": 1820,
+			"recovered": 1799,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-27",
-			"confirmed": 1836,
-			"recovered": 1814,
+			"confirmed": 1820,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-28",
-			"confirmed": 1838,
-			"recovered": 1816,
+			"confirmed": 1821,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-29",
-			"confirmed": 1840,
-			"recovered": 1818,
+			"confirmed": 1822,
+			"recovered": 1798,
 			"deaths": 10
 		},
 		{
 			"date": "2020-06-30",
-			"confirmed": 1842,
-			"recovered": 1819,
+			"confirmed": 1824,
+			"recovered": 1800,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-01",
-			"confirmed": 1847,
-			"recovered": 1823,
+			"confirmed": 1825,
+			"recovered": 1797,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-02",
-			"confirmed": 1850,
-			"recovered": 1828,
+			"confirmed": 1830,
+			"recovered": 1803,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-03",
-			"confirmed": 1855,
-			"recovered": 1832,
+			"confirmed": 1830,
+			"recovered": 1803,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-04",
-			"confirmed": 1860,
-			"recovered": 1833,
+			"confirmed": 1830,
+			"recovered": 1802,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-05",
-			"confirmed": 1863,
-			"recovered": 1833,
+			"confirmed": 1830,
+			"recovered": 1800,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-06",
-			"confirmed": 1866,
-			"recovered": 1840,
+			"confirmed": 1832,
+			"recovered": 1799,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-07",
-			"confirmed": 1873,
-			"recovered": 1847,
+			"confirmed": 1833,
+			"recovered": 1801,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-08",
-			"confirmed": 1880,
-			"recovered": 1850,
+			"confirmed": 1833,
+			"recovered": 1802,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-09",
-			"confirmed": 1882,
-			"recovered": 1854,
+			"confirmed": 1833,
+			"recovered": 1803,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-10",
-			"confirmed": 1886,
-			"recovered": 1859,
+			"confirmed": 1833,
+			"recovered": 1803,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-11",
-			"confirmed": 1888,
-			"recovered": 1860,
+			"confirmed": 1833,
+			"recovered": 1806,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-12",
-			"confirmed": 1896,
-			"recovered": 1865,
+			"confirmed": 1833,
+			"recovered": 1800,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-13",
-			"confirmed": 1900,
-			"recovered": 1871,
+			"confirmed": 1833,
+			"recovered": 1801,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-14",
-			"confirmed": 1905,
-			"recovered": 1882,
+			"confirmed": 1835,
+			"recovered": 1804,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-15",
-			"confirmed": 1911,
-			"recovered": 1885,
+			"confirmed": 1835,
+			"recovered": 1809,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-16",
-			"confirmed": 1914,
-			"recovered": 1892,
+			"confirmed": 1836,
+			"recovered": 1810,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-17",
-			"confirmed": 1916,
-			"recovered": 1895,
+			"confirmed": 1836,
+			"recovered": 1815,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-18",
-			"confirmed": 1922,
-			"recovered": 1902,
+			"confirmed": 1838,
+			"recovered": 1814,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-19",
-			"confirmed": 1930,
-			"recovered": 1907,
+			"confirmed": 1839,
+			"recovered": 1815,
 			"deaths": 10
 		},
 		{
 			"date": "2020-07-20",
-			"confirmed": 1930,
-			"recovered": 1907,
+			"confirmed": 1839,
+			"recovered": 1820,
 			"deaths": 10
 		},
 		{
@@ -146584,9 +146584,9 @@
 		},
 		{
 			"date": "2020-07-20",
-			"confirmed": 353590,
+			"confirmed": 357681,
 			"recovered": 245081,
-			"deaths": 13187
+			"deaths": 13384
 		},
 		{
 			"date": "2020-07-21",
