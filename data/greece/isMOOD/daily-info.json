@@ -6422,7 +6422,7 @@
             "slug": "greece"
         },
         "created": "2020-08-08T02:18:02.315348+03:00",
-        "date": "2020-08-08",
+        "date": "2020-08-07",
         "deceased": 210,
         "new_cases": 151,
         "recovered": 0,
@@ -6464,6 +6464,23 @@
             "total_males": 545,
             "updated": "2020-08-03T19:17:35.228461+03:00"
         },
-        "updated": "2020-08-08T02:18:02.315376+03:00"
+        "updated": "2020-08-08T19:02:47.832126+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-08-08T19:03:56.164442+03:00",
+        "date": "2020-08-08",
+        "deceased": 1,
+        "new_cases": 152,
+        "recovered": 0,
+        "to_day_active_cases": 5210,
+        "to_day_cases": 5421,
+        "to_day_deceased": 211,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-08-08T19:03:56.164470+03:00"
     }
 ]
