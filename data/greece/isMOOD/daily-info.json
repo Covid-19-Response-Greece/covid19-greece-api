@@ -6934,5 +6934,22 @@
         "to_day_recovered": 0,
         "totals": null,
         "updated": "2020-08-21T22:42:19.806510+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-08-22T23:17:24.803446+03:00",
+        "date": "2020-08-22",
+        "deceased": 2,
+        "new_cases": 264,
+        "recovered": 0,
+        "to_day_active_cases": 8141,
+        "to_day_cases": 8381,
+        "to_day_deceased": 240,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-08-22T23:17:24.803473+03:00"
     }
 ]
