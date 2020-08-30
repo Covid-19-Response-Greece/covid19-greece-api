@@ -1307,6 +1307,24 @@
 			"confirmed": 9280,
 			"recovered": 1347,
 			"deaths": 248
+		},
+		{
+			"date": "2020-08-27",
+			"confirmed": 9531,
+			"recovered": 1347,
+			"deaths": 254
+		},
+		{
+			"date": "2020-08-28",
+			"confirmed": 9800,
+			"recovered": 1347,
+			"deaths": 259
+		},
+		{
+			"date": "2020-08-29",
+			"confirmed": 9977,
+			"recovered": 1347,
+			"deaths": 260
 		}
 	]
 }
