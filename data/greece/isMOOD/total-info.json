@@ -1,7 +1,7 @@
 [
     {
-        "age_average": 39.0,
-        "average_death_age": 77.0,
+        "age_average": 38.0,
+        "average_death_age": 78.0,
         "country": {
             "name": "Greece",
             "slug": "greece"
@@ -9,10 +9,10 @@
         "created": "2020-04-06T19:19:11.771058+03:00",
         "total_age_groups": {
             "cases": {
-                "0-17": 612,
-                "18-39": 4413,
-                "40-64": 3401,
-                "65+": 1305
+                "0-17": 628,
+                "18-39": 4519,
+                "40-64": 3473,
+                "65+": 1326
             },
             "critical": {
                 "0-17": 0,
@@ -24,13 +24,13 @@
                 "0-17": 0,
                 "18-39": 3,
                 "40-64": 51,
-                "65+": 212
+                "65+": 217
             }
         },
         "total_by_location": null,
-        "total_critical": 36,
-        "total_females": 444,
-        "total_males": 556,
-        "updated": "2020-08-31T18:47:52.347689+03:00"
+        "total_critical": 38,
+        "total_females": 445,
+        "total_males": 555,
+        "updated": "2020-09-01T17:52:54.766743+03:00"
     }
 ]

@@ -252,8 +252,8 @@
         "to_day_deceased": 79,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -261,10 +261,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -276,14 +276,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-08T08:55:12.371131+03:00"
     },
@@ -302,8 +302,8 @@
         "to_day_deceased": 81,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -311,10 +311,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -326,14 +326,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-08T08:55:46.058918+03:00"
     },
@@ -352,8 +352,8 @@
         "to_day_deceased": 83,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -361,10 +361,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -376,14 +376,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-08T19:13:43.860126+03:00"
     },
@@ -402,8 +402,8 @@
         "to_day_deceased": 86,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -411,10 +411,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -426,14 +426,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-09T18:04:21.200192+03:00"
     },
@@ -452,8 +452,8 @@
         "to_day_deceased": 101,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -461,10 +461,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -476,14 +476,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-14T18:07:41.608981+03:00"
     },
@@ -502,8 +502,8 @@
         "to_day_deceased": 90,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -511,10 +511,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -526,14 +526,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-10T18:04:41.002908+03:00"
     },
@@ -552,8 +552,8 @@
         "to_day_deceased": 93,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -561,10 +561,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -576,14 +576,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-11T18:06:31.003330+03:00"
     },
@@ -602,8 +602,8 @@
         "to_day_deceased": 98,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -611,10 +611,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -626,14 +626,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-12T18:05:58.384524+03:00"
     },
@@ -652,8 +652,8 @@
         "to_day_deceased": 99,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -661,10 +661,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -676,14 +676,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-13T18:05:26.032973+03:00"
     },
@@ -702,8 +702,8 @@
         "to_day_deceased": 102,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -711,10 +711,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -726,14 +726,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-15T18:04:55.496194+03:00"
     },
@@ -752,8 +752,8 @@
         "to_day_deceased": 105,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -761,10 +761,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -776,14 +776,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-16T18:05:11.021884+03:00"
     },
@@ -802,8 +802,8 @@
         "to_day_deceased": 108,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -811,10 +811,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -826,14 +826,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-17T18:05:08.454354+03:00"
     },
@@ -852,8 +852,8 @@
         "to_day_deceased": 110,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -861,10 +861,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -876,14 +876,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-18T18:20:44.769705+03:00"
     },
@@ -902,8 +902,8 @@
         "to_day_deceased": 140,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -911,10 +911,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -926,14 +926,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-30T18:05:18.110641+03:00"
     },
@@ -952,8 +952,8 @@
         "to_day_deceased": 116,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -961,10 +961,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -976,14 +976,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-20T18:17:18.544922+03:00"
     },
@@ -1002,8 +1002,8 @@
         "to_day_deceased": 121,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1011,10 +1011,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1026,14 +1026,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-21T18:04:31.713558+03:00"
     },
@@ -1052,8 +1052,8 @@
         "to_day_deceased": 121,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1061,10 +1061,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1076,14 +1076,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-22T18:04:02.953156+03:00"
     },
@@ -1102,8 +1102,8 @@
         "to_day_deceased": 125,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1111,10 +1111,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1126,14 +1126,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-23T18:03:57.365259+03:00"
     },
@@ -1254,8 +1254,8 @@
         "to_day_deceased": 130,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1263,10 +1263,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1278,14 +1278,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-24T18:03:30.400079+03:00"
     },
@@ -1304,8 +1304,8 @@
         "to_day_deceased": 130,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1313,10 +1313,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1328,14 +1328,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-25T18:03:02.664356+03:00"
     },
@@ -1354,8 +1354,8 @@
         "to_day_deceased": 134,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1363,10 +1363,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1378,14 +1378,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-26T18:32:38.889336+03:00"
     },
@@ -1574,8 +1574,8 @@
         "to_day_deceased": 136,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1583,10 +1583,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1598,14 +1598,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-27T18:05:58.323215+03:00"
     },
@@ -1624,8 +1624,8 @@
         "to_day_deceased": 138,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1633,10 +1633,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1648,14 +1648,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-28T20:39:20.624142+03:00"
     },
@@ -1674,8 +1674,8 @@
         "to_day_deceased": 139,
         "to_day_recovered": 269,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1683,10 +1683,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1698,14 +1698,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-04-29T18:03:51.644853+03:00"
     },
@@ -1724,8 +1724,8 @@
         "to_day_deceased": 140,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1733,10 +1733,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1748,14 +1748,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-01T19:35:18.880876+03:00"
     },
@@ -1774,8 +1774,8 @@
         "to_day_deceased": 143,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1783,10 +1783,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1798,14 +1798,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-02T18:17:25.874069+03:00"
     },
@@ -1824,8 +1824,8 @@
         "to_day_deceased": 144,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1833,10 +1833,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1848,14 +1848,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-03T18:03:41.051516+03:00"
     },
@@ -1874,8 +1874,8 @@
         "to_day_deceased": 146,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1883,10 +1883,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1898,14 +1898,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-04T18:07:33.936442+03:00"
     },
@@ -1924,8 +1924,8 @@
         "to_day_deceased": 146,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1933,10 +1933,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1948,14 +1948,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-05T18:04:03.486025+03:00"
     },
@@ -1974,8 +1974,8 @@
         "to_day_deceased": 147,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -1983,10 +1983,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -1998,14 +1998,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-06T18:04:35.261593+03:00"
     },
@@ -2024,8 +2024,8 @@
         "to_day_deceased": 148,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2033,10 +2033,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2048,14 +2048,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-07T18:19:05.468702+03:00"
     },
@@ -2074,8 +2074,8 @@
         "to_day_deceased": 150,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2083,10 +2083,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2098,14 +2098,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-08T18:06:29.844632+03:00"
     },
@@ -2124,8 +2124,8 @@
         "to_day_deceased": 151,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2133,10 +2133,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2148,14 +2148,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-09T20:18:03.766023+03:00"
     },
@@ -2174,8 +2174,8 @@
         "to_day_deceased": 151,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2183,10 +2183,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2198,14 +2198,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-10T19:08:18.369202+03:00"
     },
@@ -2224,8 +2224,8 @@
         "to_day_deceased": 151,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2233,10 +2233,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2248,14 +2248,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-11T18:03:23.588372+03:00"
     },
@@ -2274,8 +2274,8 @@
         "to_day_deceased": 152,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2283,10 +2283,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2298,14 +2298,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-12T18:04:15.880464+03:00"
     },
@@ -2324,8 +2324,8 @@
         "to_day_deceased": 155,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2333,10 +2333,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2348,14 +2348,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-13T18:03:41.918760+03:00"
     },
@@ -2374,8 +2374,8 @@
         "to_day_deceased": 156,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2383,10 +2383,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2398,14 +2398,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-14T18:03:54.106406+03:00"
     },
@@ -2594,8 +2594,8 @@
         "to_day_deceased": 160,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2603,10 +2603,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2618,14 +2618,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-15T18:09:05.963770+03:00"
     },
@@ -2644,8 +2644,8 @@
         "to_day_deceased": 162,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2653,10 +2653,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2668,14 +2668,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-16T19:29:20.382312+03:00"
     },
@@ -2694,8 +2694,8 @@
         "to_day_deceased": 163,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2703,10 +2703,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2718,14 +2718,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-17T18:14:09.854953+03:00"
     },
@@ -2744,8 +2744,8 @@
         "to_day_deceased": 165,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2753,10 +2753,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2768,14 +2768,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-18T18:04:28.198186+03:00"
     },
@@ -2794,8 +2794,8 @@
         "to_day_deceased": 165,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2803,10 +2803,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2818,14 +2818,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-19T18:03:39.738509+03:00"
     },
@@ -2844,8 +2844,8 @@
         "to_day_deceased": 166,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2853,10 +2853,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2868,14 +2868,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-20T18:08:06.130458+03:00"
     },
@@ -2894,8 +2894,8 @@
         "to_day_deceased": 168,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2903,10 +2903,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2918,14 +2918,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-21T18:05:48.097339+03:00"
     },
@@ -2944,8 +2944,8 @@
         "to_day_deceased": 169,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -2953,10 +2953,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -2968,14 +2968,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-22T18:21:41.118541+03:00"
     },
@@ -2994,8 +2994,8 @@
         "to_day_deceased": 169,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3003,10 +3003,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3018,14 +3018,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-23T18:15:52.597315+03:00"
     },
@@ -3044,8 +3044,8 @@
         "to_day_deceased": 171,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3053,10 +3053,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3068,14 +3068,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-24T18:04:56.613316+03:00"
     },
@@ -3094,8 +3094,8 @@
         "to_day_deceased": 172,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3103,10 +3103,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3118,14 +3118,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-25T18:04:08.327227+03:00"
     },
@@ -3144,8 +3144,8 @@
         "to_day_deceased": 173,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3153,10 +3153,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3168,14 +3168,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-26T18:05:59.731089+03:00"
     },
@@ -3194,8 +3194,8 @@
         "to_day_deceased": 173,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3203,10 +3203,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3218,14 +3218,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-27T18:15:30.627344+03:00"
     },
@@ -3261,8 +3261,8 @@
         "to_day_deceased": 175,
         "to_day_recovered": 1374,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3270,10 +3270,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3285,14 +3285,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-29T10:07:23.546838+03:00"
     },
@@ -3311,8 +3311,8 @@
         "to_day_deceased": 175,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3320,10 +3320,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3335,14 +3335,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-29T18:06:09.704450+03:00"
     },
@@ -3361,8 +3361,8 @@
         "to_day_deceased": 175,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3370,10 +3370,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3385,14 +3385,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-30T18:42:24.997210+03:00"
     },
@@ -3411,8 +3411,8 @@
         "to_day_deceased": 175,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3420,10 +3420,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3435,14 +3435,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-05-31T18:53:34.368614+03:00"
     },
@@ -3461,8 +3461,8 @@
         "to_day_deceased": 179,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3470,10 +3470,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3485,14 +3485,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-01T18:19:05.683039+03:00"
     },
@@ -3511,8 +3511,8 @@
         "to_day_deceased": 179,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3520,10 +3520,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3535,14 +3535,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-02T19:05:51.980509+03:00"
     },
@@ -3561,8 +3561,8 @@
         "to_day_deceased": 179,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3570,10 +3570,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3585,14 +3585,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-04T18:22:30.059172+03:00"
     },
@@ -3611,8 +3611,8 @@
         "to_day_deceased": 180,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3620,10 +3620,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3635,14 +3635,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-04T18:22:53.607533+03:00"
     },
@@ -3661,8 +3661,8 @@
         "to_day_deceased": 180,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3670,10 +3670,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3685,14 +3685,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-05T17:49:20.083495+03:00"
     },
@@ -3711,8 +3711,8 @@
         "to_day_deceased": 180,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3720,10 +3720,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3735,14 +3735,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-06T18:12:16.870584+03:00"
     },
@@ -3761,8 +3761,8 @@
         "to_day_deceased": 180,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3770,10 +3770,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3785,14 +3785,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-07T17:47:15.561996+03:00"
     },
@@ -3811,8 +3811,8 @@
         "to_day_deceased": 182,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3820,10 +3820,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3835,14 +3835,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-08T21:33:34.235807+03:00"
     },
@@ -3861,8 +3861,8 @@
         "to_day_deceased": 183,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3870,10 +3870,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3885,14 +3885,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-09T18:57:27.555350+03:00"
     },
@@ -3911,8 +3911,8 @@
         "to_day_deceased": 183,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3920,10 +3920,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -3935,14 +3935,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-11T10:37:28.489024+03:00"
     },
@@ -3978,8 +3978,8 @@
         "to_day_deceased": 183,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -3987,10 +3987,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4002,14 +4002,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-12T19:28:45.688481+03:00"
     },
@@ -4028,8 +4028,8 @@
         "to_day_deceased": 183,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4037,10 +4037,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4052,14 +4052,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-13T18:10:30.393457+03:00"
     },
@@ -4078,8 +4078,8 @@
         "to_day_deceased": 183,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4087,10 +4087,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4102,14 +4102,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-14T18:14:31.799965+03:00"
     },
@@ -4128,8 +4128,8 @@
         "to_day_deceased": 184,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4137,10 +4137,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4152,14 +4152,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-15T18:03:19.343659+03:00"
     },
@@ -4178,8 +4178,8 @@
         "to_day_deceased": 185,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4187,10 +4187,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4202,14 +4202,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-16T18:15:13.254498+03:00"
     },
@@ -4228,8 +4228,8 @@
         "to_day_deceased": 187,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4237,10 +4237,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4252,14 +4252,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-17T18:12:09.420470+03:00"
     },
@@ -4278,8 +4278,8 @@
         "to_day_deceased": 188,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4287,10 +4287,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4302,14 +4302,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-18T18:27:42.592051+03:00"
     },
@@ -4328,8 +4328,8 @@
         "to_day_deceased": 189,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4337,10 +4337,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4352,14 +4352,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-19T18:50:08.912334+03:00"
     },
@@ -4378,8 +4378,8 @@
         "to_day_deceased": 190,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4387,10 +4387,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4402,14 +4402,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-20T19:54:01.878752+03:00"
     },
@@ -4428,8 +4428,8 @@
         "to_day_deceased": 190,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4437,10 +4437,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4452,14 +4452,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-21T18:11:56.202802+03:00"
     },
@@ -4478,8 +4478,8 @@
         "to_day_deceased": 190,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4487,10 +4487,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4502,14 +4502,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-22T18:14:47.619294+03:00"
     },
@@ -4528,8 +4528,8 @@
         "to_day_deceased": 190,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4537,10 +4537,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4552,14 +4552,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-23T18:14:49.202276+03:00"
     },
@@ -4578,8 +4578,8 @@
         "to_day_deceased": 190,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4587,10 +4587,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4602,14 +4602,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-24T18:42:39.305405+03:00"
     },
@@ -4628,8 +4628,8 @@
         "to_day_deceased": 191,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4637,10 +4637,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4652,14 +4652,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-25T18:01:26.909196+03:00"
     },
@@ -4678,8 +4678,8 @@
         "to_day_deceased": 191,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4687,10 +4687,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4702,14 +4702,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-26T18:17:09.726054+03:00"
     },
@@ -4728,8 +4728,8 @@
         "to_day_deceased": 191,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4737,10 +4737,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4752,14 +4752,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-27T18:09:29.198481+03:00"
     },
@@ -4795,8 +4795,8 @@
         "to_day_deceased": 191,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4804,10 +4804,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4819,14 +4819,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-29T18:03:24.512299+03:00"
     },
@@ -4845,8 +4845,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4854,10 +4854,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4869,14 +4869,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-06-30T18:12:45.171757+03:00"
     },
@@ -4895,8 +4895,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4904,10 +4904,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4919,14 +4919,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-01T18:03:16.147082+03:00"
     },
@@ -4945,8 +4945,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -4954,10 +4954,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -4969,14 +4969,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-03T19:12:29.259618+03:00"
     },
@@ -4995,8 +4995,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5004,10 +5004,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5019,14 +5019,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-03T19:12:54.888006+03:00"
     },
@@ -5045,8 +5045,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5054,10 +5054,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5069,14 +5069,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-04T18:08:40.566938+03:00"
     },
@@ -5095,8 +5095,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5104,10 +5104,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5119,14 +5119,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-05T19:25:02.385883+03:00"
     },
@@ -5145,8 +5145,8 @@
         "to_day_deceased": 192,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5154,10 +5154,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5169,14 +5169,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-06T20:45:32.189049+03:00"
     },
@@ -5195,8 +5195,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5204,10 +5204,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5219,14 +5219,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-07T18:36:35.842111+03:00"
     },
@@ -5262,8 +5262,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5271,10 +5271,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5286,14 +5286,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-09T18:18:03.245337+03:00"
     },
@@ -5312,8 +5312,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5321,10 +5321,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5336,14 +5336,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-10T18:26:58.997543+03:00"
     },
@@ -5362,8 +5362,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5371,10 +5371,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5386,14 +5386,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-12T18:34:25.418078+03:00"
     },
@@ -5412,8 +5412,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5421,10 +5421,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5436,14 +5436,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-13T18:20:31.517413+03:00"
     },
@@ -5462,8 +5462,8 @@
         "to_day_deceased": 193,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5471,10 +5471,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5486,14 +5486,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-14T18:49:42.851697+03:00"
     },
@@ -5546,8 +5546,8 @@
         "to_day_deceased": 194,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5555,10 +5555,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5570,14 +5570,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-17T19:28:03.371612+03:00"
     },
@@ -5613,8 +5613,8 @@
         "to_day_deceased": 194,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5622,10 +5622,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5637,14 +5637,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-19T19:12:10.108939+03:00"
     },
@@ -5663,8 +5663,8 @@
         "to_day_deceased": 195,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5672,10 +5672,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5687,14 +5687,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-20T19:04:58.625955+03:00"
     },
@@ -5713,8 +5713,8 @@
         "to_day_deceased": 197,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5722,10 +5722,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5737,14 +5737,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-21T19:19:17.350521+03:00"
     },
@@ -5763,8 +5763,8 @@
         "to_day_deceased": 200,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5772,10 +5772,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5787,14 +5787,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-22T19:20:48.008317+03:00"
     },
@@ -5813,8 +5813,8 @@
         "to_day_deceased": 201,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5822,10 +5822,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5837,14 +5837,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-24T18:53:01.991419+03:00"
     },
@@ -5863,8 +5863,8 @@
         "to_day_deceased": 201,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5872,10 +5872,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5887,14 +5887,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-24T18:53:20.698067+03:00"
     },
@@ -5913,8 +5913,8 @@
         "to_day_deceased": 201,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5922,10 +5922,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -5937,14 +5937,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-25T18:39:21.573989+03:00"
     },
@@ -5980,8 +5980,8 @@
         "to_day_deceased": 202,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -5989,10 +5989,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6004,14 +6004,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-27T18:07:03.416774+03:00"
     },
@@ -6030,8 +6030,8 @@
         "to_day_deceased": 203,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6039,10 +6039,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6054,14 +6054,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-28T19:09:10.530062+03:00"
     },
@@ -6097,8 +6097,8 @@
         "to_day_deceased": 203,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6106,10 +6106,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6121,14 +6121,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-30T22:14:11.907435+03:00"
     },
@@ -6147,8 +6147,8 @@
         "to_day_deceased": 206,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6156,10 +6156,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6171,14 +6171,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-07-31T19:20:14.698413+03:00"
     },
@@ -6197,8 +6197,8 @@
         "to_day_deceased": 206,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6206,10 +6206,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6221,14 +6221,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-01T19:23:42.620391+03:00"
     },
@@ -6281,8 +6281,8 @@
         "to_day_deceased": 209,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6290,10 +6290,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6305,14 +6305,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-04T18:07:28.437802+03:00"
     },
@@ -6331,8 +6331,8 @@
         "to_day_deceased": 210,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6340,10 +6340,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6355,14 +6355,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-05T19:09:49.841228+03:00"
     },
@@ -6381,8 +6381,8 @@
         "to_day_deceased": 210,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6390,10 +6390,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6405,14 +6405,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-06T18:43:07.630936+03:00"
     },
@@ -6448,8 +6448,8 @@
         "to_day_deceased": 212,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6457,10 +6457,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6472,14 +6472,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-09T18:41:51.040729+03:00"
     },
@@ -6498,8 +6498,8 @@
         "to_day_deceased": 210,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6507,10 +6507,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6522,14 +6522,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-09T19:24:10.596621+03:00"
     },
@@ -6548,8 +6548,8 @@
         "to_day_deceased": 213,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6557,10 +6557,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6572,14 +6572,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-10T20:01:06.623131+03:00"
     },
@@ -6598,8 +6598,8 @@
         "to_day_deceased": 214,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6607,10 +6607,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6622,14 +6622,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-11T19:00:30.828620+03:00"
     },
@@ -6648,8 +6648,8 @@
         "to_day_deceased": 216,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6657,10 +6657,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6672,14 +6672,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-12T19:59:22.356050+03:00"
     },
@@ -6715,8 +6715,8 @@
         "to_day_deceased": 223,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6724,10 +6724,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6739,14 +6739,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-14T19:32:42.803375+03:00"
     },
@@ -6765,8 +6765,8 @@
         "to_day_deceased": 226,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6774,10 +6774,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6789,14 +6789,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-15T18:48:07.587957+03:00"
     },
@@ -6832,8 +6832,8 @@
         "to_day_deceased": 228,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6841,10 +6841,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6856,14 +6856,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-17T18:26:04.375903+03:00"
     },
@@ -6967,8 +6967,8 @@
         "to_day_deceased": 242,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -6976,10 +6976,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -6991,14 +6991,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-23T19:40:44.426941+03:00"
     },
@@ -7017,8 +7017,8 @@
         "to_day_deceased": 242,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7026,10 +7026,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7041,14 +7041,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-24T18:37:17.353247+03:00"
     },
@@ -7067,8 +7067,8 @@
         "to_day_deceased": 243,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7076,10 +7076,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7091,14 +7091,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-25T17:48:25.105331+03:00"
     },
@@ -7134,8 +7134,8 @@
         "to_day_deceased": 254,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7143,10 +7143,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7158,14 +7158,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-27T18:30:43.183011+03:00"
     },
@@ -7184,8 +7184,8 @@
         "to_day_deceased": 259,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7193,10 +7193,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7208,14 +7208,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-28T17:56:33.459632+03:00"
     },
@@ -7234,8 +7234,8 @@
         "to_day_deceased": 260,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7243,10 +7243,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7258,14 +7258,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-30T19:14:01.375636+03:00"
     },
@@ -7284,8 +7284,8 @@
         "to_day_deceased": 262,
         "to_day_recovered": 0,
         "totals": {
-            "age_average": 39.0,
-            "average_death_age": 77.0,
+            "age_average": 38.0,
+            "average_death_age": 78.0,
             "country": {
                 "name": "Greece",
                 "slug": "greece"
@@ -7293,10 +7293,10 @@
             "created": "2020-04-06T19:19:11.771058+03:00",
             "total_age_groups": {
                 "cases": {
-                    "0-17": 612,
-                    "18-39": 4413,
-                    "40-64": 3401,
-                    "65+": 1305
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
                 },
                 "critical": {
                     "0-17": 0,
@@ -7308,14 +7308,14 @@
                     "0-17": 0,
                     "18-39": 3,
                     "40-64": 51,
-                    "65+": 212
+                    "65+": 217
                 }
             },
             "total_by_location": null,
-            "total_critical": 36,
-            "total_females": 444,
-            "total_males": 556,
-            "updated": "2020-08-31T18:47:52.347689+03:00"
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
         },
         "updated": "2020-08-30T19:14:32.641971+03:00"
     },
@@ -7335,5 +7335,55 @@
         "to_day_recovered": 0,
         "totals": null,
         "updated": "2020-08-31T18:45:06.386947+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-09-01T17:51:42.476580+03:00",
+        "date": "2020-09-01",
+        "deceased": 5,
+        "new_cases": 207,
+        "recovered": 0,
+        "to_day_active_cases": 10253,
+        "to_day_cases": 10524,
+        "to_day_deceased": 271,
+        "to_day_recovered": 0,
+        "totals": {
+            "age_average": 38.0,
+            "average_death_age": 78.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 628,
+                    "18-39": 4519,
+                    "40-64": 3473,
+                    "65+": 1326
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 4,
+                    "65+": 17
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 3,
+                    "40-64": 51,
+                    "65+": 217
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 38,
+            "total_females": 445,
+            "total_males": 555,
+            "updated": "2020-09-01T17:52:54.766743+03:00"
+        },
+        "updated": "2020-09-01T17:51:42.476626+03:00"
     }
 ]
