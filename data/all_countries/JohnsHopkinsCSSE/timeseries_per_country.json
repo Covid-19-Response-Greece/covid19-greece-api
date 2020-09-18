@@ -115336,9 +115336,9 @@
 		},
 		{
 			"date": "2020-09-14",
-			"confirmed": 4846427,
-			"recovered": 3780107,
-			"deaths": 79722
+			"confirmed": 4930236,
+			"recovered": 3859399,
+			"deaths": 80776
 		},
 		{
 			"date": "2020-09-15",
@@ -115348,15 +115348,15 @@
 		},
 		{
 			"date": "2020-09-16",
-			"confirmed": 5020359,
-			"recovered": 3942360,
-			"deaths": 82066
-		},
-		{
-			"date": "2020-09-17",
 			"confirmed": 5118253,
 			"recovered": 4025079,
 			"deaths": 83198
+		},
+		{
+			"date": "2020-09-17",
+			"confirmed": 5214677,
+			"recovered": 4112551,
+			"deaths": 84372
 		}
 	],
 	"Indonesia": [
