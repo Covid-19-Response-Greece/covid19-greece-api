@@ -865,7 +865,7 @@
     "/schools-status": {
       "get": {
         "tags": [
-          "Cumulative data"
+          "Daily recorded events"
         ],
         "summary": "Schools operation",
         "description": "Get info concerning Greek Schools Operation Changes due to Covid-19",
