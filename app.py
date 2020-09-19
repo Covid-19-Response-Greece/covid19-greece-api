@@ -20,6 +20,7 @@ data_greece_refugee_camps = None
 data_greece_regions_wm_deaths = None
 data_greece_regions_wm = None
 data_greece_regions_wm_deaths = None
+data_greece_schools_status = None
 population_per_region = None
 
 def init():
@@ -33,6 +34,7 @@ def init():
     global data_greece_regions_wm_deaths
     global data_greece_regions_wm
     global data_greece_regions_wm_deaths
+    global data_greece_schools_status
     global population_per_region
     
 
@@ -68,7 +70,11 @@ def init():
     with open('data/greece/Refugee_camps/refugee_camps.csv', encoding = 'utf-8') as f:
         data_greece_refugee_camps = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
     data_greece_refugee_camps = data_greece_refugee_camps.where(pd.notnull(data_greece_refugee_camps), None)
-    
+
+    with open('data/greece/schools_status/schools_status.csv', encoding = 'utf-8') as f:
+        data_greece_schools_status = pd.read_csv(f, date_parser=lambda x: datetime.datetime.strptime(x, '%d/%m/%Y'))                                                    
+    data_greece_schools_status = data_greece_schools_status.where(pd.notnull(data_greece_schools_status), None)
+      
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
 
@@ -396,6 +402,23 @@ def get_refugee_camps():
             continue
             
     return jsonify({'refugee-camps': tot_json})
+
+@app.route('/schools-status', methods=['GET'])
+def get_schools_status():
+
+    school_name_gr = list(data_greece_schools_status['Σχολείο/Δομή'])
+    school_region_gr = list(data_greece_schools_status['Περιοχή'])
+    school_address_gr = list(data_greece_schools_status['Διεύθυνση'])
+    school_suspended_till_date = list(data_greece_schools_status['Αναστολή έως και'])
+    school_remarks = list(data_greece_schools_status['Παρατηρήσεις:'])
+
+    out_json = [{'school_name_gr': name, 'school_region_gr':region,
+                 'school_address_gr': address, 'school_suspended_till_date': date,
+                 'school_remarks': remark} for name, region, address, date, remark  
+                 in zip(school_name_gr, school_region_gr, school_address_gr, 
+                       school_suspended_till_date, school_remarks)]
+
+    return jsonify({'schools-status': out_json})
 
 @app.errorhandler(404)
 def not_found(error):
