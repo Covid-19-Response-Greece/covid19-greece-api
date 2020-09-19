@@ -861,6 +861,53 @@
           }
         }
       }
+    },
+    "/schools-status": {
+      "get": {
+        "tags": [
+          "Cumulative Data"
+        ],
+        "summary": "Schools operation",
+        "description": "Get info concerning Greek Schools Operation Changes due to Covid-19",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json" : {
+                "schema" :{
+                  "type": "object",
+                  "properties": {
+                    "schools_status": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties":{
+                          "school_name_gr":{
+                            "type": "string"
+                          },
+                          "school_region_gr":{
+                            "type": "string"
+                          },
+                          "school_address_gr":{
+                            "type": "string"
+                          },
+                          "school_suspended_till_date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "school_remarks":{
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
