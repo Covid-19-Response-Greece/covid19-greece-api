@@ -116308,15 +116308,15 @@
 		},
 		{
 			"date": "2020-09-18",
-			"confirmed": 5214677,
-			"recovered": 4112551,
-			"deaths": 84372
-		},
-		{
-			"date": "2020-09-19",
 			"confirmed": 5308014,
 			"recovered": 4208431,
 			"deaths": 85619
+		},
+		{
+			"date": "2020-09-19",
+			"confirmed": 5400619,
+			"recovered": 4303043,
+			"deaths": 86752
 		}
 	],
 	"Indonesia": [
