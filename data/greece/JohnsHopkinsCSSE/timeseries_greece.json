@@ -1463,6 +1463,18 @@
 			"confirmed": 15595,
 			"recovered": 1347,
 			"deaths": 344
+		},
+		{
+			"date": "2020-09-22",
+			"confirmed": 15928,
+			"recovered": 1347,
+			"deaths": 352
+		},
+		{
+			"date": "2020-09-23",
+			"confirmed": 16286,
+			"recovered": 1347,
+			"deaths": 357
 		}
 	]
 }
