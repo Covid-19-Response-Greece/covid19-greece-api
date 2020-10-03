@@ -31,16 +31,10 @@
                       "items": {
                         "type": "object",
                         "properties":{
-                          "active":{
-                            "type": "number"
-                          },
                           "confirmed":{
                             "type": "number"
                           },
                           "deaths":{
-                            "type": "number"
-                          },
-                          "recovered":{
                             "type": "number"
                           },
                           "date": {
@@ -100,7 +94,7 @@
           "Daily recorded events"
         ],
         "summary": "Recovered cases",
-        "description": "Get all the recovered cases reported in Greece as timeseries",
+        "description": "Get all the recovered cases reported in Greece as timeseries (Updating has stopped due to lack of reliable source)",
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -176,7 +170,7 @@
           "Daily recorded events"
         ],
         "summary": "Active cases",
-        "description": "Get all the active cases reported in Greece as timeseries",
+        "description": "Get all the active cases reported in Greece as timeseries (Updating has stopped due to lack of reliable source concerning recovered cases)",
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -587,16 +581,10 @@
                     "cases": {
                       "type": "object",
                       "properties": {
-                        "active":{
-                          "type": "number"
-                        },
                         "confirmed":{
                           "type": "number"
                         },
                         "deaths":{
-                          "type": "number"
-                        },
-                        "recovered":{
                           "type": "number"
                         },
                         "date": {
