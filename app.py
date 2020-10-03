@@ -106,7 +106,7 @@ def get_all():
 
     out_json = copy.deepcopy(data_greece_JHCSSE)
     for date in out_json:
-        date['active'] = date['confirmed'] - date['deaths'] - date['recovered']
+        del date['recovered']
 
     return jsonify({'cases': out_json})
 
@@ -204,7 +204,7 @@ def get_active():
 @app.route('/total', methods=['GET'])
 def get_total():
     out_json = copy.deepcopy(data_greece_JHCSSE[-1])
-    out_json['active'] = out_json['confirmed'] - out_json['deaths'] - out_json['recovered']
+    del out_json['recovered']
 
     return jsonify({'cases': out_json})
 
