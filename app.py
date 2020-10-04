@@ -336,7 +336,7 @@ def get_refugee_camps():
     region_dict = {'Ανατολικής Μακεδονίας και Θράκης': 'Eastern Macedonia and Thrace', 'Αττικής': 'Attica',
                    'Βορείου Αιγαίου': 'North Aegean', 'Δυτικής Ελλάδας': 'Western Greece',
                    'Δυτικής Μακεδονίας': 'Western Macedonia',  'Ηπείρου': 'Epirus', 'Θεσσαλίας': 'Thessaly', 
-                   'Κεντρικής Μακεδονίας':'Central Macedonia','Νοτίου Αιγαίου': 'South Aegean', 
+                   'Κεντρικής Μακεδονίας':'Central Macedonia', 'Κρήτης': 'Crete', 'Νοτίου Αιγαίου': 'South Aegean', 
                    'Πελλοπονήσου': 'Peloponnese', 'Στερεάς Ελλάδας': 'Central Greece'}
 
     tot_json = []
