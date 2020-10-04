@@ -24,7 +24,11 @@ urls = [
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_deaths.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Measures/greece_social_distancing_measures_timeline.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Refugee_camps/refugee_camps.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/schools_status/schools_status.csv'
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/schools_status/schools_status.csv',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/npho-data/data/greece/NPHO/age_data.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/npho-data/data/greece/NPHO/gender_age_data.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/npho-data/data/greece/NPHO/intensive_care_cases.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/npho-data/data/greece/NPHO/tests.json'
 ]
 
 paths_to_store = [
@@ -44,7 +48,11 @@ paths_to_store = [
     'greece/Regions',
     'greece/Measures',
     'greece/Refugee_camps',
-    'greece/schools_status'
+    'greece/schools_status',
+    'greece/NPHO',
+    'greece/NPHO',
+    'greece/NPHO',
+    'greece/NPHO'
 ]
 
 def download():
