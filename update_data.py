@@ -10,10 +10,8 @@ DOWNLOADS_DIR = './data/'
 urls = [
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/cleaned-data/timeseries_per_country.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/JohnsHopkinsCSSE/timeseries_greece.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/wikipedia/cases.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/daily-info.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/regions.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/total-info.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/greece.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/greeceTimeline.csv',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/greece_cases.csv',
@@ -34,8 +32,6 @@ urls = [
 paths_to_store = [
     'all_countries/JohnsHopkinsCSSE',
     'greece/JohnsHopkinsCSSE',
-    'greece/wikipedia',
-    'greece/isMOOD',
     'greece/isMOOD',
     'greece/isMOOD',
     'greece/iMEdD-Lab',

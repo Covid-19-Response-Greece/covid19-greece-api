@@ -724,6 +724,10 @@
                                   "type": "number"
                                 }
                               }
+                            },
+                            "updated": {
+                              "type": "string",
+                              "format": "date"
                             }
                           }
                         }
@@ -755,12 +759,16 @@
                     "gender_percentages": {
                       "type": "object",
                       "properties": {
-                        "total_females":{
+                        "total_females_percentage":{
                           "type": "number"
                         },
-                        "total_males":{
+                        "total_males_percentage":{
                           "type": "number"
-                        }
+                        },
+                        "updated": {
+                          "type": "string",
+                          "format": "date"
+                        }                        
                       }
                     }
                   }
