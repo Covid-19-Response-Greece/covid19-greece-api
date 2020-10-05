@@ -759,10 +759,10 @@
                     "gender_percentages": {
                       "type": "object",
                       "properties": {
-                        "total_females_percentage":{
+                        "total_females":{
                           "type": "number"
                         },
-                        "total_males_percentage":{
+                        "total_males":{
                           "type": "number"
                         },
                         "updated": {
