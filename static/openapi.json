@@ -724,6 +724,10 @@
                                   "type": "number"
                                 }
                               }
+                            },
+                            "updated": {
+                              "type": "string",
+                              "format": "date"
                             }
                           }
                         }
@@ -760,7 +764,11 @@
                         },
                         "total_males":{
                           "type": "number"
-                        }
+                        },
+                        "updated": {
+                          "type": "string",
+                          "format": "date"
+                        }                        
                       }
                     }
                   }
