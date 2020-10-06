@@ -142,6 +142,8 @@ def get_recovered():
         del date['confirmed']
         del date['deaths']
 
+    out_json = out_json[1:100]
+    
     return jsonify({'cases': out_json})
 
 @app.route('/deaths', methods=['GET'])
@@ -212,7 +214,8 @@ def get_active():
         del date['recovered']
         del date['deaths']
 
-
+    out_json = out_json[1:100]
+  
     return jsonify({'cases': out_json})
 
 @app.route('/total', methods=['GET'])
