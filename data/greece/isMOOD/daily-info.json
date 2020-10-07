@@ -8541,5 +8541,22 @@
             "updated": "2020-10-06T18:09:51.957565+03:00"
         },
         "updated": "2020-10-06T18:09:32.201301+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-10-07T19:00:36.674345+03:00",
+        "date": "2020-10-07",
+        "deceased": 4,
+        "new_cases": 407,
+        "recovered": 0,
+        "to_day_active_cases": 20523,
+        "to_day_cases": 20947,
+        "to_day_deceased": 424,
+        "to_day_recovered": 0,
+        "totals": null,
+        "updated": "2020-10-07T19:00:36.674382+03:00"
     }
 ]
