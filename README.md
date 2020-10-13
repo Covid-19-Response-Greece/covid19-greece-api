@@ -51,10 +51,6 @@ This API combines data from multiple sources. All data are fetched from [here](h
 
 * National Public Health Organization (NPHO) of Greece: https://eody.gov.gr
 
-* Wikipedia: https://el.wikipedia.org/wiki/Πανδημία_του_κορονοϊού_στην_Ελλάδα_το_2020
-
-* World Health Organization: https://www.who.int
-
   ( [+ suggest a data source!](mailto:alex.delitzas@gmail.com) )
   
 ## Requirements
@@ -78,9 +74,17 @@ Request:
 
 ## Projects & Organizations utilizing Coronavirus Greece API ([+ add yours!](#user-content-adding-your-project-to-the-list))
 
+ * [Data & Web Science Laboratory](https://datalab.csd.auth.gr/), Aristotle University of Thessaloniki
+ 
+ * [Data Science Lab](http://www.datastories.org/), University of Piraeus
+ 
+ * [Postgraduate program “International Medicine / Health-Crisis Management”](http://crisis.med.uoa.gr/?lang=en), School of  Medicine, National & Kapodistrian University of Athens
+
  * [CovidDEXP-COVID-19 Data Exploration](https://covid19.csd.auth.gr) ([repo](https://github.com/Datalab-AUTH/covid19_dashboard)): An exploratory data analysis tool to worldwide monitor and detail the COVID-19 pandemic outbreak with visually rich presentation. A special segment about Greece can be found [here](https://covid19.csd.auth.gr/?tab=greece)
  
  * [Region of Western Macedonia](https://www.pdm.gov.gr/): Enrich daily region reports with explanatory visualizations
+ 
+
  
 ## Adding your project to the list
 
