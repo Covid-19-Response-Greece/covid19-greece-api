@@ -8779,5 +8779,55 @@
         "to_day_recovered": 0,
         "totals": null,
         "updated": "2020-10-20T18:24:45.645714+03:00"
+    },
+    {
+        "country": {
+            "name": "Greece",
+            "slug": "greece"
+        },
+        "created": "2020-10-21T20:54:51.277295+03:00",
+        "date": "2020-10-21",
+        "deceased": 6,
+        "new_cases": 865,
+        "recovered": 0,
+        "to_day_active_cases": 26800,
+        "to_day_cases": 27334,
+        "to_day_deceased": 534,
+        "to_day_recovered": 0,
+        "totals": {
+            "age_average": 40.0,
+            "average_death_age": 78.0,
+            "country": {
+                "name": "Greece",
+                "slug": "greece"
+            },
+            "created": "2020-04-06T19:19:11.771058+03:00",
+            "total_age_groups": {
+                "cases": {
+                    "0-17": 1485,
+                    "18-39": 8685,
+                    "40-64": 7701,
+                    "65+": 2607
+                },
+                "critical": {
+                    "0-17": 0,
+                    "18-39": 1,
+                    "40-64": 4,
+                    "65+": 17
+                },
+                "deaths": {
+                    "0-17": 0,
+                    "18-39": 5,
+                    "40-64": 78,
+                    "65+": 348
+                }
+            },
+            "total_by_location": null,
+            "total_critical": 87,
+            "total_females": 443,
+            "total_males": 557,
+            "updated": "2020-10-20T18:25:10.644517+03:00"
+        },
+        "updated": "2020-10-21T20:54:51.277350+03:00"
     }
 ]
