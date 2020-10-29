@@ -254,6 +254,16 @@ def get_age_groups():
 
     return jsonify(out_json)
 
+@app.route('/gender-age-distribution', methods=['GET'])
+def get_gender_age_groups():
+
+    out_json = copy.deepcopy(data_greece_gender_age_dist_npho)
+    del out_json['total_females_percentage']
+    del out_json['total_males_percentage']
+    out_json['total_age_gender_distribution'] = out_json.pop('total_age_groups')
+
+    return jsonify(out_json)
+
 @app.route('/measures-timeline', methods=['GET'])
 def get_measures_timeline():
 
