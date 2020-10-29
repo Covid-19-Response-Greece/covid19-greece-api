@@ -9,32 +9,33 @@
       "url": "https://www.covid19response.gr/index_en.html",
       "email": "contact@covid19response.gr"
     }
-
   },
   "servers": [],
   "paths": {
     "/all": {
       "get": {
-        "tags": ["Daily recorded events"],
+        "tags": [
+          "Daily recorded events"
+        ],
         "summary": "All the information about the cases",
         "description": "Get all the confirmed and fatal cases reported in Greece as timeseries",
         "responses": {
-          "200" :{
+          "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "confirmed":{
+                        "properties": {
+                          "confirmed": {
                             "type": "number"
                           },
-                          "deaths":{
+                          "deaths": {
                             "type": "number"
                           },
                           "date": {
@@ -54,23 +55,25 @@
     },
     "/confirmed": {
       "get": {
-        "tags": ["Daily recorded events"],
+        "tags": [
+          "Daily recorded events"
+        ],
         "summary": "Confirmed cases",
         "description": "Get all the confirmed cases reported in Greece as timeseries",
         "responses": {
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "confirmed":{
+                        "properties": {
+                          "confirmed": {
                             "type": "number"
                           },
                           "date": {
@@ -99,16 +102,16 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "recovered":{
+                        "properties": {
+                          "recovered": {
                             "type": "number"
                           },
                           "date": {
@@ -137,16 +140,16 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "deaths":{
+                        "properties": {
+                          "deaths": {
                             "type": "number"
                           },
                           "date": {
@@ -175,16 +178,16 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "active":{
+                        "properties": {
+                          "active": {
                             "type": "number"
                           },
                           "date": {
@@ -213,16 +216,16 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "intensive_care":{
+                        "properties": {
+                          "intensive_care": {
                             "type": "number"
                           },
                           "date": {
@@ -251,19 +254,19 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "tests":{
+                        "properties": {
+                          "tests": {
                             "type": "number"
                           },
-                          "rapid-tests":{
+                          "rapid-tests": {
                             "type": "number"
                           },
                           "date": {
@@ -292,13 +295,13 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "regions-history": {
                       "type": "array",
-                      "items":{
+                      "items": {
                         "type": "object",
                         "properties": {
                           "date": {
@@ -310,19 +313,19 @@
                             "items": {
                               "type": "object",
                               "properties": {
-                                "region_en_name":{
+                                "region_en_name": {
                                   "type": "string"
                                 },
-                                "region_gr_name":{
+                                "region_gr_name": {
                                   "type": "string"
                                 },
-                                "region_cases":{
+                                "region_cases": {
                                   "type": "number"
                                 },
-                                "population":{
+                                "population": {
                                   "type": "number"
                                 },
-                                "cases_per_100000_people":{
+                                "cases_per_100000_people": {
                                   "type": "number"
                                 }
                               }
@@ -350,13 +353,13 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "western-macedonia": {
                       "type": "array",
-                      "items":{
+                      "items": {
                         "type": "object",
                         "properties": {
                           "date": {
@@ -366,7 +369,7 @@
                           "total": {
                             "type": "object",
                             "properties": {
-                              "hospitalized_ICU_current":{
+                              "hospitalized_ICU_current": {
                                 "type": "number"
                               },
                               "total_deaths": {
@@ -388,28 +391,28 @@
                             "items": {
                               "type": "object",
                               "properties": {
-                                "home_restriction_current":{
+                                "home_restriction_current": {
                                   "type": "number"
                                 },
-                                "hospital_name":{
+                                "hospital_name": {
                                   "type": "string"
                                 },
-                                "hospitalized_current":{
+                                "hospitalized_current": {
                                   "type": "number"
                                 },
-                                "hospitalized_negative":{
+                                "hospitalized_negative": {
                                   "type": "number"
                                 },
-                                "hospitalized_pending_result":{
+                                "hospitalized_pending_result": {
                                   "type": "number"
                                 },
-                                "hospitalized_positive":{
+                                "hospitalized_positive": {
                                   "type": "number"
                                 },
-                                "new_recoveries":{
+                                "new_recoveries": {
                                   "type": "number"
                                 },
-                                "new_samples":{
+                                "new_samples": {
                                   "type": "number"
                                 }
                               }
@@ -428,36 +431,38 @@
     },
     "/western-macedonia-deaths": {
       "get": {
-        "tags": ["Per hospital data"],
+        "tags": [
+          "Per hospital data"
+        ],
         "summary": "Death records in Western Macedonia",
         "description": "Get information of Covid-19 victims in Western Macedonia",
         "responses": {
-          "200" :{
+          "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "western-macedonia-deaths": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "age":{
+                        "properties": {
+                          "age": {
                             "type": "number"
                           },
                           "date": {
                             "type": "string",
                             "format": "date"
                           },
-                          "permanent_residence_municipality_en":{
+                          "permanent_residence_municipality_en": {
                             "type": "string"
                           },
-                          "permanent_residence_municipality_gr":{
+                          "permanent_residence_municipality_gr": {
                             "type": "string"
                           },
-                          "sex":{
+                          "sex": {
                             "type": "string"
                           },
                           "underlying_diseases": {
@@ -474,49 +479,51 @@
         }
       }
     },
-	"/refugee-camps": {
+    "/refugee-camps": {
       "get": {
-        "tags": ["Per refugee camp data"],
+        "tags": [
+          "Per refugee camp data"
+        ],
         "summary": "Recorded cases in Refugee Camps",
         "description": "Get information of Covid-19 spread in Refugee Camps",
         "responses": {
-          "200" :{
+          "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "refugee-camps": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "area_type_en":{
+                        "properties": {
+                          "area_type_en": {
                             "type": "string"
                           },
                           "area_type_gr": {
                             "type": "string"
                           },
-                          "capacity":{
+                          "capacity": {
                             "type": "number"
                           },
-                          "current_hosts":{
+                          "current_hosts": {
                             "type": "number"
                           },
-                          "description":{
+                          "description": {
                             "type": "string"
                           },
-                          "last_update":{
+                          "last_update": {
                             "type": "string",
-							"format": "date"
+                            "format": "date"
                           },
-                          "latitude":{
+                          "latitude": {
                             "type": "number"
                           },
-                          "longtitude":{
+                          "longtitude": {
                             "type": "number"
-                          },						  
+                          },
                           "name_en": {
                             "type": "string"
                           },
@@ -525,24 +532,24 @@
                           },
                           "recorded_events": {
                             "type": "array",
-							"items": {
-								"type": "object",
-								"properties":{
-									"case_detection_week":{
-										"type": "string"
-									},
-									"confirmed_cases": {
-										"type": "number"
-									},
-									"quarantine_duration_days":{
-										"type": "number"
-									},
-									"samples":{
-										"type": "number"
-									}
-								}
-							}	   
-                          },						  
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "case_detection_week": {
+                                  "type": "string"
+                                },
+                                "confirmed_cases": {
+                                  "type": "number"
+                                },
+                                "quarantine_duration_days": {
+                                  "type": "number"
+                                },
+                                "samples": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          },
                           "region_en": {
                             "type": "string"
                           },
@@ -554,7 +561,7 @@
                           },
                           "total_confirmed_samples": {
                             "type": "number"
-                          }						  
+                          }
                         }
                       }
                     }
@@ -577,17 +584,17 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "cases": {
                       "type": "object",
                       "properties": {
-                        "confirmed":{
+                        "confirmed": {
                           "type": "number"
                         },
-                        "deaths":{
+                        "deaths": {
                           "type": "number"
                         },
                         "date": {
@@ -615,28 +622,28 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "regions": {
                       "type": "array",
-                      "items":{
+                      "items": {
                         "type": "object",
                         "properties": {
-                          "region_en_name":{
+                          "region_en_name": {
                             "type": "string"
                           },
-                          "region_gr_name":{
+                          "region_gr_name": {
                             "type": "string"
                           },
-                          "region_cases":{
+                          "region_cases": {
                             "type": "number"
                           },
-                          "population":{
+                          "population": {
                             "type": "number"
                           },
-                          "cases_per_100000_people":{
+                          "cases_per_100000_people": {
                             "type": "number"
                           }
                         }
@@ -661,20 +668,20 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "age_distribution": {
                       "type": "object",
                       "properties": {
-                        "age_average":{
+                        "age_average": {
                           "type": "number"
                         },
-                        "average_death_age":{
+                        "average_death_age": {
                           "type": "number"
                         },
-                        "total_age_groups":{
+                        "total_age_groups": {
                           "type": "object",
                           "properties": {
                             "cases": {
@@ -755,24 +762,168 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "gender_percentages": {
                       "type": "object",
                       "properties": {
-                        "total_females":{
+                        "total_females": {
                           "type": "number"
                         },
-                        "total_males":{
+                        "total_males": {
                           "type": "number"
                         },
                         "updated": {
                           "type": "string",
                           "format": "date"
-                        }                        
+                        }
                       }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/gender-age-distribution": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Gender-Age distribution of patients",
+        "description": "Get the gender and age distribution of the patients reported in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total_age_gender_distribution": {
+                      "type": "object",
+                      "properties": {
+                        "females": {
+                          "type": "object",
+                          "properties": {
+                            "cases": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "critical": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "deaths": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "males": {
+                          "type": "object",
+                          "properties": {
+                            "cases": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "critical": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            },
+                            "deaths": {
+                              "type": "object",
+                              "properties": {
+                                "0-17": {
+                                  "type": "number"
+                                },
+                                "18-39": {
+                                  "type": "number"
+                                },
+                                "40-64": {
+                                  "type": "number"
+                                },
+                                "65+": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "updated": {
+                      "type": "string",
+                      "format": "date"
                     }
                   }
                 }
@@ -793,8 +944,8 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "imposition": {
@@ -802,23 +953,23 @@
                       "items": {
                         "type": "object",
                         "properties": {
-                          "category":{
+                          "category": {
                             "type": "string"
                           },
-                          "category_el":{
+                          "category_el": {
                             "type": "string"
                           },
-                          "event":{
+                          "event": {
                             "type": "string"
                           },
-                          "event_el":{
+                          "event_el": {
                             "type": "string"
                           },
-                          "date":{
+                          "date": {
                             "type": "string",
                             "format": "date"
                           },
-                          "updated":{
+                          "updated": {
                             "type": "string",
                             "format": "date"
                           }
@@ -830,23 +981,23 @@
                       "items": {
                         "type": "object",
                         "properties": {
-                          "category":{
+                          "category": {
                             "type": "string"
                           },
-                          "category_el":{
+                          "category_el": {
                             "type": "string"
                           },
-                          "event":{
+                          "event": {
                             "type": "string"
                           },
-                          "event_el":{
+                          "event_el": {
                             "type": "string"
                           },
-                          "date":{
+                          "date": {
                             "type": "string",
                             "format": "date"
                           },
-                          "updated":{
+                          "updated": {
                             "type": "string",
                             "format": "date"
                           }
@@ -872,29 +1023,29 @@
           "200": {
             "description": "Successful Response",
             "content": {
-              "application/json" : {
-                "schema" :{
+              "application/json": {
+                "schema": {
                   "type": "object",
                   "properties": {
                     "schools_status": {
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "properties":{
-                          "school_name_gr":{
+                        "properties": {
+                          "school_name_gr": {
                             "type": "string"
                           },
-                          "school_region_gr":{
+                          "school_region_gr": {
                             "type": "string"
                           },
-                          "school_address_gr":{
+                          "school_address_gr": {
                             "type": "string"
                           },
                           "school_suspended_till_date": {
                             "type": "string",
                             "format": "date"
                           },
-                          "school_remarks":{
+                          "school_remarks": {
                             "type": "string"
                           }
                         }
