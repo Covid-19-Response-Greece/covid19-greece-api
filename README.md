@@ -84,7 +84,7 @@ Request:
  
  * [Region of Western Macedonia](https://www.pdm.gov.gr/): Enrich daily region reports with explanatory visualizations
  
-
+ * [COVID-19 Greece Tracker](https://covid-greece.github.io): Visualization of total and daily data with respect to severity and age,gender & region distribution.
  
 ## Adding your project to the list
 
