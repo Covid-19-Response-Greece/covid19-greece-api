@@ -404,6 +404,7 @@ def get_refugee_camps():
         'Δυτικής Μακεδονίας': 'Western Macedonia',
         'Ηπείρου': 'Epirus',
         'Θεσσαλίας': 'Thessaly',
+        'Ιονίων Νήσων': 'Ionian Islands',
         'Κεντρικής Μακεδονίας': 'Central Macedonia',
         'Κρήτης': 'Crete',
         'Νοτίου Αιγαίου': 'South Aegean',
