@@ -51,6 +51,7 @@ paths_to_store = [
     'greece/NPHO'
 ]
 
+
 def download():
     print('Updating data ...')
 
@@ -72,6 +73,7 @@ def download():
             sys.exit()
 
     print('Done.')
+
 
 if __name__ == '__main__':
     download()
