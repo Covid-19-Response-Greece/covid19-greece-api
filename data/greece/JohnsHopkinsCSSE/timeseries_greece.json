@@ -1871,6 +1871,18 @@
 			"confirmed": 103034,
 			"recovered": 23074,
 			"deaths": 2223
+		},
+		{
+			"date": "2020-11-29",
+			"confirmed": 104227,
+			"recovered": 23074,
+			"deaths": 2321
+		},
+		{
+			"date": "2020-11-30",
+			"confirmed": 105271,
+			"recovered": 23074,
+			"deaths": 2406
 		}
 	]
 }
