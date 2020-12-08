@@ -39,8 +39,8 @@ jobs:
       - name: Configure Git Credentials
         run: |
           echo ${{ github.workspace }}
-          git config --local user.email "action@agithub.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
 
       - name: Update Data
         run: |
