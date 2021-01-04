@@ -2069,6 +2069,24 @@
 			"confirmed": 138850,
 			"recovered": 93764,
 			"deaths": 4838
+		},
+		{
+			"date": "2021-01-01",
+			"confirmed": 139447,
+			"recovered": 93764,
+			"deaths": 4881
+		},
+		{
+			"date": "2021-01-02",
+			"confirmed": 139709,
+			"recovered": 93764,
+			"deaths": 4921
+		},
+		{
+			"date": "2021-01-03",
+			"confirmed": 140099,
+			"recovered": 93764,
+			"deaths": 4957
 		}
 	]
 }
