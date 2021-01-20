@@ -26,7 +26,10 @@ urls = [
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/age_data.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/gender_age_data.json',
     'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/intensive_care_cases.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/tests.json'
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/tests.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/female_cases_history.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/male_cases_history.json',
+    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/age_data_history.json',
 ]
 
 paths_to_store = [
@@ -45,6 +48,9 @@ paths_to_store = [
     'greece/Measures',
     'greece/Refugee_camps',
     'greece/schools_status',
+    'greece/NPHO',
+    'greece/NPHO',
+    'greece/NPHO',
     'greece/NPHO',
     'greece/NPHO',
     'greece/NPHO',

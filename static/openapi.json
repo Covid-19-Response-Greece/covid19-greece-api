@@ -342,6 +342,264 @@
         }
       }
     },
+    "/age-distribution-history": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Age distribution of cases timeline",
+        "description": "Get the timeline of the age distribution of the cases reported in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "age-distribution": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "cases": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "critical": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "deaths": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/male-cases-history": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Age distribution of male cases timeline",
+        "description": "Get the timeline of the age distribution of the male cases reported in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "male-cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "cases": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "critical": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "deaths": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/female-cases-history": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Age distribution of female cases timeline",
+        "description": "Get the timeline of the age distribution of the female cases reported in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "female-cases": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "cases": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "critical": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          },
+                          "deaths": {
+                            "type": "object",
+                            "properties": {
+                              "0-17": {
+                                "type": "number"
+                              },
+                              "18-39": {
+                                "type": "number"
+                              },
+                              "40-64": {
+                                "type": "number"
+                              },
+                              "65+": {
+                                "type": "number"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/western-macedonia": {
       "get": {
         "tags": [
