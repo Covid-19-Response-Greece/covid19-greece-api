@@ -1018,7 +1018,7 @@
           "Daily recorded events"
         ],
         "summary": "Schools operation",
-        "description": "Get info concerning Greek Schools Operation Changes due to Covid-19",
+        "description": "Get info concerning Greek Schools Operation Changes due to Covid-19. Only schools which are not closed due to lockdown restrictions are included.",
         "responses": {
           "200": {
             "description": "Successful Response",
@@ -1032,20 +1032,39 @@
                       "items": {
                         "type": "object",
                         "properties": {
-                          "school_name_gr": {
+                          "UnitName": {
                             "type": "string"
                           },
-                          "school_region_gr": {
+                          "SchoolKind": {
                             "type": "string"
                           },
-                          "school_address_gr": {
+                          "Municipality": {
                             "type": "string"
                           },
-                          "school_suspended_till_date": {
+                          "MunicipalUnit": {
+                            "type": "string"
+                          },
+                          "Area": {
+                            "type": "string"
+                          },
+                          "Address": {
+                            "type": "string"
+                          },
+                          "Longitude": {
+                            "type": "number"
+                          },
+                          "Latitude": {
+                            "type": "number"
+                          },
+                          "DateFrom": {
                             "type": "string",
                             "format": "date"
                           },
-                          "school_remarks": {
+                          "DateTo": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "Remarks": {
                             "type": "string"
                           }
                         }
