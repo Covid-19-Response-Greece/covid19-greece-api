@@ -34,6 +34,9 @@ data_greece_regions_wm = None
 data_greece_regions_wm_deaths = None
 data_greece_schools_status = None
 population_per_region = None
+data_greece_male_cases = None
+data_greece_female_cases = None
+data_greece_age_data = None
 
 
 def init():
@@ -52,6 +55,10 @@ def init():
     global data_greece_regions_wm_deaths
     global data_greece_schools_status
     global population_per_region
+    global data_greece_male_cases
+    global data_greece_female_cases
+    global data_greece_age_data
+
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
         data_greece_JHCSSE = json.load(f)['Greece']
@@ -121,6 +128,17 @@ def init():
 
     with open('data/greece/isMOOD/population_per_region.json') as f:
         population_per_region = json.load(f)
+
+    with open('data/greece/NPHO/male_cases_history.json', encoding = 'utf-8') as f:
+        data_greece_male_cases = json.load(f)
+
+    with open('data/greece/NPHO/female_cases_history.json', encoding = 'utf-8') as f:
+        data_greece_female_cases = json.load(f)
+
+    with open('data/greece/NPHO/age_data_history.json', encoding = 'utf-8') as f:
+        data_greece_age_data = json.load(f)
+
+    
 
 
 @app.route('/static/<path:path>')
@@ -480,6 +498,27 @@ def get_schools_status():
     out_json = copy.deepcopy(data_greece_schools_status)
 
     return jsonify({'schools-status': out_json})
+
+@app.route('/age-distribution-history', methods=['GET'])
+def get_age_distribution_history():
+
+    out_json = copy.deepcopy(data_greece_age_data)
+
+    return jsonify({'age-distribution': out_json})
+
+@app.route('/male-cases-history', methods=['GET'])
+def get_male_cases_history():
+
+    out_json = copy.deepcopy(data_greece_male_cases)
+
+    return jsonify({'male-cases': out_json})
+
+@app.route('/female-cases-history', methods=['GET'])
+def get_female_cases_history():
+
+    out_json = copy.deepcopy(data_greece_female_cases)
+
+    return jsonify({'female-cases': out_json})
 
 
 @app.errorhandler(404)
