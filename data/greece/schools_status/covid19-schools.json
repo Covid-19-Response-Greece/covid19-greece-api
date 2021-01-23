@@ -7,7 +7,7 @@
       "Area":"",
       "Address":"",
       "DateFrom":"10-11-2020",
-      "DateTo":"Αναμένεται απόφαση",
+      "DateTo":"29-01-2021",
       "Remarks":"",
       "Longitude":null,
       "Latitude":null
@@ -33,7 +33,7 @@
       "Area":"",
       "Address":"",
       "DateFrom":"10-11-2020",
-      "DateTo":"Αναμένεται απόφαση",
+      "DateTo":"29-01-2021",
       "Remarks":"",
       "Longitude":null,
       "Latitude":null
@@ -154,6 +154,19 @@
       "Remarks":"ΣΤ2 (ΣΤ Τάξη) από 22-1 έως και 3-2",
       "Longitude":22.902046,
       "Latitude":40.668239
+   },
+   {
+      "UnitName":"9ο ΟΛΟΗΜΕΡΟ ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΚΕΡΑΤΣΙΝΙΟΥ",
+      "SchoolKind":"Δημοτικά Σχολεία",
+      "Municipality":"ΚΕΡΑΤΣΙΝΙΟΥ - ΔΡΑΠΕΤΣΩΝΑΣ",
+      "MunicipalUnit":"ΚΕΡΑΤΣΙΝΙΟΥ",
+      "Area":"ΚΕΡΑΤΣΙΝΙ ",
+      "Address":"ΔΑΒΑΚΗ 6",
+      "DateFrom":"22-01-2021",
+      "DateTo":"03-02-2021",
+      "Remarks":"Α2 (Α Τάξη), Α2 ΑΓΓΛΙΚΑ (Α Τάξη), ΤΥΙ Α (Α Τάξη) από 22-1 έως και 3-2",
+      "Longitude":23.623253,
+      "Latitude":37.971025
    },
    {
       "UnitName":"1ο   ΝΗΠΙΑΓΩΓΕΙΟ ΑΙΓΙΝΙΟΥ - ΓΕΩΡΓΙΟΣ ΔΡΟΣΙΝΗΣ",
