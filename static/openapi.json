@@ -542,6 +542,59 @@
         }
       }
     },
+    "/vaccinations-per-region-history": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Vaccinations per region timeline",
+        "description": "Get the timeline of vaccinations per region in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "vaccinations-history": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "area_gr": {
+                            "type": "string"
+                          },
+                          "area_en": {
+                            "type": "string"
+                          },
+                          "daydiff": {
+                            "type": "number"
+                          },
+                          "daytotal": {
+                            "type": "number"
+                          },
+                          "referencedate": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "totaldistinctpersons": {
+                            "type": "number"
+                          },
+                          "totalvaccinations": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/western-macedonia": {
       "get": {
         "tags": [
@@ -1124,6 +1177,94 @@
                     "updated": {
                       "type": "string",
                       "format": "date"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/total-vaccinations-per-region": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Total vaccinations per region",
+        "description": "Get the total vaccinations per region in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total-vaccinations": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "area_gr": {
+                            "type": "string"
+                          },
+                          "area_en": {
+                            "type": "string"
+                          },
+                          "referencedate": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "totaldistinctpersons": {
+                            "type": "number"
+                          },
+                          "totalvaccinations": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/total-vaccinations": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Total vaccinations",
+        "description": "Get the total vaccinations in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "total-vaccinations": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "totaldistinctpersons": {
+                            "type": "number"
+                          },
+                          "totalvaccinations": {
+                            "type": "number"
+                          },
+                          "updated": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      }
                     }
                   }
                 }
