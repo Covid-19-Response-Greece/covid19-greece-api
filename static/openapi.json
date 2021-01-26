@@ -777,6 +777,9 @@
                           "area_gr": {
                             "type": "string"
                           },
+                          "area_en": {
+                            "type": "string"
+                          },
                           "daydiff": {
                             "type": "number"
                           },
@@ -1416,6 +1419,9 @@
                         "type": "object",
                         "properties": {
                           "area_gr": {
+                            "type": "string"
+                          },
+                          "area_en": {
                             "type": "string"
                           },
                           "referencedate": {
