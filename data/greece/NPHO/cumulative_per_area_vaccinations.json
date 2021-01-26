@@ -1,518 +1,444 @@
 [
    {
       "area_gr":"ΑΙΤΩΛΟΑΚΑΡΝΑΝΙΑΣ",
-      "areaid":701,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1437,
       "totalvaccinations":1484
    },
    {
       "area_gr":"ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "areaid":901,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":2503,
       "totalvaccinations":2919
    },
    {
       "area_gr":"ΑΝΔΡΟΥ",
-      "areaid":1201,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΑΡΓΟΛΙΔΑΣ",
-      "areaid":1001,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1259,
       "totalvaccinations":1259
    },
    {
       "area_gr":"ΑΡΚΑΔΙΑΣ",
-      "areaid":1002,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1323,
       "totalvaccinations":1323
    },
    {
       "area_gr":"ΑΡΤΑΣ",
-      "areaid":401,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1439,
       "totalvaccinations":1487
    },
    {
       "area_gr":"ΑΧΑΪΑΣ",
-      "areaid":702,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":4661,
       "totalvaccinations":5326
    },
    {
       "area_gr":"ΒΟΙΩΤΙΑΣ",
-      "areaid":801,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1203,
       "totalvaccinations":1203
    },
    {
       "area_gr":"ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "areaid":902,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":24619,
       "totalvaccinations":25127
    },
    {
       "area_gr":"ΓΡΕΒΕΝΩΝ",
-      "areaid":301,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":516,
       "totalvaccinations":516
    },
    {
       "area_gr":"ΔΡΑΜΑΣ",
-      "areaid":101,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1295,
       "totalvaccinations":1295
    },
    {
       "area_gr":"ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
-      "areaid":903,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1481,
       "totalvaccinations":1774
    },
    {
       "area_gr":"ΙΚΑΡΙΑΣ",
-      "areaid":1101,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":177,
       "totalvaccinations":177
    },
    {
       "area_gr":"ΔΥΤΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "areaid":904,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":6132,
       "totalvaccinations":6529
    },
    {
       "area_gr":"ΕΒΡΟΥ",
-      "areaid":102,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":2802,
       "totalvaccinations":2802
    },
    {
       "area_gr":"ΕΥΒΟΙΑΣ",
-      "areaid":802,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":2501,
       "totalvaccinations":2501
    },
    {
       "area_gr":"ΕΥΡΥΤΑΝΙΑΣ",
-      "areaid":803,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":361,
       "totalvaccinations":361
    },
    {
       "area_gr":"ΖΑΚΥΝΘΟΥ",
-      "areaid":601,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":716,
       "totalvaccinations":716
    },
    {
       "area_gr":"ΗΛΕΙΑΣ",
-      "areaid":703,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1707,
       "totalvaccinations":1707
    },
    {
       "area_gr":"ΗΜΑΘΙΑΣ",
-      "areaid":201,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1624,
       "totalvaccinations":1668
    },
    {
       "area_gr":"ΗΡΑΚΛΕΙΟΥ",
-      "areaid":1301,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":5604,
       "totalvaccinations":5723
    },
    {
       "area_gr":"ΘΑΣΟΥ",
-      "areaid":103,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΘΕΣΠΡΩΤΙΑΣ",
-      "areaid":402,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":956,
       "totalvaccinations":956
    },
    {
       "area_gr":"ΘΕΣΣΑΛΟΝΙΚΗΣ",
-      "areaid":202,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":17996,
       "totalvaccinations":19031
    },
    {
       "area_gr":"ΘΗΡΑΣ",
-      "areaid":1202,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":149,
       "totalvaccinations":149
    },
    {
       "area_gr":"ΙΘΑΚΗΣ",
-      "areaid":602,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΙΩΑΝΝΙΝΩΝ",
-      "areaid":403,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":4402,
       "totalvaccinations":4883
    },
    {
       "area_gr":"ΚΑΒΑΛΑΣ",
-      "areaid":104,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1723,
       "totalvaccinations":1723
    },
    {
       "area_gr":"ΚΑΛΥΜΝΟΥ",
-      "areaid":1203,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":368,
       "totalvaccinations":368
    },
    {
       "area_gr":"ΚΑΡΔΙΤΣΑΣ",
-      "areaid":501,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1803,
       "totalvaccinations":1895
    },
    {
       "area_gr":"ΚΑΡΠΑΘΟΥ",
-      "areaid":1204,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":117,
       "totalvaccinations":117
    },
    {
       "area_gr":"ΚΑΣΤΟΡΙΑΣ",
-      "areaid":302,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":786,
       "totalvaccinations":786
    },
    {
       "area_gr":"ΚΕΑΣ-ΚΥΘΝΟΥ",
-      "areaid":1205,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "areaid":905,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":29989,
       "totalvaccinations":32527
    },
    {
       "area_gr":"ΚΕΡΚΥΡΑΣ",
-      "areaid":603,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1559,
       "totalvaccinations":1559
    },
    {
       "area_gr":"ΚΕΦΑΛΛΗΝΙΑΣ",
-      "areaid":604,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":868,
       "totalvaccinations":868
    },
    {
       "area_gr":"ΚΙΛΚΙΣ",
-      "areaid":203,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1234,
       "totalvaccinations":1234
    },
    {
       "area_gr":"ΚΟΖΑΝΗΣ",
-      "areaid":303,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1591,
       "totalvaccinations":1713
    },
    {
       "area_gr":"ΚΟΡΙΝΘΙΑΣ",
-      "areaid":1003,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":898,
       "totalvaccinations":946
    },
    {
       "area_gr":"ΚΩ",
-      "areaid":1206,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":439,
       "totalvaccinations":439
    },
    {
       "area_gr":"ΛΑΚΩΝΙΑΣ",
-      "areaid":1004,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1430,
       "totalvaccinations":1430
    },
    {
       "area_gr":"ΛΑΡΙΣΑΣ",
-      "areaid":502,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":3516,
       "totalvaccinations":4133
    },
    {
       "area_gr":"ΛΑΣΙΘΙΟΥ",
-      "areaid":1302,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1896,
       "totalvaccinations":1896
    },
    {
       "area_gr":"ΛΕΣΒΟΥ",
-      "areaid":1102,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1201,
       "totalvaccinations":1201
    },
    {
       "area_gr":"ΛΕΥΚΑΔΑΣ",
-      "areaid":605,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":477,
       "totalvaccinations":477
    },
    {
       "area_gr":"ΛΗΜΝΟΥ",
-      "areaid":1103,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":407,
       "totalvaccinations":407
    },
    {
       "area_gr":"ΜΑΓΝΗΣΙΑΣ",
-      "areaid":503,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1409,
       "totalvaccinations":1409
    },
    {
       "area_gr":"ΜΕΣΣΗΝΙΑΣ",
-      "areaid":1005,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1935,
       "totalvaccinations":1935
    },
    {
       "area_gr":"ΜΗΛΟΥ",
-      "areaid":1207,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΜΥΚΟΝΟΥ",
-      "areaid":1208,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΝΑΞΟΥ",
-      "areaid":1209,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":204,
       "totalvaccinations":204
    },
    {
       "area_gr":"ΝΗΣΩΝ",
-      "areaid":906,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":130,
       "totalvaccinations":130
    },
    {
       "area_gr":"ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
-      "areaid":907,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":2831,
       "totalvaccinations":2831
    },
    {
       "area_gr":"ΞΑΝΘΗΣ",
-      "areaid":105,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1203,
       "totalvaccinations":1203
    },
    {
       "area_gr":"ΠΑΡΟΥ",
-      "areaid":1210,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΠΕΙΡΑΙΩΣ",
-      "areaid":908,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":6277,
       "totalvaccinations":6362
    },
    {
       "area_gr":"ΠΕΛΛΑΣ",
-      "areaid":204,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1649,
       "totalvaccinations":1741
    },
    {
       "area_gr":"ΠΙΕΡΙΑΣ",
-      "areaid":205,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1159,
       "totalvaccinations":1243
    },
    {
       "area_gr":"ΠΡΕΒΕΖΑΣ",
-      "areaid":404,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":729,
       "totalvaccinations":729
    },
    {
       "area_gr":"ΡΕΘΥΜΝΟΥ",
-      "areaid":1303,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1192,
       "totalvaccinations":1192
    },
    {
       "area_gr":"ΡΟΔΟΠΗΣ",
-      "areaid":106,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":858,
       "totalvaccinations":858
    },
    {
       "area_gr":"ΡΟΔΟΥ",
-      "areaid":1211,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1127,
       "totalvaccinations":1127
    },
    {
       "area_gr":"ΣΑΜΟΥ",
-      "areaid":1104,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":485,
       "totalvaccinations":486
    },
    {
       "area_gr":"ΣΕΡΡΩΝ",
-      "areaid":206,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1432,
       "totalvaccinations":1432
    },
    {
       "area_gr":"ΣΠΟΡΑΔΩΝ",
-      "areaid":504,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΣΥΡΟΥ",
-      "areaid":1212,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":453,
       "totalvaccinations":453
    },
    {
       "area_gr":"ΤΗΝΟΥ",
-      "areaid":1213,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":0,
       "totalvaccinations":0
    },
    {
       "area_gr":"ΤΡΙΚΑΛΩΝ",
-      "areaid":505,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1973,
       "totalvaccinations":2070
    },
    {
       "area_gr":"ΦΘΙΩΤΙΔΑΣ",
-      "areaid":804,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":1817,
       "totalvaccinations":1817
    },
    {
       "area_gr":"ΦΛΩΡΙΝΑΣ",
-      "areaid":304,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":772,
       "totalvaccinations":772
    },
    {
       "area_gr":"ΦΩΚΙΔΑΣ",
-      "areaid":805,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":447,
       "totalvaccinations":447
    },
    {
       "area_gr":"ΧΑΛΚΙΔΙΚΗΣ",
-      "areaid":207,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":886,
       "totalvaccinations":888
    },
    {
       "area_gr":"ΧΑΝΙΩΝ",
-      "areaid":1304,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":2748,
       "totalvaccinations":2838
    },
    {
       "area_gr":"ΧΙΟΥ",
-      "areaid":1105,
       "referencedate":"2021-01-25",
       "totaldistinctpersons":575,
       "totalvaccinations":575
