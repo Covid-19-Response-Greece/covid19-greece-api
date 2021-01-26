@@ -77,14 +77,14 @@ def init():
         pd.notnull(data_greece_isMOOD_cases_region_timeline), None
     )
 
-    with open('data/greece/iMEdD-LaB/regions_history_cases.csv', encoding = 'utf-8') as f:
+    with open('data/greece/iMEdD-Lab/regions_history_cases.csv', encoding = 'utf-8') as f:
         data_greece_regions_history_cases = pd.read_csv(f)
 
     data_greece_regions_history_cases = data_greece_regions_history_cases.where(
         pd.notnull(data_greece_regions_history_cases), None
     )
 
-    with open('data/greece/iMEdD-LaB/regions_history_deaths.csv', encoding = 'utf-8') as f:
+    with open('data/greece/iMEdD-Lab/regions_history_deaths.csv', encoding = 'utf-8') as f:
         data_greece_regions_history_deaths = pd.read_csv(f)
 
     data_greece_regions_history_deaths = data_greece_regions_history_deaths.where(
