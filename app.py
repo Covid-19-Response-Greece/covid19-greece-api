@@ -22,6 +22,8 @@ cors = CORS(app)
 data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
 data_greece_isMOOD_cases_region_timeline = None
+data_greece_regions_history_cases = None
+data_greece_regions_history_deaths = None
 data_greece_tests_npho = None
 data_greece_intensive_care_npho = None
 data_greece_age_dist_npho = None
@@ -43,6 +45,8 @@ def init():
     global data_greece_JHCSSE
     global data_greece_isMOOD_regions
     global data_greece_isMOOD_cases_region_timeline
+    global data_greece_regions_history_cases
+    global data_greece_regions_history_deaths
     global data_greece_intensive_care_npho
     global data_greece_tests_npho
     global data_greece_age_dist_npho
@@ -71,6 +75,20 @@ def init():
 
     data_greece_isMOOD_cases_region_timeline = data_greece_isMOOD_cases_region_timeline.where(
         pd.notnull(data_greece_isMOOD_cases_region_timeline), None
+    )
+
+    with open('data/greece/iMEdD-LaB/regions_history_cases.csv', encoding = 'utf-8') as f:
+        data_greece_regions_history_cases = pd.read_csv(f)
+
+    data_greece_regions_history_cases = data_greece_regions_history_cases.where(
+        pd.notnull(data_greece_regions_history_cases), None
+    )
+
+    with open('data/greece/iMEdD-LaB/regions_history_deaths.csv', encoding = 'utf-8') as f:
+        data_greece_regions_history_deaths = pd.read_csv(f)
+
+    data_greece_regions_history_deaths = data_greece_regions_history_deaths.where(
+        pd.notnull(data_greece_regions_history_deaths), None
     )
 
     with open('data/greece/NPHO/intensive_care_cases.json') as f:
@@ -143,7 +161,7 @@ def init():
     with open('data/greece/NPHO/age_data_history.json', encoding = 'utf-8') as f:
         data_greece_age_data = json.load(f)
 
-    
+
 
 
 @app.route('/static/<path:path>')
@@ -266,6 +284,56 @@ def get_regions_history():
         tot_json.append(outer_json)
 
     return jsonify({'regions-history': tot_json})
+
+@app.route('/regions-history-cases', methods=['GET'])
+def get_regions_history_cases():
+
+    date_list = list(data_greece_regions_history_cases.columns[11:])
+    tot_json = []
+
+    for date in date_list:
+
+        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y').strftime('%Y-%m-%d')
+        inner_json = []
+
+        for i, row in data_greece_regions_history_cases.iterrows():
+
+            region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
+            region_cases = row.loc[date]
+            region_info['cases'] = int(region_cases) if region_cases != None else None
+            inner_json.append(region_info)
+
+        outer_json = {}
+        outer_json['date'] = transformed_date
+        outer_json['regions'] = inner_json
+        tot_json.append(outer_json)
+
+    return jsonify({'regions-history-cases': tot_json})
+
+@app.route('/regions-history-deaths', methods=['GET'])
+def get_regions_history_deaths():
+
+    date_list = list(data_greece_regions_history_deaths.columns[11:])
+    tot_json = []
+
+    for date in date_list:
+
+        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y').strftime('%Y-%m-%d')
+        inner_json = []
+
+        for i, row in data_greece_regions_history_deaths.iterrows():
+
+            region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
+            region_cases = row.loc[date]
+            region_info['deaths'] = int(region_cases) if region_cases != None else None
+            inner_json.append(region_info)
+
+        outer_json = {}
+        outer_json['date'] = transformed_date
+        outer_json['regions'] = inner_json
+        tot_json.append(outer_json)
+
+    return jsonify({'regions-history-deaths': tot_json})
 
 
 @app.route('/active', methods=['GET'])
