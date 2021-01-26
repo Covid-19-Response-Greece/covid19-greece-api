@@ -39,7 +39,9 @@ population_per_region = None
 data_greece_male_cases = None
 data_greece_female_cases = None
 data_greece_age_data = None
-
+vaccinations_data_history = None
+cumulative_vaccinations_data = None 
+cumulative_per_area_vaccinations_data = None
 
 def init():
     global data_greece_JHCSSE
@@ -62,6 +64,9 @@ def init():
     global data_greece_male_cases
     global data_greece_female_cases
     global data_greece_age_data
+    global vaccinations_data_history 
+    global cumulative_vaccinations_data
+    global cumulative_per_area_vaccinations_data
 
 
     with open('data/greece/JohnsHopkinsCSSE/timeseries_greece.json') as f:
@@ -77,14 +82,14 @@ def init():
         pd.notnull(data_greece_isMOOD_cases_region_timeline), None
     )
 
-    with open('data/greece/iMEdD-LaB/regions_history_cases.csv', encoding = 'utf-8') as f:
+    with open('data/greece/iMEdD-Lab/regions_history_cases.csv', encoding = 'utf-8') as f:
         data_greece_regions_history_cases = pd.read_csv(f)
 
     data_greece_regions_history_cases = data_greece_regions_history_cases.where(
         pd.notnull(data_greece_regions_history_cases), None
     )
 
-    with open('data/greece/iMEdD-LaB/regions_history_deaths.csv', encoding = 'utf-8') as f:
+    with open('data/greece/iMEdD-Lab/regions_history_deaths.csv', encoding = 'utf-8') as f:
         data_greece_regions_history_deaths = pd.read_csv(f)
 
     data_greece_regions_history_deaths = data_greece_regions_history_deaths.where(
@@ -155,6 +160,15 @@ def init():
 
     with open('data/greece/NPHO/age_data_history.json', encoding = 'utf-8') as f:
         data_greece_age_data = json.load(f)
+
+    with open('data/greece/NPHO/vaccinations_data_history.json', encoding = 'utf-8') as f:
+        vaccinations_data_history = json.load(f)
+
+    with open('data/greece/NPHO/cumulative_per_area_vaccinations.json', encoding = 'utf-8') as f:
+        cumulative_per_area_vaccinations_data = json.load(f)
+
+    with open('data/greece/NPHO/cumulative_vaccinations.json', encoding = 'utf-8') as f:
+        cumulative_vaccinations_data = json.load(f)
 
 
 
@@ -588,6 +602,27 @@ def get_female_cases_history():
 
     return jsonify({'female-cases': out_json})
 
+@app.route('/vaccinations-per-region-history', methods=['GET'])
+def get_vaccinations_per_region_history():
+
+    out_json = copy.deepcopy(vaccinations_data_history)
+
+    return jsonify({'vaccinations-history': out_json})
+
+@app.route('/total-vaccinations-per-region', methods=['GET'])
+def get_total_vaccinations_per_region():
+
+    out_json = copy.deepcopy(cumulative_per_area_vaccinations_data)
+
+    return jsonify({'total-vaccinations': out_json})
+
+
+@app.route('/total-vaccinations', methods=['GET'])
+def get_total_vaccinations():
+
+    out_json = copy.deepcopy(cumulative_vaccinations_data)
+
+    return jsonify({'total-vaccinations': out_json})
 
 @app.errorhandler(404)
 def not_found(error):
