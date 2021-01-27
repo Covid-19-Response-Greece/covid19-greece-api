@@ -86,7 +86,7 @@ Request:
  
  * [COVID-19 Greece Tracker](https://covid-greece.github.io): Visualization of total and daily data with respect to severity and age,gender & region distribution.
  
- * [Καραντίνα SMS - 13033 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_sms): A simple app which creates the movement restriction SMS (13033)
+ * [Καραντίνα SMS - 13033 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_sms): A simple app which creates the movement permit SMS (13033)
  
 ## Adding your project to the list
 
