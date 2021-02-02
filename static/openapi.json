@@ -370,6 +370,89 @@
         }
       }
     },
+    "/regions-history-cases": {
+      "get": {
+        "tags": [
+          "Daily recorded events"
+        ],
+        "summary": "Per region data",
+        "description": "Get the total number of confirmed cases per region in Greece as timeseries",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "regions-history": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "date": {
+                            "type": "string",
+                            "format": "date"
+                          },
+                          "regions": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "area_gr": {
+                                  "type": "string"
+                                },
+                                "area_en": {
+                                  "type": "string"
+                                },
+                                "region_gr": {
+                                  "type": "string"
+                                },
+                                "region_en": {
+                                  "type": "string"
+                                },
+                                "geo_department_gr": {
+                                  "type": "string"
+                                },
+                                "geo_department_en": {
+                                  "type": "string"
+                                },
+                                "last_updated_at": {
+                                  "type": "string",
+                                  "format": "date"
+                                },
+                                "longtitude": {
+                                  "type": "number"
+                                },
+                                "latitude": {
+                                  "type": "number"
+                                },
+                                 "population": {
+                                  "type": "number"
+                                },
+                                "cases": {
+                                  "type": "number"
+                                },
+                                "mean_cases_past_seven_days": {
+                                  "type": "number"
+                                },
+                                "cases_per_100000_people": {
+                                  "type": "number"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/male-cases-history": {
       "get": {
         "tags": [
