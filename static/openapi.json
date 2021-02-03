@@ -995,9 +995,6 @@
                           "total_cases": {
                             "type": "number"
                           },
-                          "total_cases": {
-                            "type": "number"
-                          },
                           "cases_per_100000_people": {
                             "type": "number"
                           }
