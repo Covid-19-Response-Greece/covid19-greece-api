@@ -2,6 +2,8 @@ import json
 import copy
 import pandas as pd
 import datetime
+# from datetime import  timedelta
+import numpy as np
 
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
@@ -40,7 +42,7 @@ data_greece_male_cases = None
 data_greece_female_cases = None
 data_greece_age_data = None
 vaccinations_data_history = None
-cumulative_vaccinations_data = None 
+cumulative_vaccinations_data = None
 cumulative_per_area_vaccinations_data = None
 
 def init():
@@ -64,7 +66,7 @@ def init():
     global data_greece_male_cases
     global data_greece_female_cases
     global data_greece_age_data
-    global vaccinations_data_history 
+    global vaccinations_data_history
     global cumulative_vaccinations_data
     global cumulative_per_area_vaccinations_data
 
@@ -304,10 +306,14 @@ def get_regions_history_cases():
 
     date_list = list(data_greece_regions_history_cases.columns[11:])
     tot_json = []
+    start_date = datetime.datetime.strptime('2/26/20', '%m/%d/%y')
 
-    for date in date_list:
+    for idx, date in enumerate(date_list):
 
-        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y').strftime('%Y-%m-%d')
+        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y')
+        past_days_window = min(7, (transformed_date - start_date).days)
+        mean_cases_window = date_list[idx - past_days_window : idx +1]
+        transformed_date = transformed_date.strftime('%Y-%m-%d')
         inner_json = []
 
         for i, row in data_greece_regions_history_cases.iterrows():
@@ -315,6 +321,15 @@ def get_regions_history_cases():
             region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
             region_cases = row.loc[date]
             region_info['cases'] = int(region_cases) if region_cases != None else None
+            diff_past_seven_days = np.diff(row[mean_cases_window]) if None not in list(row[mean_cases_window]) else []
+            mean_cases_past_seven_days = None
+            day_cases = None
+            if diff_past_seven_days != []:
+                day_cases = diff_past_seven_days[-1]
+                if np.sum(diff_past_seven_days) != 0:
+                    mean_cases_past_seven_days = np.mean(diff_past_seven_days)
+            region_info['mean_cases_past_seven_days'] = mean_cases_past_seven_days
+            region_info['cases_per_100000_people'] = round(day_cases / row['population']* 100000.0, 2) if (row['population'] != None and day_cases != None) else None
             inner_json.append(region_info)
 
         outer_json = {}
