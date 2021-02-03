@@ -24,8 +24,8 @@ cors = CORS(app)
 data_greece_JHCSSE = None
 data_greece_isMOOD_regions = None
 data_greece_isMOOD_cases_region_timeline = None
-data_greece_regions_history_cases = None
-data_greece_regions_history_deaths = None
+data_greece_regions_history = None
+data_greece_regions_cumulative = None
 data_greece_tests_npho = None
 data_greece_intensive_care_npho = None
 data_greece_age_dist_npho = None
@@ -49,8 +49,8 @@ def init():
     global data_greece_JHCSSE
     global data_greece_isMOOD_regions
     global data_greece_isMOOD_cases_region_timeline
-    global data_greece_regions_history_cases
-    global data_greece_regions_history_deaths
+    global data_greece_regions_history
+    global data_greece_regions_cumulative
     global data_greece_intensive_care_npho
     global data_greece_tests_npho
     global data_greece_age_dist_npho
@@ -85,17 +85,18 @@ def init():
     )
 
     with open('data/greece/iMEdD-Lab/regions_history_cases.csv', encoding = 'utf-8') as f:
-        data_greece_regions_history_cases = pd.read_csv(f)
+        data_greece_regions_history = pd.read_csv(f)
 
-    data_greece_regions_history_cases = data_greece_regions_history_cases.where(
-        pd.notnull(data_greece_regions_history_cases), None
+    data_greece_regions_history = data_greece_regions_history.where(
+        pd.notnull(data_greece_regions_history), None
     )
 
-    with open('data/greece/iMEdD-Lab/regions_history_deaths.csv', encoding = 'utf-8') as f:
-        data_greece_regions_history_deaths = pd.read_csv(f)
+    with open('data/greece/iMEdD-Lab/regions_cumulative.csv', encoding = 'utf-8') as f:
+        data_greece_regions_cumulative = pd.read_csv(f)
 
-    data_greece_regions_history_deaths = data_greece_regions_history_deaths.where(
-        pd.notnull(data_greece_regions_history_deaths), None
+    data_greece_regions_cumulative = data_greece_regions_cumulative.drop(columns = ["total_deaths"])
+    data_greece_regions_cumulative = data_greece_regions_cumulative.where(
+        pd.notnull(data_greece_regions_cumulative), None
     )
 
     with open('data/greece/NPHO/intensive_care_cases.json') as f:
@@ -250,49 +251,47 @@ def get_deaths():
 
 @app.route('/regions', methods=['GET'])
 def get_regions():
-    out_json = copy.deepcopy(data_greece_isMOOD_regions)
+    out_json = []
 
-    for region in out_json:
-        region['population'] = None
-        region['cases_per_100000_people'] = None
-
-        for region_pop in population_per_region:
-
-            if region['region_en_name'] == region_pop['region']:
-                region['population'] = region_pop['population']
-
-                region['cases_per_100000_people'] = round(
-                    region['region_cases'] / region['population'] * 100000.0, 2
-                )
+    for i, row in data_greece_regions_cumulative.iterrows():
+        region_cases = {}
+        region_cases = dict(row)
+        region_cases['cases_per_100000_people'] = round(row['total_cases'] / row['population']* 100000.0, 2) if (row['population'] != None and row['total_cases'] != None) else None
+        out_json.append(region_cases)
 
     return jsonify({'regions': out_json})
 
 
 @app.route('/regions-history', methods=['GET'])
 def get_regions_history():
-    region_gr_name = list(
-        data_greece_isMOOD_cases_region_timeline['Περιφέρεια'])
-    region_en_name = list(data_greece_isMOOD_cases_region_timeline['Region'])
-    population = list(
-        data_greece_isMOOD_cases_region_timeline['Population_2011'])
-    dates = data_greece_isMOOD_cases_region_timeline.columns[3:]
-    tot_json = []
 
-    for date in dates:
-        regions_cases = list(data_greece_isMOOD_cases_region_timeline[date])
-        transformed_date = datetime.datetime.strptime(
-            date, '%d/%m/%Y').strftime('%Y-%m-%d')
+    date_list = list(data_greece_regions_history.columns[11:])
+    tot_json = []
+    # start_date = datetime.datetime.strptime('2/26/20', '%m/%d/%y')
+
+    for idx, date in enumerate(date_list):
+
+        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y')
+        # past_days_window = min(7, (transformed_date - start_date).days)
+        # mean_cases_window = date_list[idx - past_days_window : idx +1]
+        transformed_date = transformed_date.strftime('%Y-%m-%d')
         inner_json = []
 
-        for reg_gr, reg_en, pop, reg_cases in zip(region_gr_name, region_en_name, population, regions_cases):
-            region_data = {}
-            region_data['region_gr_name'] = reg_gr
-            region_data['region_en_name'] = reg_en
-            region_data['population'] = int(pop) if pop != None else None
-            region_data['region_cases'] = reg_cases
-            region_data['cases_per_100000_people'] = round(
-                reg_cases / pop * 100000.0, 2) if pop != None else None
-            inner_json.append(region_data)
+        for i, row in data_greece_regions_history.iterrows():
+
+            region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
+            region_cases = row.loc[date]
+            region_info['cases'] = int(region_cases) if region_cases != None else None
+            # diff_past_seven_days = np.diff(row[mean_cases_window]) if None not in list(row[mean_cases_window]) else []
+            # mean_cases_past_seven_days = None
+            # day_cases = None
+            # if diff_past_seven_days != []:
+            #     day_cases = diff_past_seven_days[-1]
+            #     if np.sum(diff_past_seven_days) != 0:
+            #         mean_cases_past_seven_days = np.mean(diff_past_seven_days)
+            # region_info['mean_cases_past_seven_days'] = mean_cases_past_seven_days
+            # region_info['cases_per_100000_people'] = round(day_cases / row['population']* 100000.0, 2) if (row['population'] != None and day_cases != None) else None
+            inner_json.append(region_info)
 
         outer_json = {}
         outer_json['date'] = transformed_date
@@ -300,69 +299,6 @@ def get_regions_history():
         tot_json.append(outer_json)
 
     return jsonify({'regions-history': tot_json})
-
-@app.route('/regions-history-cases', methods=['GET'])
-def get_regions_history_cases():
-
-    date_list = list(data_greece_regions_history_cases.columns[11:])
-    tot_json = []
-    start_date = datetime.datetime.strptime('2/26/20', '%m/%d/%y')
-
-    for idx, date in enumerate(date_list):
-
-        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y')
-        past_days_window = min(7, (transformed_date - start_date).days)
-        mean_cases_window = date_list[idx - past_days_window : idx +1]
-        transformed_date = transformed_date.strftime('%Y-%m-%d')
-        inner_json = []
-
-        for i, row in data_greece_regions_history_cases.iterrows():
-
-            region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
-            region_cases = row.loc[date]
-            region_info['cases'] = int(region_cases) if region_cases != None else None
-            diff_past_seven_days = np.diff(row[mean_cases_window]) if None not in list(row[mean_cases_window]) else []
-            mean_cases_past_seven_days = None
-            day_cases = None
-            if diff_past_seven_days != []:
-                day_cases = diff_past_seven_days[-1]
-                if np.sum(diff_past_seven_days) != 0:
-                    mean_cases_past_seven_days = np.mean(diff_past_seven_days)
-            region_info['mean_cases_past_seven_days'] = mean_cases_past_seven_days
-            region_info['cases_per_100000_people'] = round(day_cases / row['population']* 100000.0, 2) if (row['population'] != None and day_cases != None) else None
-            inner_json.append(region_info)
-
-        outer_json = {}
-        outer_json['date'] = transformed_date
-        outer_json['regions'] = inner_json
-        tot_json.append(outer_json)
-
-    return jsonify({'regions-history-cases': tot_json})
-
-@app.route('/regions-history-deaths', methods=['GET'])
-def get_regions_history_deaths():
-
-    date_list = list(data_greece_regions_history_deaths.columns[11:])
-    tot_json = []
-
-    for date in date_list:
-
-        transformed_date = datetime.datetime.strptime(date, '%m/%d/%y').strftime('%Y-%m-%d')
-        inner_json = []
-
-        for i, row in data_greece_regions_history_deaths.iterrows():
-
-            region_info = json.loads(row.iloc[0:9].to_json(orient="index", force_ascii=False))
-            region_cases = row.loc[date]
-            region_info['deaths'] = int(region_cases) if region_cases != None else None
-            inner_json.append(region_info)
-
-        outer_json = {}
-        outer_json['date'] = transformed_date
-        outer_json['regions'] = inner_json
-        tot_json.append(outer_json)
-
-    return jsonify({'regions-history-deaths': tot_json})
 
 
 @app.route('/active', methods=['GET'])

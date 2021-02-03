@@ -370,7 +370,7 @@
         }
       }
     },
-    "/regions-history-cases": {
+    "/regions-history": {
       "get": {
         "tags": [
           "Daily recorded events"
@@ -431,12 +431,6 @@
                                   "type": "number"
                                 },
                                 "cases": {
-                                  "type": "number"
-                                },
-                                "mean_cases_past_seven_days": {
-                                  "type": "number"
-                                },
-                                "cases_per_100000_people": {
                                   "type": "number"
                                 }
                               }
@@ -967,21 +961,46 @@
                       "items": {
                         "type": "object",
                         "properties": {
-                          "region_en_name": {
-                            "type": "string"
-                          },
-                          "region_gr_name": {
-                            "type": "string"
-                          },
-                          "region_cases": {
-                            "type": "number"
-                          },
-                          "population": {
-                            "type": "number"
-                          },
-                          "cases_per_100000_people": {
-                            "type": "number"
-                          }
+                            "area_gr": {
+                              "type": "string"
+                            },
+                            "area_en": {
+                              "type": "string"
+                            },
+                            "region_gr": {
+                              "type": "string"
+                            },
+                            "region_en": {
+                              "type": "string"
+                            },
+                            "geo_department_gr": {
+                              "type": "string"
+                            },
+                            "geo_department_en": {
+                              "type": "string"
+                            },
+                            "last_updated_at": {
+                              "type": "string",
+                              "format": "date"
+                            },
+                            "longtitude": {
+                              "type": "number"
+                            },
+                            "latitude": {
+                              "type": "number"
+                            },
+                             "population": {
+                              "type": "number"
+                            },
+                            "total_cases": {
+                              "type": "number"
+                            },
+                            "total_cases": {
+                              "type": "number"
+                            },
+                            "cases_per_100000_people": {
+                              "type": "number"
+                            }
                         }
                       }
                     }
