@@ -645,6 +645,12 @@
                           "area_en": {
                             "type": "string"
                           },
+                          "dailydose1": {
+                            "type": "number"
+                          },
+                          "dailydose2": {
+                            "type": "number"
+                          },
                           "daydiff": {
                             "type": "number"
                           },
@@ -656,6 +662,12 @@
                             "format": "date"
                           },
                           "totaldistinctpersons": {
+                            "type": "number"
+                          },
+                          "totaldose1": {
+                            "type": "number"
+                          },
+                          "totaldose2": {
                             "type": "number"
                           },
                           "totalvaccinations": {
@@ -1316,6 +1328,12 @@
                             "format": "date"
                           },
                           "totaldistinctpersons": {
+                            "type": "number"
+                          },
+                          "totaldose1": {
+                            "type": "number"
+                          },
+                          "totaldose2": {
                             "type": "number"
                           },
                           "totalvaccinations": {
