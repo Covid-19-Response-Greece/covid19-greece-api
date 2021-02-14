@@ -88,6 +88,8 @@ Request:
  
  * [Καραντίνα SMS - 13033 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_sms): A simple app which creates the movement permit SMS (13033)
  
+ * [Kissamos News](https://www.kissamosnews.com/): Community news for Chania and Crete. Page about Covid in Crete is [here](https://www.kissamosnews.com/covid-19-confirmed-cases-in-crete-and-chania/)
+ 
 ## Adding your project to the list
 
 If your project/organization utilizes the Coronavirus Greece API, you are kindly asked to place it here, under the following rules: 
