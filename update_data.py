@@ -4,68 +4,68 @@ import os
 import urllib.request
 import sys
 
-DOWNLOADS_DIR = './data/'
+DOWNLOADS_DIR = "./data/"
 
 
 urls = [
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/JohnsHopkinsCSSE/cleaned-data/timeseries_per_country.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/JohnsHopkinsCSSE/timeseries_greece.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/daily-info.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/regions.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/regions_history_cases.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/regions_history_deaths.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/regions_daily.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/iMEdD-Lab/regions_cumulative.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/cases_by_region_timeline.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/isMOOD/population_per_region.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_daily_reports.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Regions/western_macedonia_deaths.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Measures/greece_social_distancing_measures_timeline.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/Refugee_camps/refugee_camps.csv',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/schools_status/covid19-schools.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/age_data.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/gender_age_data.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/intensive_care_cases.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/tests.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/female_cases_history.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/male_cases_history.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/age_data_history.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/vaccinations_data_history.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/cumulative_per_area_vaccinations.json',
-    'https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/NPHO/cumulative_vaccinations.json'
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/all_countries/general/timeseries_per_country.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/general/timeseries_greece.json",
+    # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/daily-info.json",
+    # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/regions.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_history_cases.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_history_deaths.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_daily.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regionalb/regions_cumulative.csv",
+    # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/cases_by_region_timeline.csv",
+    # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/population_per_region.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/western_macedonia_daily_reports.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/western_macedonia_deaths.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/measures/greece_social_distancing_measures_timeline.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/refugee_camps/refugee_camps.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/schools_status/covid19-schools.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/age_distribution/age_data.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/gender_distribution/gender_age_data.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/general/intensive_care_cases.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/general/tests.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/gender_distribution/female_cases_history.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/gender_distribution/male_cases_history.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/age_distribution/age_data_history.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/vaccines/vaccinations_data_history.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/vaccines/cumulative_per_area_vaccinations.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/vaccines/cumulative_vaccinations.json",
 ]
 
 paths_to_store = [
-    'all_countries/JohnsHopkinsCSSE',
-    'greece/JohnsHopkinsCSSE',
-    'greece/isMOOD',
-    'greece/isMOOD',
-    'greece/iMEdD-Lab',
-    'greece/iMEdD-Lab',
-    'greece/iMEdD-Lab',
-    'greece/iMEdD-Lab',
-    'greece/isMOOD',
-    'greece/isMOOD',
-    'greece/Regions',
-    'greece/Regions',
-    'greece/Measures',
-    'greece/Refugee_camps',
-    'greece/schools_status',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO',
-    'greece/NPHO'
+    "all_countries/general",
+    "greece/general",
+    # "greece/isMOOD",
+    # "greece/isMOOD",
+    "greece/regional",
+    "greece/regional",
+    "greece/regional",
+    "greece/regional",
+    # "greece/isMOOD",
+    # "greece/isMOOD",
+    "greece/regional",
+    "greece/regional",
+    "greece/measures",
+    "greece/refugee_camps",
+    "greece/schools_status",
+    "greece/age_distribution",
+    "greece/gender_distribution",
+    "greece/general",
+    "greece/general",
+    "greece/gender_distribution",
+    "greece/gender_distribution",
+    "greece/age_distribution",
+    "greece/vaccines",
+    "greece/vaccines",
+    "greece/vaccines",
 ]
 
 
 def download():
-    print('Updating data ...')
+    print("Updating data ...")
 
     if not os.path.exists(DOWNLOADS_DIR):
         os.makedirs(DOWNLOADS_DIR)
@@ -74,18 +74,18 @@ def download():
         url = urls[i]
         path = paths_to_store[i]
 
-        name = url.rsplit('/', 1)[-1]
+        name = url.rsplit("/", 1)[-1]
         filename = os.path.join(DOWNLOADS_DIR + path, name)
 
         try:
             urllib.request.urlretrieve(url, filename)
         except Exception as inst:
             print(inst)
-            print('Encountered error')
+            print("Encountered error")
             sys.exit()
 
-    print('Done.')
+    print("Done.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     download()
