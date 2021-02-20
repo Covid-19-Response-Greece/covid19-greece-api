@@ -22,9 +22,9 @@ from flask import (
 app = Flask(__name__)
 cors = CORS(app)
 
-data_greece_JHCSSE = None
-data_greece_isMOOD_regions = None
-data_greece_isMOOD_cases_region_timeline = None
+data_greece_general = None
+# data_greece_isMOOD_regions = None
+# data_greece_isMOOD_cases_region_timeline = None
 data_greece_regions_history = None
 data_greece_regions_cumulative = None
 data_greece_tests_npho = None
@@ -38,7 +38,7 @@ data_greece_regions_wm_deaths = None
 data_greece_regions_wm = None
 data_greece_regions_wm_deaths = None
 data_greece_schools_status = None
-population_per_region = None
+# population_per_region = None
 data_greece_male_cases = None
 data_greece_female_cases = None
 data_greece_age_data = None
@@ -48,9 +48,9 @@ cumulative_per_area_vaccinations_data = None
 
 
 def init():
-    global data_greece_JHCSSE
-    global data_greece_isMOOD_regions
-    global data_greece_isMOOD_cases_region_timeline
+    global data_greece_general
+    # global data_greece_isMOOD_regions
+    # global data_greece_isMOOD_cases_region_timeline
     global data_greece_regions_history
     global data_greece_regions_cumulative
     global data_greece_intensive_care_npho
@@ -64,7 +64,7 @@ def init():
     global data_greece_regions_wm
     global data_greece_regions_wm_deaths
     global data_greece_schools_status
-    global population_per_region
+    # global population_per_region
     global data_greece_male_cases
     global data_greece_female_cases
     global data_greece_age_data
@@ -73,7 +73,7 @@ def init():
     global cumulative_per_area_vaccinations_data
 
     with open("data/greece/general/timeseries_greece.json") as f:
-        data_greece_JHCSSE = json.load(f)["Greece"]
+        data_greece_general = json.load(f)["Greece"]
 
     # with open('data/greece/isMOOD/regions.json') as regions_file:
     #     data_greece_isMOOD_regions = json.load(regions_file)
@@ -230,7 +230,7 @@ def get_index():
 
 @app.route("/all", methods=["GET"])
 def get_all():
-    out_json = copy.deepcopy(data_greece_JHCSSE)
+    out_json = copy.deepcopy(data_greece_general)
 
     for date in out_json:
         del date["recovered"]
@@ -240,7 +240,7 @@ def get_all():
 
 @app.route("/confirmed", methods=["GET"])
 def get_confirmed():
-    out_json = copy.deepcopy(data_greece_JHCSSE)
+    out_json = copy.deepcopy(data_greece_general)
 
     for date in out_json:
         del date["recovered"]
@@ -251,7 +251,7 @@ def get_confirmed():
 
 @app.route("/recovered", methods=["GET"])
 def get_recovered():
-    out_json = copy.deepcopy(data_greece_JHCSSE)
+    out_json = copy.deepcopy(data_greece_general)
 
     for date in out_json:
         del date["confirmed"]
@@ -263,7 +263,7 @@ def get_recovered():
 
 @app.route("/deaths", methods=["GET"])
 def get_deaths():
-    out_json = copy.deepcopy(data_greece_JHCSSE)
+    out_json = copy.deepcopy(data_greece_general)
     for date in out_json:
         del date["confirmed"]
         del date["recovered"]
@@ -331,7 +331,7 @@ def get_regions_history():
 
 @app.route("/active", methods=["GET"])
 def get_active():
-    out_json = copy.deepcopy(data_greece_JHCSSE)
+    out_json = copy.deepcopy(data_greece_general)
 
     for date in out_json:
         date["active"] = date["confirmed"] - date["deaths"] - date["recovered"]
@@ -345,7 +345,7 @@ def get_active():
 
 @app.route("/total", methods=["GET"])
 def get_total():
-    out_json = copy.deepcopy(data_greece_JHCSSE[-1])
+    out_json = copy.deepcopy(data_greece_general[-1])
     del out_json["recovered"]
     return jsonify({"cases": out_json})
 
