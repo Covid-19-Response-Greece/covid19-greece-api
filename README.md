@@ -20,6 +20,8 @@ All the endpoints are located at [https://covid-19-greece.herokuapp.com/](https:
 
 *Example*: Get the number of confirmed cases as timeseries
 
+### Querying
+
 <ins>Request</ins>:
 
 You can visit https://covid-19-greece.herokuapp.com/confirmed via a browser or run the following command:
@@ -42,6 +44,35 @@ You can visit https://covid-19-greece.herokuapp.com/confirmed via a browser or r
     ...
   ]
 }   
+```
+
+### Javascript
+
+```
+let url = "https://covid-19-greece.herokuapp.com/confirmed"
+
+let response = await fetch(url);
+
+if (response.ok) // if HTTP-status is 200-299
+{ 
+    // get the response body 
+    let json = await response.json();
+    console.log(json)
+} 
+else 
+{
+    alert("HTTP-Error: " + response.status);
+}
+```
+
+### Python
+```
+import requests
+
+url = "https://covid-19-greece.herokuapp.com/confirmed"
+response = requests.get(url)
+
+print(response.json())
 ```
 
 ## Data sources
