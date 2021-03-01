@@ -121,6 +121,8 @@ Request:
  
  * [Kissamos News](https://www.kissamosnews.com/): Community news for Chania and Crete. Page about Covid in Crete is [here](https://www.kissamosnews.com/covid-19-confirmed-cases-in-crete-and-chania/)
  
+ * [3BNEWS.GR](https://www.3bnews.gr): Daily reports, revelations, information and news for the municipality of Voula Vari Vouliagmeni
+ 
 ## Adding your project to the list
 
 If your project/organization utilizes the Coronavirus Greece API, you are kindly asked to place it here, under the following rules: 
