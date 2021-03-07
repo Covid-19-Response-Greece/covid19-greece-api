@@ -8,7 +8,7 @@ DOWNLOADS_DIR = "./data/"
 
 
 urls = [
-    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/general/timeseries_per_country.json",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/all_countries/general/cleaned_data/timeseries_per_country.json",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/general/timeseries_greece.json",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/regional/regions_history_cases.csv",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/master/data/greece/regional/regions_history_deaths.csv",
