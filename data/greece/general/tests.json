@@ -1,0 +1,1885 @@
+{
+  "total_tests": [
+    {
+      "date": "2020-02-26",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-02-27",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-02-28",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-02-29",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-01",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-02",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-03",
+      "rapid-tests": 0,
+      "tests": 270
+    },
+    {
+      "date": "2020-03-04",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-05",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-06",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-07",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-08",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-09",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-10",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-11",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-12",
+      "rapid-tests": 0,
+      "tests": 2180
+    },
+    {
+      "date": "2020-03-13",
+      "rapid-tests": 0,
+      "tests": 2700
+    },
+    {
+      "date": "2020-03-14",
+      "rapid-tests": 0,
+      "tests": 3400
+    },
+    {
+      "date": "2020-03-15",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-16",
+      "rapid-tests": 0,
+      "tests": 4320
+    },
+    {
+      "date": "2020-03-17",
+      "rapid-tests": 0,
+      "tests": 4900
+    },
+    {
+      "date": "2020-03-18",
+      "rapid-tests": 0,
+      "tests": 6000
+    },
+    {
+      "date": "2020-03-19",
+      "rapid-tests": 0,
+      "tests": 6300
+    },
+    {
+      "date": "2020-03-20",
+      "rapid-tests": 0,
+      "tests": 7172
+    },
+    {
+      "date": "2020-03-21",
+      "rapid-tests": 0,
+      "tests": 7830
+    },
+    {
+      "date": "2020-03-22",
+      "rapid-tests": 0,
+      "tests": 8006
+    },
+    {
+      "date": "2020-03-23",
+      "rapid-tests": 0,
+      "tests": 8644
+    },
+    {
+      "date": "2020-03-24",
+      "rapid-tests": 0,
+      "tests": 9071
+    },
+    {
+      "date": "2020-03-25",
+      "rapid-tests": 0,
+      "tests": 10495
+    },
+    {
+      "date": "2020-03-26",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-03-27",
+      "rapid-tests": 0,
+      "tests": 13477
+    },
+    {
+      "date": "2020-03-28",
+      "rapid-tests": 0,
+      "tests": 14363
+    },
+    {
+      "date": "2020-03-29",
+      "rapid-tests": 0,
+      "tests": 15151
+    },
+    {
+      "date": "2020-03-30",
+      "rapid-tests": 0,
+      "tests": 15961
+    },
+    {
+      "date": "2020-03-31",
+      "rapid-tests": 0,
+      "tests": 16732
+    },
+    {
+      "date": "2020-04-01",
+      "rapid-tests": 0,
+      "tests": 17350
+    },
+    {
+      "date": "2020-04-02",
+      "rapid-tests": 0,
+      "tests": 18844
+    },
+    {
+      "date": "2020-04-03",
+      "rapid-tests": 0,
+      "tests": 22437
+    },
+    {
+      "date": "2020-04-04",
+      "rapid-tests": 0,
+      "tests": 23333
+    },
+    {
+      "date": "2020-04-05",
+      "rapid-tests": 0,
+      "tests": 25453
+    },
+    {
+      "date": "2020-04-06",
+      "rapid-tests": 0,
+      "tests": 26193
+    },
+    {
+      "date": "2020-04-07",
+      "rapid-tests": 0,
+      "tests": 28584
+    },
+    {
+      "date": "2020-04-08",
+      "rapid-tests": 0,
+      "tests": 32528
+    },
+    {
+      "date": "2020-04-09",
+      "rapid-tests": 0,
+      "tests": 33634
+    },
+    {
+      "date": "2020-04-10",
+      "rapid-tests": 0,
+      "tests": 35432
+    },
+    {
+      "date": "2020-04-11",
+      "rapid-tests": 0,
+      "tests": 37344
+    },
+    {
+      "date": "2020-04-12",
+      "rapid-tests": 0,
+      "tests": 42261
+    },
+    {
+      "date": "2020-04-13",
+      "rapid-tests": 0,
+      "tests": 43417
+    },
+    {
+      "date": "2020-04-14",
+      "rapid-tests": 0,
+      "tests": 48798
+    },
+    {
+      "date": "2020-04-15",
+      "rapid-tests": 0,
+      "tests": 50771
+    },
+    {
+      "date": "2020-04-16",
+      "rapid-tests": 0,
+      "tests": 49390
+    },
+    {
+      "date": "2020-04-17",
+      "rapid-tests": 0,
+      "tests": 51645
+    },
+    {
+      "date": "2020-04-18",
+      "rapid-tests": 0,
+      "tests": 53290
+    },
+    {
+      "date": "2020-04-19",
+      "rapid-tests": 0,
+      "tests": null
+    },
+    {
+      "date": "2020-04-20",
+      "rapid-tests": 0,
+      "tests": 54344
+    },
+    {
+      "date": "2020-04-21",
+      "rapid-tests": 0,
+      "tests": 55666
+    },
+    {
+      "date": "2020-04-22",
+      "rapid-tests": 0,
+      "tests": 56944
+    },
+    {
+      "date": "2020-04-23",
+      "rapid-tests": 0,
+      "tests": 59241
+    },
+    {
+      "date": "2020-04-24",
+      "rapid-tests": 0,
+      "tests": 61407
+    },
+    {
+      "date": "2020-04-25",
+      "rapid-tests": 0,
+      "tests": 63087
+    },
+    {
+      "date": "2020-04-26",
+      "rapid-tests": 0,
+      "tests": 64608
+    },
+    {
+      "date": "2020-04-27",
+      "rapid-tests": 0,
+      "tests": 66094
+    },
+    {
+      "date": "2020-04-28",
+      "rapid-tests": 0,
+      "tests": 69833
+    },
+    {
+      "date": "2020-04-29",
+      "rapid-tests": 0,
+      "tests": 72130
+    },
+    {
+      "date": "2020-04-30",
+      "rapid-tests": 0,
+      "tests": 75170
+    },
+    {
+      "date": "2020-05-01",
+      "rapid-tests": 0,
+      "tests": 77251
+    },
+    {
+      "date": "2020-05-02",
+      "rapid-tests": 0,
+      "tests": 78207
+    },
+    {
+      "date": "2020-05-03",
+      "rapid-tests": 0,
+      "tests": 79332
+    },
+    {
+      "date": "2020-05-04",
+      "rapid-tests": 0,
+      "tests": 80951
+    },
+    {
+      "date": "2020-05-05",
+      "rapid-tests": 0,
+      "tests": 83750
+    },
+    {
+      "date": "2020-05-06",
+      "rapid-tests": 0,
+      "tests": 87052
+    },
+    {
+      "date": "2020-05-07",
+      "rapid-tests": 0,
+      "tests": 90043
+    },
+    {
+      "date": "2020-05-08",
+      "rapid-tests": 0,
+      "tests": 94291
+    },
+    {
+      "date": "2020-05-09",
+      "rapid-tests": 0,
+      "tests": 97384
+    },
+    {
+      "date": "2020-05-10",
+      "rapid-tests": 0,
+      "tests": 98877
+    },
+    {
+      "date": "2020-05-11",
+      "rapid-tests": 0,
+      "tests": 99363
+    },
+    {
+      "date": "2020-05-12",
+      "rapid-tests": 0,
+      "tests": 106054
+    },
+    {
+      "date": "2020-05-13",
+      "rapid-tests": 0,
+      "tests": 112042
+    },
+    {
+      "date": "2020-05-14",
+      "rapid-tests": 0,
+      "tests": 116233
+    },
+    {
+      "date": "2020-05-15",
+      "rapid-tests": 0,
+      "tests": 120015
+    },
+    {
+      "date": "2020-05-16",
+      "rapid-tests": 0,
+      "tests": 126283
+    },
+    {
+      "date": "2020-05-17",
+      "rapid-tests": 0,
+      "tests": 128525
+    },
+    {
+      "date": "2020-05-18",
+      "rapid-tests": 0,
+      "tests": 131684
+    },
+    {
+      "date": "2020-05-19",
+      "rapid-tests": 0,
+      "tests": 136001
+    },
+    {
+      "date": "2020-05-20",
+      "rapid-tests": 0,
+      "tests": 139445
+    },
+    {
+      "date": "2020-05-21",
+      "rapid-tests": 0,
+      "tests": 144078
+    },
+    {
+      "date": "2020-05-22",
+      "rapid-tests": 0,
+      "tests": 147958
+    },
+    {
+      "date": "2020-05-23",
+      "rapid-tests": 0,
+      "tests": 152998
+    },
+    {
+      "date": "2020-05-24",
+      "rapid-tests": 0,
+      "tests": 153963
+    },
+    {
+      "date": "2020-05-25",
+      "rapid-tests": 0,
+      "tests": 155037
+    },
+    {
+      "date": "2020-05-26",
+      "rapid-tests": 0,
+      "tests": 160991
+    },
+    {
+      "date": "2020-05-27",
+      "rapid-tests": 0,
+      "tests": 166245
+    },
+    {
+      "date": "2020-05-28",
+      "rapid-tests": 0,
+      "tests": 170467
+    },
+    {
+      "date": "2020-05-29",
+      "rapid-tests": 0,
+      "tests": 174844
+    },
+    {
+      "date": "2020-05-30",
+      "rapid-tests": 0,
+      "tests": 178316
+    },
+    {
+      "date": "2020-05-31",
+      "rapid-tests": 0,
+      "tests": 180518
+    },
+    {
+      "date": "2020-06-01",
+      "rapid-tests": 0,
+      "tests": 182423
+    },
+    {
+      "date": "2020-06-02",
+      "rapid-tests": 0,
+      "tests": 185590
+    },
+    {
+      "date": "2020-06-03",
+      "rapid-tests": 0,
+      "tests": 193929
+    },
+    {
+      "date": "2020-06-04",
+      "rapid-tests": 0,
+      "tests": 193929
+    },
+    {
+      "date": "2020-06-05",
+      "rapid-tests": 0,
+      "tests": 229519
+    },
+    {
+      "date": "2020-06-06",
+      "rapid-tests": 0,
+      "tests": 229519
+    },
+    {
+      "date": "2020-06-07",
+      "rapid-tests": 0,
+      "tests": 229519
+    },
+    {
+      "date": "2020-06-08",
+      "rapid-tests": 0,
+      "tests": 229519
+    },
+    {
+      "date": "2020-06-09",
+      "rapid-tests": 0,
+      "tests": 231759
+    },
+    {
+      "date": "2020-06-10",
+      "rapid-tests": 0,
+      "tests": 240924
+    },
+    {
+      "date": "2020-06-11",
+      "rapid-tests": 0,
+      "tests": 237276
+    },
+    {
+      "date": "2020-06-12",
+      "rapid-tests": 0,
+      "tests": 243867
+    },
+    {
+      "date": "2020-06-13",
+      "rapid-tests": 0,
+      "tests": 247452
+    },
+    {
+      "date": "2020-06-14",
+      "rapid-tests": 0,
+      "tests": 250923
+    },
+    {
+      "date": "2020-06-15",
+      "rapid-tests": 0,
+      "tests": 254854
+    },
+    {
+      "date": "2020-06-16",
+      "rapid-tests": 0,
+      "tests": 259736
+    },
+    {
+      "date": "2020-06-17",
+      "rapid-tests": 0,
+      "tests": 264930
+    },
+    {
+      "date": "2020-06-18",
+      "rapid-tests": 0,
+      "tests": 270338
+    },
+    {
+      "date": "2020-06-19",
+      "rapid-tests": 0,
+      "tests": 274711
+    },
+    {
+      "date": "2020-06-20",
+      "rapid-tests": 0,
+      "tests": 278895
+    },
+    {
+      "date": "2020-06-21",
+      "rapid-tests": 0,
+      "tests": 283146
+    },
+    {
+      "date": "2020-06-22",
+      "rapid-tests": 0,
+      "tests": 285989
+    },
+    {
+      "date": "2020-06-23",
+      "rapid-tests": 0,
+      "tests": 291187
+    },
+    {
+      "date": "2020-06-24",
+      "rapid-tests": 0,
+      "tests": 295639
+    },
+    {
+      "date": "2020-06-25",
+      "rapid-tests": 0,
+      "tests": 291840
+    },
+    {
+      "date": "2020-06-26",
+      "rapid-tests": 0,
+      "tests": 295851
+    },
+    {
+      "date": "2020-06-27",
+      "rapid-tests": 0,
+      "tests": 301144
+    },
+    {
+      "date": "2020-06-28",
+      "rapid-tests": 0,
+      "tests": 305137
+    },
+    {
+      "date": "2020-06-29",
+      "rapid-tests": 0,
+      "tests": 308392
+    },
+    {
+      "date": "2020-06-30",
+      "rapid-tests": 0,
+      "tests": 312775
+    },
+    {
+      "date": "2020-07-01",
+      "rapid-tests": 0,
+      "tests": 315982
+    },
+    {
+      "date": "2020-07-02",
+      "rapid-tests": 0,
+      "tests": 320427
+    },
+    {
+      "date": "2020-07-03",
+      "rapid-tests": 0,
+      "tests": 325451
+    },
+    {
+      "date": "2020-07-04",
+      "rapid-tests": 0,
+      "tests": 331703
+    },
+    {
+      "date": "2020-07-05",
+      "rapid-tests": 0,
+      "tests": 337154
+    },
+    {
+      "date": "2020-07-06",
+      "rapid-tests": 0,
+      "tests": 340328
+    },
+    {
+      "date": "2020-07-07",
+      "rapid-tests": 0,
+      "tests": 349084
+    },
+    {
+      "date": "2020-07-08",
+      "rapid-tests": 0,
+      "tests": 355190
+    },
+    {
+      "date": "2020-07-09",
+      "rapid-tests": 0,
+      "tests": 358725
+    },
+    {
+      "date": "2020-07-10",
+      "rapid-tests": 0,
+      "tests": 363412
+    },
+    {
+      "date": "2020-07-11",
+      "rapid-tests": 0,
+      "tests": 371167
+    },
+    {
+      "date": "2020-07-12",
+      "rapid-tests": 0,
+      "tests": 373932
+    },
+    {
+      "date": "2020-07-13",
+      "rapid-tests": 0,
+      "tests": 382452
+    },
+    {
+      "date": "2020-07-14",
+      "rapid-tests": 0,
+      "tests": 386307
+    },
+    {
+      "date": "2020-07-15",
+      "rapid-tests": 0,
+      "tests": 391773
+    },
+    {
+      "date": "2020-07-16",
+      "rapid-tests": 0,
+      "tests": 398347
+    },
+    {
+      "date": "2020-07-17",
+      "rapid-tests": 0,
+      "tests": 402672
+    },
+    {
+      "date": "2020-07-18",
+      "rapid-tests": 0,
+      "tests": 406040
+    },
+    {
+      "date": "2020-07-19",
+      "rapid-tests": 0,
+      "tests": 410766
+    },
+    {
+      "date": "2020-07-20",
+      "rapid-tests": 0,
+      "tests": 413760
+    },
+    {
+      "date": "2020-07-21",
+      "rapid-tests": 0,
+      "tests": 419906
+    },
+    {
+      "date": "2020-07-22",
+      "rapid-tests": 0,
+      "tests": 424675
+    },
+    {
+      "date": "2020-07-23",
+      "rapid-tests": 0,
+      "tests": 430864
+    },
+    {
+      "date": "2020-07-24",
+      "rapid-tests": 0,
+      "tests": 436510
+    },
+    {
+      "date": "2020-07-25",
+      "rapid-tests": 0,
+      "tests": 440156
+    },
+    {
+      "date": "2020-07-26",
+      "rapid-tests": 0,
+      "tests": 447685
+    },
+    {
+      "date": "2020-07-27",
+      "rapid-tests": 0,
+      "tests": 451317
+    },
+    {
+      "date": "2020-07-28",
+      "rapid-tests": 0,
+      "tests": 457540
+    },
+    {
+      "date": "2020-07-29",
+      "rapid-tests": 0,
+      "tests": 511429
+    },
+    {
+      "date": "2020-07-30",
+      "rapid-tests": 0,
+      "tests": 519887
+    },
+    {
+      "date": "2020-07-31",
+      "rapid-tests": 0,
+      "tests": 529855
+    },
+    {
+      "date": "2020-08-01",
+      "rapid-tests": 0,
+      "tests": 539493
+    },
+    {
+      "date": "2020-08-02",
+      "rapid-tests": 0,
+      "tests": 545439
+    },
+    {
+      "date": "2020-08-03",
+      "rapid-tests": 0,
+      "tests": 564856
+    },
+    {
+      "date": "2020-08-04",
+      "rapid-tests": 0,
+      "tests": 599709
+    },
+    {
+      "date": "2020-08-05",
+      "rapid-tests": 0,
+      "tests": 609583
+    },
+    {
+      "date": "2020-08-06",
+      "rapid-tests": 0,
+      "tests": 619393
+    },
+    {
+      "date": "2020-08-07",
+      "rapid-tests": 0,
+      "tests": 630983
+    },
+    {
+      "date": "2020-08-08",
+      "rapid-tests": 0,
+      "tests": 640297
+    },
+    {
+      "date": "2020-08-09",
+      "rapid-tests": 0,
+      "tests": 650998
+    },
+    {
+      "date": "2020-08-10",
+      "rapid-tests": 0,
+      "tests": 658178
+    },
+    {
+      "date": "2020-08-11",
+      "rapid-tests": 0,
+      "tests": 668739
+    },
+    {
+      "date": "2020-08-12",
+      "rapid-tests": 0,
+      "tests": 679785
+    },
+    {
+      "date": "2020-08-13",
+      "rapid-tests": 0,
+      "tests": 687338
+    },
+    {
+      "date": "2020-08-14",
+      "rapid-tests": 0,
+      "tests": 704921
+    },
+    {
+      "date": "2020-08-15",
+      "rapid-tests": 0,
+      "tests": 715503
+    },
+    {
+      "date": "2020-08-16",
+      "rapid-tests": 0,
+      "tests": 719311
+    },
+    {
+      "date": "2020-08-17",
+      "rapid-tests": 0,
+      "tests": 726961
+    },
+    {
+      "date": "2020-08-18",
+      "rapid-tests": 0,
+      "tests": 740871
+    },
+    {
+      "date": "2020-08-19",
+      "rapid-tests": 0,
+      "tests": 804282
+    },
+    {
+      "date": "2020-08-20",
+      "rapid-tests": 0,
+      "tests": 816450
+    },
+    {
+      "date": "2020-08-21",
+      "rapid-tests": 0,
+      "tests": 826804
+    },
+    {
+      "date": "2020-08-22",
+      "rapid-tests": 0,
+      "tests": 838015
+    },
+    {
+      "date": "2020-08-23",
+      "rapid-tests": 0,
+      "tests": 848380
+    },
+    {
+      "date": "2020-08-24",
+      "rapid-tests": 0,
+      "tests": 858138
+    },
+    {
+      "date": "2020-08-25",
+      "rapid-tests": 0,
+      "tests": 872550
+    },
+    {
+      "date": "2020-08-26",
+      "rapid-tests": 0,
+      "tests": 887991
+    },
+    {
+      "date": "2020-08-27",
+      "rapid-tests": 0,
+      "tests": 903432
+    },
+    {
+      "date": "2020-08-28",
+      "rapid-tests": 0,
+      "tests": 917265
+    },
+    {
+      "date": "2020-08-29",
+      "rapid-tests": 0,
+      "tests": 931002
+    },
+    {
+      "date": "2020-08-30",
+      "rapid-tests": 0,
+      "tests": 940882
+    },
+    {
+      "date": "2020-08-31",
+      "rapid-tests": 0,
+      "tests": 949367
+    },
+    {
+      "date": "2020-09-01",
+      "rapid-tests": 0,
+      "tests": 966346
+    },
+    {
+      "date": "2020-09-02",
+      "rapid-tests": 0,
+      "tests": 980500
+    },
+    {
+      "date": "2020-09-03",
+      "rapid-tests": 0,
+      "tests": 992566
+    },
+    {
+      "date": "2020-09-04",
+      "rapid-tests": 0,
+      "tests": 1003142
+    },
+    {
+      "date": "2020-09-05",
+      "rapid-tests": 0,
+      "tests": 1015064
+    },
+    {
+      "date": "2020-09-06",
+      "rapid-tests": 0,
+      "tests": 1027618
+    },
+    {
+      "date": "2020-09-07",
+      "rapid-tests": 0,
+      "tests": 1037836
+    },
+    {
+      "date": "2020-09-08",
+      "rapid-tests": 0,
+      "tests": 1050259
+    },
+    {
+      "date": "2020-09-09",
+      "rapid-tests": 0,
+      "tests": 1066305
+    },
+    {
+      "date": "2020-09-10",
+      "rapid-tests": 0,
+      "tests": 1082401
+    },
+    {
+      "date": "2020-09-11",
+      "rapid-tests": 0,
+      "tests": 1094354
+    },
+    {
+      "date": "2020-09-12",
+      "rapid-tests": 0,
+      "tests": 1112992
+    },
+    {
+      "date": "2020-09-13",
+      "rapid-tests": 0,
+      "tests": 1125882
+    },
+    {
+      "date": "2020-09-14",
+      "rapid-tests": 0,
+      "tests": 1133027
+    },
+    {
+      "date": "2020-09-15",
+      "rapid-tests": 0,
+      "tests": 1144549
+    },
+    {
+      "date": "2020-09-16",
+      "rapid-tests": 0,
+      "tests": 1157897
+    },
+    {
+      "date": "2020-09-17",
+      "rapid-tests": 0,
+      "tests": 1170292
+    },
+    {
+      "date": "2020-09-18",
+      "rapid-tests": 0,
+      "tests": 1181712
+    },
+    {
+      "date": "2020-09-19",
+      "rapid-tests": 0,
+      "tests": 1194013
+    },
+    {
+      "date": "2020-09-20",
+      "rapid-tests": 0,
+      "tests": 1202213
+    },
+    {
+      "date": "2020-09-21",
+      "rapid-tests": 0,
+      "tests": 1210118
+    },
+    {
+      "date": "2020-09-22",
+      "rapid-tests": 0,
+      "tests": 1221017
+    },
+    {
+      "date": "2020-09-23",
+      "rapid-tests": 0,
+      "tests": 1233229
+    },
+    {
+      "date": "2020-09-24",
+      "rapid-tests": 0,
+      "tests": 1246363
+    },
+    {
+      "date": "2020-09-25",
+      "rapid-tests": 0,
+      "tests": 1256436
+    },
+    {
+      "date": "2020-09-26",
+      "rapid-tests": 8879,
+      "tests": 1269055
+    },
+    {
+      "date": "2020-09-27",
+      "rapid-tests": 9313,
+      "tests": 1278587
+    },
+    {
+      "date": "2020-09-28",
+      "rapid-tests": 9902,
+      "tests": 1284694
+    },
+    {
+      "date": "2020-09-29",
+      "rapid-tests": 10719,
+      "tests": 1296795
+    },
+    {
+      "date": "2020-09-30",
+      "rapid-tests": 11504,
+      "tests": 1307549
+    },
+    {
+      "date": "2020-10-01",
+      "rapid-tests": 12288,
+      "tests": 1318336
+    },
+    {
+      "date": "2020-10-02",
+      "rapid-tests": 13100,
+      "tests": 1328042
+    },
+    {
+      "date": "2020-10-03",
+      "rapid-tests": 14071,
+      "tests": 1339664
+    },
+    {
+      "date": "2020-10-04",
+      "rapid-tests": 15019,
+      "tests": 1349123
+    },
+    {
+      "date": "2020-10-05",
+      "rapid-tests": 16291,
+      "tests": 1355126
+    },
+    {
+      "date": "2020-10-06",
+      "rapid-tests": 17354,
+      "tests": 1367231
+    },
+    {
+      "date": "2020-10-07",
+      "rapid-tests": 18645,
+      "tests": 1379036
+    },
+    {
+      "date": "2020-10-08",
+      "rapid-tests": 20079,
+      "tests": 1390270
+    },
+    {
+      "date": "2020-10-09",
+      "rapid-tests": 21906,
+      "tests": 1400857
+    }, 
+    {
+      "date": "2020-10-10",
+      "rapid-tests": 24326,
+      "tests": 1413838
+    },
+    {
+      "date": "2020-10-11",
+      "rapid-tests": 25521,
+      "tests": 1423000
+    },
+    {
+      "date": "2020-10-12",
+      "rapid-tests": 25817,
+      "tests": 1429670
+    },
+    {
+      "date": "2020-10-13",
+      "rapid-tests": 27076,
+      "tests": 1449231
+    },
+    {
+      "date": "2020-10-14",
+      "rapid-tests": 28481,
+      "tests": 1469357
+    },
+    {
+      "date": "2020-10-15",
+      "rapid-tests": 30587,
+      "tests": 1489213
+    },
+    {
+      "date": "2020-10-16",
+      "rapid-tests": 32621,
+      "tests": 1508460
+    },
+    {
+      "date": "2020-10-17",
+      "rapid-tests": 34952,
+      "tests": 1527258
+    },
+    {
+      "date": "2020-10-18",
+      "rapid-tests": 35568,
+      "tests": 1542156
+    },
+    {
+      "date": "2020-10-19",
+      "rapid-tests": 35856,
+      "tests": 1549392
+    },
+    {
+      "date": "2020-10-20",
+      "rapid-tests": 37842,
+      "tests": 1568798
+    },
+    {
+      "date": "2020-10-21",
+      "rapid-tests": 41827,
+      "tests": 1588713
+    },
+    {
+      "date": "2020-10-22",
+      "rapid-tests": 44700,
+      "tests": 1609040
+    },
+    {
+      "date": "2020-10-23",
+      "rapid-tests": 48262,
+      "tests": 1629489
+    },
+    {
+      "date": "2020-10-24",
+      "rapid-tests": 50846,
+      "tests": 1649561
+    },
+    {
+      "date": "2020-10-25",
+      "rapid-tests": 52892,
+      "tests": 1666151
+    },
+    {
+      "date": "2020-10-26",
+      "rapid-tests": 54707,
+      "tests": 1678129
+    },
+    {
+      "date": "2020-10-27",
+      "rapid-tests": 57656,
+      "tests": 1698327
+    },
+    {
+      "date": "2020-10-28",
+      "rapid-tests": 61784,
+      "tests": 1718450
+    },
+    {
+      "date": "2020-10-29",
+      "rapid-tests": 62678,
+      "tests": 1730519
+    },
+    {
+      "date": "2020-10-30",
+      "rapid-tests": 68896,
+      "tests": 1753842
+    },
+    {
+      "date": "2020-10-31",
+      "rapid-tests": 71601,
+      "tests": 1777322
+    },
+    {
+      "date": "2020-11-01",
+      "rapid-tests": 72999,
+      "tests": 1792030
+    },
+    {
+      "date": "2020-11-02",
+      "rapid-tests": 74518,
+      "tests": 1804016
+    },
+    {
+      "date": "2020-11-03",
+      "rapid-tests": 77431,
+      "tests": 1829091
+    },
+    {
+      "date": "2020-11-04",
+      "rapid-tests": 80515,
+      "tests": 1853295
+    },
+    {
+      "date": "2020-11-05",
+      "rapid-tests": 83567,
+      "tests": 1876471
+    },
+    {
+      "date": "2020-11-06",
+      "rapid-tests": 87170,
+      "tests": 1902458
+    },
+    {
+      "date": "2020-11-07",
+      "rapid-tests": 90967,
+      "tests": 1926544
+    },
+    {
+      "date": "2020-11-08",
+      "rapid-tests": 91989,
+      "tests": 1941656
+    },
+    {
+      "date": "2020-11-09",
+      "rapid-tests": 92623,
+      "tests": 1952343
+    },
+    {
+      "date": "2020-11-10",
+      "rapid-tests": 95221,
+      "tests": 1977560
+    },
+    {
+      "date": "2020-11-11",
+      "rapid-tests": 98697,
+      "tests": 2003274
+    },
+    {
+      "date": "2020-11-12",
+      "rapid-tests": 102369,
+      "tests": 2028196
+    },
+    {
+      "date": "2020-11-13",
+      "rapid-tests": 106834,
+      "tests": 2053166
+    },
+    {
+      "date": "2020-11-14",
+      "rapid-tests": 110781,
+      "tests": 2078062
+    },
+    {
+      "date": "2020-11-15",
+      "rapid-tests": 112416,
+      "tests": 2092324
+    },
+    {
+      "date": "2020-11-16",
+      "rapid-tests": 113653,
+      "tests": 2104235
+    },
+    {
+      "date": "2020-11-17",
+      "rapid-tests": 119497,
+      "tests": 2128189
+    },
+    {
+      "date": "2020-11-18",
+      "rapid-tests": 125509,
+      "tests": 2153954
+    },
+    {
+      "date": "2020-11-19",
+      "rapid-tests": 133255,
+      "tests": 2177279
+    },
+    {
+      "date": "2020-11-20",
+      "rapid-tests": 141237,
+      "tests": 2200427
+    },
+    {
+      "date": "2020-11-21",
+      "rapid-tests": 149359,
+      "tests": 2223225
+    },
+    {
+      "date": "2020-11-22",
+      "rapid-tests": 152464,
+      "tests": 2235923
+    },
+    {
+      "date": "2020-11-23",
+      "rapid-tests": 156753,
+      "tests": 2247132
+    },
+    {
+      "date": "2020-11-24",
+      "rapid-tests": 166834,
+      "tests": 2269298
+    },
+    {
+      "date": "2020-11-25",
+      "rapid-tests": 176486,
+      "tests": 2290659
+    },
+    {
+      "date": "2020-11-26",
+      "rapid-tests": 186793,
+      "tests": 2311870
+    },
+    {
+      "date": "2020-11-27",
+      "rapid-tests": 196577,
+      "tests": 2332931
+    },
+    {
+      "date": "2020-11-28",
+      "rapid-tests": 204919,
+      "tests": 2354043
+    },
+    {
+      "date": "2020-11-29",
+      "rapid-tests": 209025,
+      "tests": 2366363
+    },
+    {
+      "date": "2020-11-30",
+      "rapid-tests": 213194,
+      "tests": 2373566
+    },
+    {
+      "date": "2020-12-01",
+      "rapid-tests": 223085,
+      "tests": 2394598
+    },
+    {
+      "date": "2020-12-02",
+      "rapid-tests": 232453,
+      "tests": 2413710
+    },
+    {
+      "date": "2020-12-03",
+      "rapid-tests": 243348,
+      "tests": 2432614
+    },
+    {
+      "date": "2020-12-04",
+      "rapid-tests": 252189,
+      "tests": 2450855
+    },
+    {
+      "date": "2020-12-05",
+      "rapid-tests": 260736,
+      "tests": 2469947
+    },
+    {
+      "date": "2020-12-06",
+      "rapid-tests": 264490,
+      "tests": 2479161
+    },
+    {
+      "date": "2020-12-07",
+      "rapid-tests": 268911,
+      "tests": 2485266
+    },
+    {
+      "date": "2020-12-08",
+      "rapid-tests": 279523,
+      "tests": 2504704
+    },
+    {
+      "date": "2020-12-09",
+      "rapid-tests": 291801,
+      "tests": 2522718
+    },
+    {
+      "date": "2020-12-10",
+      "rapid-tests": 306969,
+      "tests": 2540044
+    },
+    {
+      "date": "2020-12-11",
+      "rapid-tests": 322615,
+      "tests": 2557145
+    },
+    {
+      "date": "2020-12-12",
+      "rapid-tests": 338216,
+      "tests": 2572828
+    },
+    {
+      "date": "2020-12-13",
+      "rapid-tests": 344576,
+      "tests": 2582260
+    },
+    {
+      "date": "2020-12-14",
+      "rapid-tests": 349377,
+      "tests": 2589438
+    },
+    {
+      "date": "2020-12-15",
+      "rapid-tests": 364737,
+      "tests": 2607015
+    },
+    {
+      "date": "2020-12-16",
+      "rapid-tests": 381174,
+      "tests": 2624305
+    },
+    {
+      "date": "2020-12-17",
+      "rapid-tests": 398830,
+      "tests": 2640158
+    },
+    {
+      "date": "2020-12-18",
+      "rapid-tests": 418065,
+      "tests": 2657007
+    },
+    {
+      "date": "2020-12-19",
+      "rapid-tests": 433466,
+      "tests": 2674207
+    },
+    {
+      "date": "2020-12-20",
+      "rapid-tests": 440453,
+      "tests": 2682846
+    },
+    {
+      "date": "2020-12-21",
+      "rapid-tests": 447348,
+      "tests": 2687812
+    },
+    {
+      "date": "2020-12-22",
+      "rapid-tests": 464309,
+      "tests": 2704574
+    },
+    {
+      "date": "2020-12-23",
+      "rapid-tests": 482598,
+      "tests": 2719872
+    },
+    {
+      "date": "2020-12-24",
+      "rapid-tests": 500257,
+      "tests": 2733988
+    },
+    {
+      "date": "2020-12-25",
+      "rapid-tests": 514770,
+      "tests": 2749537
+    },
+    {
+      "date": "2020-12-26",
+      "rapid-tests": 517385,
+      "tests": 2752754
+    },
+    {
+      "date": "2020-12-27",
+      "rapid-tests": 520061,
+      "tests": 2756221
+    },
+    {
+      "date": "2020-12-28",
+      "rapid-tests": 524091,
+      "tests": 2759530
+    },
+    {
+      "date": "2020-12-29",
+      "rapid-tests": 540529,
+      "tests": 2775021
+    },
+    {
+      "date": "2020-12-30",
+      "rapid-tests": 561111,
+      "tests": 2789454
+    },
+    {
+      "date": "2020-12-31",
+      "rapid-tests": 579462,
+      "tests": 2803026
+    },
+    {
+      "date": "2021-01-01",
+      "rapid-tests": 593422,
+      "tests": 2817705
+    },
+    {
+      "date": "2021-01-02",
+      "rapid-tests": 595064,
+      "tests": 2820861
+    },
+    {
+      "date": "2021-01-03",
+      "rapid-tests": 599202,
+      "tests": 2825227
+    },
+    {
+      "date": "2021-01-04",
+      "rapid-tests": 604250,
+      "tests": 2828461
+    },
+    {
+      "date": "2021-01-05",
+      "rapid-tests": 624429,
+      "tests": 2840278
+    },
+    {
+      "date": "2021-01-06",
+      "rapid-tests": 640834,
+      "tests": 2854159
+    },
+    {
+      "date": "2021-01-07",
+      "rapid-tests": 644649,
+      "tests": 2859041
+    },
+    {
+      "date": "2021-01-08",
+      "rapid-tests": 669250,
+      "tests": 2870898
+    },
+    {
+      "date": "2021-01-09",
+      "rapid-tests": 694105,
+      "tests": 2882726
+    },
+    {
+      "date": "2021-01-10",
+      "rapid-tests": 705349,
+      "tests": 2891190
+    },
+    {
+      "date": "2021-01-11",
+      "rapid-tests": 716066,
+      "tests": 2897143
+    },
+    {
+      "date": "2021-01-12",
+      "rapid-tests": 745184,
+      "tests": 2909699
+    },
+    {
+      "date": "2021-01-13",
+      "rapid-tests": 768300,
+      "tests": 2921563
+    },
+    {
+      "date": "2021-01-14",
+      "rapid-tests": 791064,
+      "tests": 2933838
+    },
+    {
+      "date": "2021-01-15",
+      "rapid-tests": 812024,
+      "tests": 2945406
+    },
+    {
+      "date": "2021-01-16",
+      "rapid-tests": 830881,
+      "tests": 2956862
+    },
+    {
+      "date": "2021-01-17",
+      "rapid-tests": 835586,
+      "tests": 2962952
+    },
+    {
+      "date": "2021-01-18",
+      "rapid-tests": 840047,
+      "tests": 2966664
+    },
+    {
+      "date": "2021-01-19",
+      "rapid-tests": 860714,
+      "tests": 2977596
+    },
+    {
+      "date": "2021-01-20",
+      "rapid-tests": 879400,
+      "tests": 2989339
+    },
+    {
+      "date": "2021-01-21",
+      "rapid-tests": 897881,
+      "tests": 3000313
+    },
+    {
+      "date": "2021-01-22",
+      "rapid-tests": 917739,
+      "tests": 3012892
+    },
+    {
+      "date": "2021-01-23",
+      "rapid-tests": 936651,
+      "tests": 3024976
+    },
+    {
+      "date": "2021-01-24",
+      "rapid-tests": 942748,
+      "tests": 3030752
+    },
+    {
+      "date": "2021-01-25",
+      "rapid-tests": 948835,
+      "tests": 3034059
+    },
+    {
+      "date": "2021-01-26",
+      "rapid-tests": 967871,
+      "tests": 3051263
+    },
+    {
+      "date": "2021-01-27",
+      "rapid-tests": 985492,
+      "tests": 3071337
+    },
+    {
+      "date": "2021-01-28",
+      "rapid-tests": 1003740,
+      "tests": 3087133
+    },
+    {
+      "date": "2021-01-29",
+      "rapid-tests": 1021835,
+      "tests": 3114419
+    },
+    {
+      "date": "2021-01-30",
+      "rapid-tests": 1040849,
+      "tests": 3127309
+    },
+    {
+      "date": "2021-01-31",
+      "rapid-tests": 1047350,
+      "tests": 3133965
+    },
+    {
+      "date": "2021-02-01",
+      "rapid-tests": 1054992,
+      "tests": 3137674
+    },
+    {
+      "date": "2021-02-02",
+      "rapid-tests": 1075862,
+      "tests": 3154395
+    },
+    {
+      "date": "2021-02-03",
+      "rapid-tests": 1099437,
+      "tests": 3169516
+    },
+    {
+      "date": "2021-02-04",
+      "rapid-tests": 1127502,
+      "tests": 3185847
+    },
+    {
+      "date": "2021-02-05",
+      "rapid-tests": 1152062,
+      "tests": 3207175
+    },
+    {
+      "date": "2021-02-06",
+      "rapid-tests": 1176091,
+      "tests": 3229203
+    },
+    {
+      "date": "2021-02-07",
+      "rapid-tests": 1184960,
+      "tests": 3242331
+    },
+    {
+      "date": "2021-02-08",
+      "rapid-tests": 1191775,
+      "tests": 3253668
+    },
+    {
+      "date": "2021-02-09",
+      "rapid-tests": 1221021,
+      "tests": 3277437
+    },
+    {
+      "date": "2021-02-10",
+      "rapid-tests": 1249628,
+      "tests": 3300237
+    },
+    {
+      "date": "2021-02-11",
+      "rapid-tests": 1277421,
+      "tests": 3323323
+    },
+    {
+      "date": "2021-02-12",
+      "rapid-tests": 1301812,
+      "tests": 3346594
+    },
+    {
+      "date": "2021-02-13",
+      "rapid-tests": 1326781,
+      "tests": 3367458
+    },
+    {
+      "date": "2021-02-14",
+      "rapid-tests": 1334097,
+      "tests": 3379836
+    },
+    {
+      "date": "2021-02-15",
+      "rapid-tests": 1337704,
+      "tests": 3389533
+    },
+    {
+      "date": "2021-02-16",
+      "rapid-tests": 1356605,
+      "tests": 3411078
+    },
+    {
+      "date": "2021-02-17",
+      "rapid-tests": 1368686,
+      "tests": 3424721
+    },
+    {
+      "date": "2021-02-18",
+      "rapid-tests": 1385729,
+      "tests": 3444687
+    },
+    {
+      "date": "2021-02-19",
+      "rapid-tests": 1408073,
+      "tests": 3467996
+    },
+    {
+      "date": "2021-02-20",
+      "rapid-tests": 1430491,
+      "tests": 3488888
+    },
+    {
+      "date": "2021-02-21",
+      "rapid-tests": 1438914,
+      "tests": 3503604
+    },
+    {
+      "date": "2021-02-22",
+      "rapid-tests": 1444327,
+      "tests": 3513801
+    },
+    {
+      "date": "2021-02-23",
+      "rapid-tests": 1474739,
+      "tests": 3538932
+    },
+    {
+      "date": "2021-02-24",
+      "rapid-tests": 1501431,
+      "tests": 3561455
+    },
+    {
+      "date": "2021-02-25",
+      "rapid-tests": 1528486,
+      "tests": 3584647
+    },
+    {
+      "date": "2021-02-26",
+      "rapid-tests": 1554959,
+      "tests": 3608508
+    },
+    {
+      "date": "2021-02-27",
+      "rapid-tests": 1577701,
+      "tests": 3631831
+    },
+    {
+      "date": "2021-02-28",
+      "rapid-tests": 1587313,
+      "tests": 3648549
+    },
+    {
+      "date": "2021-03-01",
+      "rapid-tests": 1593403,
+      "tests": 3660395
+    },
+    {
+      "date": "2021-03-02",
+      "rapid-tests": 1627965,
+      "tests": 3687088
+    },
+    {
+      "date": "2021-03-03",
+      "rapid-tests": 1658083,
+      "tests": 3711523
+    },
+    {
+      "date": "2021-03-04",
+      "rapid-tests": 1689417,
+      "tests": 3735891
+    },
+    {
+      "date": "2021-03-05",
+      "rapid-tests": 1719307,
+      "tests": 3762062
+    },
+    {
+      "date": "2021-03-06",
+      "rapid-tests": 1748729,
+      "tests": 3785749
+    },
+    {
+      "date": "2021-03-07",
+      "rapid-tests": 1757916,
+      "tests": 3801060
+    }
+    
+  ]
+}
