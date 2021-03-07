@@ -15,7 +15,7 @@ urls = [
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_history_cases.csv",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_history_deaths.csv",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_daily.csv",
-    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regionalb/regions_cumulative.csv",
+    "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/regions_cumulative.csv",
     # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/cases_by_region_timeline.csv",
     # "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/isMOOD/population_per_region.json",
     "https://raw.githubusercontent.com/Covid-19-Response-Greece/covid19-data-greece/data-restructuring/data/greece/regional/western_macedonia_daily_reports.csv",
@@ -81,7 +81,7 @@ def download():
             urllib.request.urlretrieve(url, filename)
         except Exception as inst:
             print(inst)
-            print("Encountered error")
+            print("Encountered error at source number %d" % i)
             sys.exit()
 
     print("Done.")
