@@ -1,0 +1,394 @@
+{
+    "last_updated": "2021-02-21",
+    "region": {
+        "Attica": [
+            {
+                "regional_unit": "Central_Athens",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "East_Attica",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Islands",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "North_Athens",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Piraeus",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "South_Athens",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "West_Athens",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "West_Attica",
+                "risk_level": "C"
+            }
+        ],
+        "Central_Greece": [
+            {
+                "regional_unit": "Boeotia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Euboea",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Evrytania",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Phocis",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Phthiotis",
+                "risk_level": "A"
+            }
+        ],
+        "Central_Macedonia": [
+            {
+                "regional_unit": "Chalkidiki",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Imathia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kilkis",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Pella",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Pieria",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Serres",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Thessaloniki",
+                "risk_level": "B"
+            }
+        ],
+        "Crete": [
+            {
+                "regional_unit": "Chania",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Rethymno",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Heraklion",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Lasithi",
+                "risk_level": "A"
+            }
+        ],
+        "Eastern_Macedonia_and_Thrace": [
+            {
+                "regional_unit": "Drama",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Evros",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kavala",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Rhodope",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Thasos",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Xanthi",
+                "risk_level": "A"
+            }
+        ],
+        "Epirus": [
+            {
+                "regional_unit": "Arta",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Ioannina",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Preveza",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Thesprotia",
+                "risk_level": "A"
+            }
+        ],
+        "Ionian_islands": [
+            {
+                "regional_unit": "Corfu",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Ithaca",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kefalonia",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Lefkada",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Zakynthos",
+                "risk_level": "A"
+            }
+        ],
+        "North_Aegean": [
+            {
+                "regional_unit": "Chios",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Ikaria",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Lemnos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Lesbos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Samos",
+                "risk_level": "A"
+            }
+        ],
+        "Peloponnese": [
+            {
+                "regional_unit": "Arcadia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Argolis",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Corinthia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Laconia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Messenia",
+                "risk_level": "A"
+            }
+        ],
+        "South_Aegean": [
+            {
+                "regional_unit": "Andros",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kalymnos",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Karpathos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kea-Kythnos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Milos",
+                "risk_level": ""
+            },
+            {
+                "regional_unit": "Mykonos",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Naxos",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Paros",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Rhodes",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Syros",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Thira",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Tinos",
+                "risk_level": "A"
+            }
+        ],
+        "Thessaly": [
+            {
+                "regional_unit": "Karditsa",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Larissa",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Magnesia",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Sporades",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Trikala",
+                "risk_level": "A"
+            }
+        ],
+        "Western_Greece": [
+            {
+                "regional_unit": "Aetolia-Acarnania",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Achaea",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Elis",
+                "risk_level": "B"
+            }
+        ],
+        "Western_Macedonia": [
+            {
+                "regional_unit": "Florina",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Grevena",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kastoria",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Kozani",
+                "risk_level": "A"
+            }
+        ],
+        "exceptions": [
+            {
+                "regional_unit": "Argolis",
+                "municipality": "Argos-Mykines",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Boeotia",
+                "municipality": "Tanagra",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Boeotia",
+                "municipality": "Thiva",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Euboea",
+                "municipality": "Skyros",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Elis",
+                "municipality": "Andritsaina-Krestena",
+                "risk_level": "A"
+            },
+            {
+                "regional_unit": "Heraklion",
+                "municipality": "Heraklion",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Thessaloniki",
+                "municipality": "Kordelio-Evosmos",
+                "risk_level": "C"
+            },
+            {
+                "regional_unit": "Ioannina",
+                "municipality": "Zitsas",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Karpathos",
+                "municipality": "Karpathos",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Corinthia",
+                "municipality": "Corinth",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Corinthia",
+                "municipality": "Nemea",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Larissa",
+                "municipality": "Tempi",
+                "risk_level": "B"
+            },
+            {
+                "regional_unit": "Pieria",
+                "municipality": "Pydna-Kolindros",
+                "risk_level": "B"
+            }
+        ]
+    }
+}

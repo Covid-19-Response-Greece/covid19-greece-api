@@ -20,6 +20,8 @@ All the endpoints are located at [https://covid-19-greece.herokuapp.com/](https:
 
 *Example*: Get the number of confirmed cases as timeseries
 
+### Querying
+
 <ins>Request</ins>:
 
 You can visit https://covid-19-greece.herokuapp.com/confirmed via a browser or run the following command:
@@ -42,6 +44,35 @@ You can visit https://covid-19-greece.herokuapp.com/confirmed via a browser or r
     ...
   ]
 }   
+```
+
+### Javascript
+
+```
+let url = "https://covid-19-greece.herokuapp.com/confirmed"
+
+let response = await fetch(url);
+
+if (response.ok) // if HTTP-status is 200-299
+{ 
+    // get the response body 
+    let json = await response.json();
+    console.log(json)
+} 
+else 
+{
+    alert("HTTP-Error: " + response.status);
+}
+```
+
+### Python
+```
+import requests
+
+url = "https://covid-19-greece.herokuapp.com/confirmed"
+response = requests.get(url)
+
+print(response.json())
 ```
 
 ## Data sources
@@ -87,6 +118,10 @@ Request:
  * [COVID-19 Greece Tracker](https://covid-greece.github.io): Visualization of total and daily data with respect to severity and age,gender & region distribution.
  
  * [Καραντίνα SMS - 13033 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_sms): A simple app which creates the movement permit SMS (13033)
+ 
+ * [Kissamos News](https://www.kissamosnews.com/): Community news for Chania and Crete. Page about Covid in Crete is [here](https://www.kissamosnews.com/covid-19-confirmed-cases-in-crete-and-chania/)
+ 
+ * [3BNEWS.GR](https://www.3bnews.gr): Daily reports, revelations, information and news for the municipality of Voula Vari Vouliagmeni
  
 ## Adding your project to the list
 
