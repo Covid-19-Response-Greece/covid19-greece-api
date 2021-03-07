@@ -1,0 +1,568 @@
+{
+    "date_from": "2021-02-21",
+    "date_to": "2021-02-28",
+    "measures_levels": [
+        {
+            "level_code": "A",
+            "level": "Surveillance",
+            "level_el": "Επιτήρησης",
+            "measures": [
+                {
+                    "category": "mask",
+                    "category_el": "μάσκα",
+                    "description_el": "Υποχρεωτική σε όλους τους εσωτερικούς και εξωτερικούς χώρους"
+                },
+                {
+                    "category": "movement_intra_regional_unit",
+                    "category_el": "μετακινήσεις_εντός_περιφερειακής_ενότητας",
+                    "description_el": "Περιορισμένες, με  Βεβαίωση Κυκλοφορίας Εργαζομένου ή SMS."
+                },
+                {
+                    "category": "movement_inter_regional_unit",
+                    "category_el": "μετακινήσεις_εκτός_περιφερειακής_ενότητας",
+                    "description_el": "Αναστολή με εξαίρεση για λόγους υγείας ή επαγγελματικούς, επιστροφή στη μόνιμη κατοικία, ή επανένωση οικογενειών."
+                },
+                {
+                    "category": "movement_international",
+                    "category_el": "μετακινήσεις_διεθνείς",
+                    "description_el": "Επιτρέπονται με αρνητικό τεστ PCR και συμπλήρωση φόρμας PLF."
+                },
+                {
+                    "category": "gatherings, public or social events",
+                    "category_el": "συναθροίσεις, δημόσιες ή κοινωνικές εκδηλώσεις",
+                    "description_el": "Αναστολή."
+                },
+                {
+                    "category": "public services",
+                    "category_el": "δημόσιες υπηρεσίες",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "private companies",
+                    "category_el": "ιδιωτικές επιχειρήσεις",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "courts, prosecutors' offices, mortgage offices and cadastral offices",
+                    "category_el": "δικαστήρια, εισαγγελίες, υποθηκοφυλακεία και κτηματολογικά γραφεία",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "hospitals, clinics and diagnostic centers",
+                    "category_el": "νοσοκομεία, κλινικές, ιατρεία και διαγνωστικά κέντρα",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "reception and identification centers and open residence facilities",
+                    "category_el": "κέντρα υποδοχής και ταυτοποίησης και ανοιχτές δομές φιλοξενίας",
+                    "description_el": "Αναστολή εξόδου."
+                },
+                {
+                    "category": "schools and all kinds of educational structures",
+                    "category_el": "σχολεία και πάσης φύσεως εκπαιδευτικές δομές",
+                    "description_el": "Δια ζώσης λειτουργία πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης. Εξ αποστάσεως λειτουργία των λοιπών εκπαιδευτικών δομών."
+                },
+                {
+                    "category": "universities",
+                    "category_el": "ανώτατα εκπαιδευτικά ιδρύματα",
+                    "description_el": "Τηλε-εκπαίδευση."
+                },
+                {
+                    "category": "nurseries, kindergartens",
+                    "category_el": "βρεφικοί, βρεφονηπιακοί, παιδικοί σταθμοί",
+                    "description_el": "Δια ζώσης λειτουργία."
+                },
+                {
+                    "category": "places of worship, religious ceremonies",
+                    "category_el": "χώροι λατρείας, θρησκευτικές τελετές",
+                    "description_el": "Με περιορισμούς. 1 άτομο ανά 25 τ.μ. με ανώτατο όριο τα 50 άτομα."
+                },
+                {
+                    "category": "archeological sites, museums, caves",
+                    "category_el": "αρχαιολογικοί χώροι, μουσεία, σπήλαια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "live performances and auditions, other performing arts",
+                    "category_el": "ζωντανά θεάματα και ακροάματα, λοιπές παραστατικές τέχνες",
+                    "description_el": "Αναστολή προσέλευσης κοινού."
+                },
+                {
+                    "category": "movie screenings",
+                    "category_el": "κινηματογραφικές προβολές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "rehearsals, TV and film shootings, recordings",
+                    "category_el": "πρόβες, τηλεοπτικά και κινηματογραφικά γυρίσματα, ηχογραφήσεις",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "nightclubs, banquets, bars",
+                    "category_el": "κέντρα διασκέδασης, χώροι δεξιώσεων, μπαρ",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food and beverage",
+                    "category_el": "εστίαση",
+                    "description_el": "Επιτρέπονται οι υπηρεσίες παροχής προϊόντων σε πακέτο από το κατάστημα, διανομής προϊόντων και καθ’ οδόν εξυπηρέτησης."
+                },
+                {
+                    "category": "playgrounds",
+                    "category_el": "παιδότοποι, παιδικές χαρές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "transport",
+                    "category_el": "μεταφορές",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "sports",
+                    "category_el": "αθλητισμός",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση ανοιχτών και κλειστών εγκαταστάσεων για προπονήσεις και αγώνες χωρίς παρουσία θεατών και ανοιχτών εγκαταστάσεων για άθληση ομάδων μέχρι 3 ατόμων."
+                },
+                {
+                    "category": "gyms",
+                    "category_el": "γυμναστήρια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food shops",
+                    "category_el": "καταστήματα τροφίμων",
+                    "description_el": "Με περιορισμούς. 1 άτομο για κάθε 25 τ.μ.."
+                },
+                {
+                    "category": "open markets",
+                    "category_el": "λαϊκές αγορές",
+                    "description_el": "Με περιορισμούς. 50% των θέσεων."
+                },
+                {
+                    "category": "retail",
+                    "category_el": "λιανεμπόριο",
+                    "description_el": "Με περιορισμούς. 1 άτομο για κάθε 25 τ.μ.."
+                },
+                {
+                    "category": "hairdressers, personal care services",
+                    "category_el": "κομμωτήρια, υπηρεσίες προσωπικής υγιεινής",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση δραστηριότητες κομμωτηρίων, κουρείων και κέντρων αισθητικής, υπηρεσίες διαιτολογίας, προσωπικής υγιεινής και φροντίδας σώματος και γυαλίσματος υποδημάτων."
+                },
+                {
+                    "category": "conferences, exhibitions",
+                    "category_el": "συνέδρια, εκθέσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "driving schools",
+                    "category_el": "σχολές οδηγών",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση υποψηφίων οδηγών λεωφορείων και φορτηγών."
+                },
+                {
+                    "category": "mot services",
+                    "category_el": "κτεο",
+                    "description_el": "Με ραντεβού."
+                },
+                {
+                    "category": "prostitution services",
+                    "category_el": "υπηρεσίες ιερόδουλων",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "zoos and natural habitats",
+                    "category_el": "ζωολογικοί κήποι και φυσικοί βιότοποι",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "gaming and gambling services",
+                    "category_el": "υπηρεσίες τυχερών και ηλεκτρονικων παιχνιδιών και στοιχημάτων",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση των υπηρεσιών τυχερών παιχνιδιών και στοιχημάτων."
+                },
+                {
+                    "category": "ski resorts",
+                    "category_el": "χιονοδρομικά κέντρα",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "camping",
+                    "category_el": "κατασκηνώσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                }
+            ]
+        },
+        {
+            "level_code": "B",
+            "level": "Increased Risk",
+            "level_el": "Αυξημένου Κινδύνου",
+            "measures": [
+                {
+                    "category": "mask",
+                    "category_el": "μάσκα",
+                    "description_el": "Υποχρεωτική σε όλους τους εσωτερικούς και εξωτερικούς χώρους"
+                },
+                {
+                    "category": "movement_intra_regional_unit",
+                    "category_el": "μετακινήσεις_εντός_περιφερειακής_ενότητας",
+                    "description_el": "Περιορισμένες, με  Βεβαίωση Κυκλοφορίας Εργαζομένου ή SMS."
+                },
+                {
+                    "category": "movement_inter_regional_unit",
+                    "category_el": "μετακινήσεις_εκτός_περιφερειακής_ενότητας",
+                    "description_el": "Αναστολή με εξαίρεση για λόγους υγείας ή επαγγελματικούς, επιστροφή στη μόνιμη κατοικία, ή επανένωση οικογενειών."
+                },
+                {
+                    "category": "movement_international",
+                    "category_el": "μετακινήσεις_διεθνείς",
+                    "description_el": "Επιτρέπονται με αρνητικό τεστ PCR και συμπλήρωση φόρμας PLF."
+                },
+                {
+                    "category": "gatherings, public or social events",
+                    "category_el": "συναθροίσεις, δημόσιες ή κοινωνικές εκδηλώσεις",
+                    "description_el": "Αναστολή."
+                },
+                {
+                    "category": "public services",
+                    "category_el": "δημόσιες υπηρεσίες",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "private companies",
+                    "category_el": "ιδιωτικές επιχειρήσεις",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "courts, prosecutors' offices, mortgage offices and cadastral offices",
+                    "category_el": "δικαστήρια, εισαγγελίες, υποθηκοφυλακεία και κτηματολογικά γραφεία",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "hospitals, clinics and diagnostic centers",
+                    "category_el": "νοσοκομεία, κλινικές, ιατρεία και διαγνωστικά κέντρα",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "reception and identification centers and open residence facilities",
+                    "category_el": "κέντρα υποδοχής και ταυτοποίησης και ανοιχτές δομές φιλοξενίας",
+                    "description_el": "Αναστολή εξόδου."
+                },
+                {
+                    "category": "schools and all kinds of educational structures",
+                    "category_el": "σχολεία και πάσης φύσεως εκπαιδευτικές δομές",
+                    "description_el": "Δια ζώσης λειτουργία πρωτοβάθμιας εκπαίδευσης. Εξ αποστάσεως λειτουργία των λοιπών εκπαιδευτικών δομών."
+                },
+                {
+                    "category": "universities",
+                    "category_el": "ανώτατα εκπαιδευτικά ιδρύματα",
+                    "description_el": "Τηλε-εκπαίδευση."
+                },
+                {
+                    "category": "nurseries, kindergartens",
+                    "category_el": "βρεφικοί, βρεφονηπιακοί, παιδικοί σταθμοί",
+                    "description_el": "Δια ζώσης λειτουργία."
+                },
+                {
+                    "category": "places of worship, religious ceremonies",
+                    "category_el": "χώροι λατρείας, θρησκευτικές τελετές",
+                    "description_el": "Με περιορισμούς. 1 άτομο ανά 25 τ.μ. με ανώτατο όριο τα 9 άτομα."
+                },
+                {
+                    "category": "archeological sites, museums, caves",
+                    "category_el": "αρχαιολογικοί χώροι, μουσεία, σπήλαια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "live performances and auditions, other performing arts",
+                    "category_el": "ζωντανά θεάματα και ακροάματα, λοιπές παραστατικές τέχνες",
+                    "description_el": "Αναστολή προσέλευσης κοινού."
+                },
+                {
+                    "category": "movie screenings",
+                    "category_el": "κινηματογραφικές προβολές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "rehearsals, TV and film shootings, recordings",
+                    "category_el": "πρόβες, τηλεοπτικά και κινηματογραφικά γυρίσματα, ηχογραφήσεις",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "nightclubs, banquets, bars",
+                    "category_el": "κέντρα διασκέδασης, χώροι δεξιώσεων, μπαρ",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food and beverage",
+                    "category_el": "εστίαση",
+                    "description_el": "Επιτρέπονται οι υπηρεσίες παροχής προϊόντων σε πακέτο από το κατάστημα, διανομής προϊόντων και καθ’ οδόν εξυπηρέτησης."
+                },
+                {
+                    "category": "playgrounds",
+                    "category_el": "παιδότοποι, παιδικές χαρές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "transport",
+                    "category_el": "μεταφορές",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "sports",
+                    "category_el": "αθλητισμός",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση ανοιχτών και κλειστών εγκαταστάσεων για προπονήσεις και αγώνες χωρίς παρουσία θεατών και ανοιχτών εγκαταστάσεων για άθληση ομάδων μέχρι 3 ατόμων."
+                },
+                {
+                    "category": "gyms",
+                    "category_el": "γυμναστήρια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food shops",
+                    "category_el": "καταστήματα τροφίμων",
+                    "description_el": "Με περιορισμούς. 1 άτομο για κάθε 25 τ.μ. και απαγόρευση πώλησης συγκεκριμένων ειδών."
+                },
+                {
+                    "category": "open markets",
+                    "category_el": "λαϊκές αγορές",
+                    "description_el": "Με περιορισμούς. 50% των θέσεων και αναστολή λειτουργίας το ΣΚ με εξαίρεση την ΠΕ Θεσσαλονίκης."
+                },
+                {
+                    "category": "retail",
+                    "category_el": "λιανεμπόριο",
+                    "description_el": "Λειτουργία μόνο με click away. Κατ' εξαίρεση για τις ΠΕ Θεσσαλονίκης και Χαλκιδικής επιτρέπεται η λειτουργία με click inside για επιχειρήσεις βιβλιοχαρτοπωλείων και πώλησης υποδημάτων και ενδυμάτων."
+                },
+                {
+                    "category": "hairdressers, personal care services",
+                    "category_el": "κομμωτήρια, υπηρεσίες προσωπικής υγιεινής",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση δραστηριότητες κομμωτηρίων, κουρείων και κέντρων αισθητικής, υπηρεσίες διαιτολογίας, προσωπικής υγιεινής και φροντίδας σώματος και γυαλίσματος υποδημάτων."
+                },
+                {
+                    "category": "conferences, exhibitions",
+                    "category_el": "συνέδρια, εκθέσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "driving schools",
+                    "category_el": "σχολές οδηγών",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση υποψηφίων οδηγών λεωφορείων και φορτηγών."
+                },
+                {
+                    "category": "mot services",
+                    "category_el": "κτεο",
+                    "description_el": "Με ραντεβού."
+                },
+                {
+                    "category": "prostitution services",
+                    "category_el": "υπηρεσίες ιερόδουλων",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "zoos and natural habitats",
+                    "category_el": "ζωολογικοί κήποι και φυσικοί βιότοποι",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "gaming and gambling services",
+                    "category_el": "υπηρεσίες τυχερών και ηλεκτρονικων παιχνιδιών και στοιχημάτων",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "ski resorts",
+                    "category_el": "χιονοδρομικά κέντρα",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "camping",
+                    "category_el": "κατασκηνώσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                }
+            ]
+        },
+        {
+            "level_code": "C",
+            "level": "Very High Risk",
+            "level_el": "Πολύ Αυξημένου Κινδύνου",
+            "measures": [
+                {
+                    "category": "mask",
+                    "category_el": "μάσκα",
+                    "description_el": "Υποχρεωτική σε όλους τους εσωτερικούς και εξωτερικούς χώρους"
+                },
+                {
+                    "category": "movement_intra_regional_unit",
+                    "category_el": "μετακινήσεις_εντός_περιφερειακής_ενότητας",
+                    "description_el": "Περιορισμένες, με  Βεβαίωση Κυκλοφορίας Εργαζομένου ή SMS."
+                },
+                {
+                    "category": "movement_inter_regional_unit",
+                    "category_el": "μετακινήσεις_εκτός_περιφερειακής_ενότητας",
+                    "description_el": "Αναστολή με εξαίρεση για λόγους υγείας ή επαγγελματικούς, επιστροφή στη μόνιμη κατοικία, ή επανένωση οικογενειών."
+                },
+                {
+                    "category": "movement_international",
+                    "category_el": "μετακινήσεις_διεθνείς",
+                    "description_el": "Επιτρέπονται με αρνητικό τεστ PCR και συμπλήρωση φόρμας PLF."
+                },
+                {
+                    "category": "gatherings, public or social events",
+                    "category_el": "συναθροίσεις, δημόσιες ή κοινωνικές εκδηλώσεις",
+                    "description_el": "Αναστολή."
+                },
+                {
+                    "category": "public services",
+                    "category_el": "δημόσιες υπηρεσίες",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "private companies",
+                    "category_el": "ιδιωτικές επιχειρήσεις",
+                    "description_el": "Υποχρεωτική τηλεργασία στο μέγιστο δυνατό ποσοστό."
+                },
+                {
+                    "category": "courts, prosecutors' offices, mortgage offices and cadastral offices",
+                    "category_el": "δικαστήρια, εισαγγελίες, υποθηκοφυλακεία και κτηματολογικά γραφεία",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "hospitals, clinics and diagnostic centers",
+                    "category_el": "νοσοκομεία, κλινικές, ιατρεία και διαγνωστικά κέντρα",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "reception and identification centers and open residence facilities",
+                    "category_el": "κέντρα υποδοχής και ταυτοποίησης και ανοιχτές δομές φιλοξενίας",
+                    "description_el": "Αναστολή εξόδου."
+                },
+                {
+                    "category": "schools and all kinds of educational structures",
+                    "category_el": "σχολεία και πάσης φύσεως εκπαιδευτικές δομές",
+                    "description_el": "Εξ αποστάσεως λειτουργία όλων των εκπαιδευτικών δομών."
+                },
+                {
+                    "category": "universities",
+                    "category_el": "ανώτατα εκπαιδευτικά ιδρύματα",
+                    "description_el": "Τηλε-εκπαίδευση."
+                },
+                {
+                    "category": "nurseries, kindergartens",
+                    "category_el": "βρεφικοί, βρεφονηπιακοί, παιδικοί σταθμοί",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "places of worship, religious ceremonies",
+                    "category_el": "χώροι λατρείας, θρησκευτικές τελετές",
+                    "description_el": "Τέλεση θρησκευτικών τελετών με το αναγκαίο βοηθητικό προσωπικό με εξαίρεση γάμους, βαπτίσεις, κηδείες, μνημόσυνα ώπου επιτρέπονται μέχρι 9 άτομα."
+                },
+                {
+                    "category": "archeological sites, museums, caves",
+                    "category_el": "αρχαιολογικοί χώροι, μουσεία, σπήλαια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "live performances and auditions, other performing arts",
+                    "category_el": "ζωντανά θεάματα και ακροάματα, λοιπές παραστατικές τέχνες",
+                    "description_el": "Αναστολή προσέλευσης κοινού."
+                },
+                {
+                    "category": "movie screenings",
+                    "category_el": "κινηματογραφικές προβολές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "rehearsals, TV and film shootings, recordings",
+                    "category_el": "πρόβες, τηλεοπτικά και κινηματογραφικά γυρίσματα, ηχογραφήσεις",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "nightclubs, banquets, bars",
+                    "category_el": "κέντρα διασκέδασης, χώροι δεξιώσεων, μπαρ",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food and beverage",
+                    "category_el": "εστίαση",
+                    "description_el": "Επιτρέπονται οι υπηρεσίες παροχής προϊόντων σε πακέτο από το κατάστημα, διανομής προϊόντων και καθ’ οδόν εξυπηρέτησης."
+                },
+                {
+                    "category": "playgrounds",
+                    "category_el": "παιδότοποι, παιδικές χαρές",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "transport",
+                    "category_el": "μεταφορές",
+                    "description_el": "Με περιορισμούς."
+                },
+                {
+                    "category": "sports",
+                    "category_el": "αθλητισμός",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση ανοιχτών και κλειστών εγκαταστάσεων για προπονήσεις και αγώνες χωρίς παρουσία θεατών και ανοιχτών εγκαταστάσεων για άθληση ομάδων μέχρι 3 ατόμων."
+                },
+                {
+                    "category": "gyms",
+                    "category_el": "γυμναστήρια",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "food shops",
+                    "category_el": "καταστήματα τροφίμων",
+                    "description_el": "Με περιορισμούς. 1 άτομο για κάθε 25 τ.μ. και απαγόρευση πώλησης συγκεκριμένων ειδών."
+                },
+                {
+                    "category": "open markets",
+                    "category_el": "λαϊκές αγορές",
+                    "description_el": "Με περιορισμούς. 50% των θέσεων και αναστολή λειτουργίας το ΣΚ με εξαίρεση την Π Αττικής."
+                },
+                {
+                    "category": "retail",
+                    "category_el": "λιανεμπόριο",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "hairdressers, personal care services",
+                    "category_el": "κομμωτήρια, υπηρεσίες προσωπικής υγιεινής",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "conferences, exhibitions",
+                    "category_el": "συνέδρια, εκθέσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "driving schools",
+                    "category_el": "σχολές οδηγών",
+                    "description_el": "Αναστολή λειτουργίας με εξαίρεση υποψηφίων οδηγών λεωφορείων και φορτηγών."
+                },
+                {
+                    "category": "mot services",
+                    "category_el": "κτεο",
+                    "description_el": "Με ραντεβού."
+                },
+                {
+                    "category": "prostitution services",
+                    "category_el": "υπηρεσίες ιερόδουλων",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "zoos and natural habitats",
+                    "category_el": "ζωολογικοί κήποι και φυσικοί βιότοποι",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "gaming and gambling services",
+                    "category_el": "υπηρεσίες τυχερών και ηλεκτρονικων παιχνιδιών και στοιχημάτων",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "ski resorts",
+                    "category_el": "χιονοδρομικά κέντρα",
+                    "description_el": "Αναστολή λειτουργίας."
+                },
+                {
+                    "category": "camping",
+                    "category_el": "κατασκηνώσεις",
+                    "description_el": "Αναστολή λειτουργίας."
+                }
+            ]
+        }     
+    ]
+}
+
