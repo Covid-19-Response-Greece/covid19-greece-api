@@ -1470,6 +1470,285 @@
         }
       }
     },
+    "/risk-levels": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Risk levels",
+        "description": "Get the COVID risk levels in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "last_updated": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "region": {
+                      "type": "object",
+                      "properties": {
+                        "Attica": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Central_Greece": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Central_Macedonia": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Crete": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Eastern_Macedonia_and_Thrace": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Epirus": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Ionian_islands": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "North_Aegean": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Peloponnese": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "South_Aegean": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Thessaly": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Western_Greece": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "Western_Macedonia": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "regional_unit": {
+                                "type": "string"
+                              },
+                              "risk_level": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/measures_by_risk-level": {
+      "get": {
+        "tags": [
+          "Cumulative data"
+        ],
+        "summary": "Social distancing measures by risk level",
+        "description": "Get the social distancing measures by risk level in Greece",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "date_from": {
+                      "type": "string",
+                      "format": "date" 
+                    },
+                    "date_to": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "measures_levels": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "level_code": {
+                            "type": "string"
+                          },
+                          "level": {
+                            "type": "string"
+                          },
+                          "level_el": {
+                            "type": "string"
+                          },
+                          "measures": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "category": {
+                                  "type": "string"
+                                },
+                                "category_el": {
+                                  "type": "string"
+                                  },
+                                "description_el": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/schools-status": {
       "get": {
         "tags": [
