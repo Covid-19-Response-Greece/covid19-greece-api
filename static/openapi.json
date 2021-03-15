@@ -1684,7 +1684,7 @@
         }
       }
     },
-    "/measures_by_risk-level": {
+    "/measures-by-risk-level": {
       "get": {
         "tags": [
           "Cumulative data"

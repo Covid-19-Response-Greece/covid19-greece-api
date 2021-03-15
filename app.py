@@ -123,13 +123,13 @@ def init():
     ) as f:
         data_greece_social_distancing_timeline = json.load(f)
     
-        with open(
+    with open(
         "data/greece/measures/greece_risk_levels.json",
         encoding="utf-8",
     ) as f:
         data_greece_risk_levels = json.load(f)
     
-        with open(
+    with open(
         "data/greece/measures/greece_social_distancing_measures_by_risk_level.json",
         encoding="utf-8",
     ) as f:
@@ -373,13 +373,13 @@ def get_measures_timeline():
 
 
 @app.route("/risk-levels", methods=["GET"])
-def get_measures_timeline():
+def get_risk_levels():
     out_json = copy.deepcopy(data_greece_risk_levels)
     return jsonify({"risk_levels": out_json})
 
 
 @app.route("/measures-by-risk-level", methods=["GET"])
-def get_measures_timeline():
+def get_measures_by_risk_level():
     out_json = copy.deepcopy(data_greece_social_distancing_measures_by_risk_level)
     return jsonify({"measures_by_risk_level": out_json})
 
