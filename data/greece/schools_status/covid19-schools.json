@@ -26,6 +26,32 @@
       "Remarks":""
    },
    {
+      "UnitName":"ΕΙΔΙΚΟ ΝΗΠΙΑΓΩΓΕΙΟ ΜΟΙΡΩΝ",
+      "SchoolKind":"Νηπιαγωγεία",
+      "Municipality":"ΦΑΙΣΤΟΥ",
+      "MunicipalUnit":"ΜΟΙΡΩΝ",
+      "Area":"ΜΟΙΡΩΝ - ΠΟΜΠΙΑ",
+      "Address":"ΠΟΜΠΙΑ",
+      "Longitude":24.869042,
+      "Latitude":35.010195,
+      "DateFrom":"24-03-2021",
+      "DateTo":"06-04-2021",
+      "Remarks":""
+   },
+   {
+      "UnitName":"1ο ΕΙΔΙΚΟ ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΜΑΡΟΥΣΙΟΥ",
+      "SchoolKind":"Δημοτικά Σχολεία",
+      "Municipality":"ΑΜΑΡΟΥΣΙΟΥ",
+      "MunicipalUnit":"ΑΜΑΡΟΥΣΙΟΥ",
+      "Area":"ΑΜΑΡΟΥΣΙΟ",
+      "Address":"ΠΕΝΤΕΛΗΣ 58",
+      "Longitude":23.821365,
+      "Latitude":38.051347,
+      "DateFrom":"23-03-2021",
+      "DateTo":"05-04-2021",
+      "Remarks":"Β (Β Τάξη) από 23-3 έως και 5-4"
+   },
+   {
       "UnitName":"ΕΙΔΙΚΟ ΔΗΜΟΤΙΚΟ ΣΧΟΛΕΙΟ ΑΡΓΟΥΣ",
       "SchoolKind":"Δημοτικά Σχολεία",
       "Municipality":"ΑΡΓΟΥΣ-ΜΥΚΗΝΩΝ",
