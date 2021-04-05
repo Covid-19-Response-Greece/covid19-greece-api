@@ -117,7 +117,7 @@ Request:
  
  * [COVID-19 Greece Tracker](https://covid-greece.github.io): Visualization of total and daily data with respect to severity and age,gender & region distribution.
  
- * [Καραντίνα SMS - 13033 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_sms): A simple app which creates the movement permit SMS (13033)
+ * [Καραντίνα SMS - 13033 - 13032 - 13034](https://play.google.com/store/apps/details?id=karantina_app.movement_permit_sms): A simple app which creates the movement permit SMS (13033, 13032)
  
  * [Kissamos News](https://www.kissamosnews.com/): Community news for Chania and Crete. Page about Covid in Crete is [here](https://www.kissamosnews.com/covid-19-confirmed-cases-in-crete-and-chania/)
  
