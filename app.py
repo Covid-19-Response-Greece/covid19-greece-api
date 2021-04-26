@@ -499,6 +499,7 @@ def get_refugee_camps():
         "Νοτίου Αιγαίου": "South Aegean",
         "Πελλοπονήσου": "Peloponnese",
         "Στερεάς Ελλάδας": "Central Greece",
+        "Ελλάδα": "Greece"
     }
 
     tot_json = []
@@ -521,7 +522,7 @@ def get_refugee_camps():
                 else None
             )
             camp_data["area_type_gr"] = row["Έκταση"]
-            camp_data["area_type_en"] = area_type_dict[row["Έκταση"]]
+            camp_data["area_type_en"] = area_type_dict[row["Έκταση"]]  if row["Έκταση"] != None else None
             camp_data["longtitude"] = (
                 float(row["Γεωγραφικό Μήκος"].replace(",", "."))
                 if row["Γεωγραφικό Μήκος"] != None
