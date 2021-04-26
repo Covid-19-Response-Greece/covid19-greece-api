@@ -33,6 +33,8 @@ data_greece_age_dist_npho = None
 data_greece_gender_age_dist_npho = None
 # data_greece_wikipedia = None
 data_greece_social_distancing_timeline = None
+data_greece_risk_levels = None
+data_greece_social_distancing_measures_by_risk_level = None
 data_greece_refugee_camps = None
 data_greece_regions_wm_deaths = None
 data_greece_regions_wm = None
@@ -59,6 +61,8 @@ def init():
     global data_greece_gender_age_dist_npho
     # global data_greece_wikipedia
     global data_greece_social_distancing_timeline
+    global data_greece_risk_levels
+    global data_greece_social_distancing_measures_by_risk_level
     global data_greece_refugee_camps
     global data_greece_regions_wm_deaths
     global data_greece_regions_wm
@@ -118,6 +122,18 @@ def init():
         encoding="utf-8",
     ) as f:
         data_greece_social_distancing_timeline = json.load(f)
+    
+    with open(
+        "data/greece/measures/greece_risk_levels.json",
+        encoding="utf-8",
+    ) as f:
+        data_greece_risk_levels = json.load(f)
+    
+    with open(
+        "data/greece/measures/greece_social_distancing_measures_by_risk_level.json",
+        encoding="utf-8",
+    ) as f:
+        data_greece_social_distancing_measures_by_risk_level = json.load(f)
 
     with open(
         "data/greece/regional/western_macedonia_daily_reports.csv", encoding="utf-8"
@@ -356,6 +372,18 @@ def get_measures_timeline():
     return jsonify({"measures": out_json})
 
 
+@app.route("/risk-levels", methods=["GET"])
+def get_risk_levels():
+    out_json = copy.deepcopy(data_greece_risk_levels)
+    return jsonify({"risk_levels": out_json})
+
+
+@app.route("/measures-by-risk-level", methods=["GET"])
+def get_measures_by_risk_level():
+    out_json = copy.deepcopy(data_greece_social_distancing_measures_by_risk_level)
+    return jsonify({"measures_by_risk_level": out_json})
+
+
 @app.route("/western-macedonia", methods=["GET"])
 def get_western_macedonia():
 
@@ -471,6 +499,7 @@ def get_refugee_camps():
         "Νοτίου Αιγαίου": "South Aegean",
         "Πελλοπονήσου": "Peloponnese",
         "Στερεάς Ελλάδας": "Central Greece",
+        "Ελλάδα": "Greece"
     }
 
     tot_json = []
@@ -493,7 +522,7 @@ def get_refugee_camps():
                 else None
             )
             camp_data["area_type_gr"] = row["Έκταση"]
-            camp_data["area_type_en"] = area_type_dict[row["Έκταση"]]
+            camp_data["area_type_en"] = area_type_dict[row["Έκταση"]]  if row["Έκταση"] != None else None
             camp_data["longtitude"] = (
                 float(row["Γεωγραφικό Μήκος"].replace(",", "."))
                 if row["Γεωγραφικό Μήκος"] != None
