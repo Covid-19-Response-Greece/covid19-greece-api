@@ -1365,8 +1365,6 @@
                   "type": "object",
                   "properties": {
                     "total-vaccinations": {
-                      "type": "array",
-                      "items": {
                         "type": "object",
                         "properties": {
                           "totaldistinctpersons": {
