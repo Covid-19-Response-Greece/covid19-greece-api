@@ -427,7 +427,7 @@
                                 "latitude": {
                                   "type": "number"
                                 },
-                                 "population": {
+                                "population": {
                                   "type": "number"
                                 },
                                 "cases": {
@@ -1098,14 +1098,13 @@
                                   "type": "number"
                                 }
                               }
-                            },
-                            "updated": {
-                              "type": "string",
-                              "format": "date"
                             }
                           }
+                        },
+                        "updated": {
+                          "type": "string",
+                          "format": "date"
                         }
-                      }
                     }
                   }
                 }
