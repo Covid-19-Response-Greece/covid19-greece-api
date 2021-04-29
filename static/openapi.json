@@ -1761,7 +1761,7 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "schools_status": {
+                    "schools-status": {
                       "type": "array",
                       "items": {
                         "type": "object",
