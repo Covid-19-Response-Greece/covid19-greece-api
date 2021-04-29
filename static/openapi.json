@@ -258,7 +258,7 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "cases": {
+                    "total_tests": {
                       "type": "array",
                       "items": {
                         "type": "object",
