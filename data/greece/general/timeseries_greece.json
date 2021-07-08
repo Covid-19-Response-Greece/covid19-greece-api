@@ -3161,6 +3161,42 @@
 			"confirmed": 423185,
 			"recovered": 93764,
 			"deaths": 12691
+		},
+		{
+			"date": "2021-07-02",
+			"confirmed": 424165,
+			"recovered": 93764,
+			"deaths": 12701
+		},
+		{
+			"date": "2021-07-03",
+			"confirmed": 425347,
+			"recovered": 93764,
+			"deaths": 12710
+		},
+		{
+			"date": "2021-07-04",
+			"confirmed": 425964,
+			"recovered": 93764,
+			"deaths": 12716
+		},
+		{
+			"date": "2021-07-05",
+			"confirmed": 426963,
+			"recovered": 93764,
+			"deaths": 12722
+		},
+		{
+			"date": "2021-07-06",
+			"confirmed": 429144,
+			"recovered": 93764,
+			"deaths": 12730
+		},
+		{
+			"date": "2021-07-07",
+			"confirmed": 430960,
+			"recovered": 93764,
+			"deaths": 12739
 		}
 	]
 }
