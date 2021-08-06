@@ -3365,6 +3365,12 @@
 			"confirmed": 503885,
 			"recovered": 93764,
 			"deaths": 12988
+		},
+		{
+			"date": "2021-08-05",
+			"confirmed": 506672,
+			"recovered": 0,
+			"deaths": 13000
 		}
 	]
 }
