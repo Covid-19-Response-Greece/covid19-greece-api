@@ -651,6 +651,9 @@
                           "dailydose2": {
                             "type": "number"
                           },
+                          "dailydose3": {
+                            "type": "number"
+                          },                          
                           "daydiff": {
                             "type": "number"
                           },
@@ -668,6 +671,9 @@
                             "type": "number"
                           },
                           "totaldose2": {
+                            "type": "number"
+                          },
+                          "totaldose3": {
                             "type": "number"
                           },
                           "totalvaccinations": {
