@@ -125,6 +125,7 @@ Request:
 
  * [greekCovid.com](https://www.greekcovid.com): Daily reports, COVID-19 Insights, Interactive COVID-19 Map, Vaccination Analytics.
  
+ * [Coronavirus Streamlit Dashboard](https://maniatisni-covid-dashboard.herokuapp.com/): Interactive COVID-19 Charts and simple statistics in a plain dashboard.
 ## Adding your project to the list
 
 If your project/organization utilizes the Coronavirus Greece API, you are kindly asked to place it here, under the following rules: 
