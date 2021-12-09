@@ -1382,6 +1382,9 @@
                           "totalvaccinations": {
                             "type": "number"
                           },
+                          "totaldose3": {
+                            "type": "number"
+                          },
                           "updated": {
                             "type": "string",
                             "format": "date"
