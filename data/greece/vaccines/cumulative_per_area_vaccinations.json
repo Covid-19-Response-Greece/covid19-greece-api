@@ -2,7 +2,7 @@
    {
       "area_gr":"ΠΑΡΟΥ",
       "area_en":"Paros",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":16446,
       "totaldose1":16446,
       "totaldose2":16802,
@@ -12,27 +12,27 @@
    {
       "area_gr":"ΞΑΝΘΗΣ",
       "area_en":"Xanthi",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":74284,
       "totaldose1":74284,
       "totaldose2":71637,
-      "totaldose3":57973,
-      "totalvaccinations":198436
+      "totaldose3":58003,
+      "totalvaccinations":198466
    },
    {
       "area_gr":"ΝΟΤΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "area_en":"South Athens",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":368026,
       "totaldose1":368031,
       "totaldose2":342174,
-      "totaldose3":266512,
-      "totalvaccinations":968333
+      "totaldose3":266799,
+      "totalvaccinations":968620
    },
    {
       "area_gr":"ΝΗΣΩΝ",
       "area_en":"Islands",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":66978,
       "totaldose1":66979,
       "totaldose2":64320,
@@ -42,7 +42,7 @@
    {
       "area_gr":"ΝΑΞΟΥ",
       "area_en":"Naxos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":16703,
       "totaldose1":16703,
       "totaldose2":16003,
@@ -52,17 +52,17 @@
    {
       "area_gr":"ΜΥΚΟΝΟΥ",
       "area_en":"Mykonos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":17710,
       "totaldose1":17710,
       "totaldose2":17557,
-      "totaldose3":9074,
-      "totalvaccinations":36146
+      "totaldose3":9078,
+      "totalvaccinations":36150
    },
    {
       "area_gr":"ΜΗΛΟΥ",
       "area_en":"Milos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":10628,
       "totaldose1":10628,
       "totaldose2":10261,
@@ -72,27 +72,27 @@
    {
       "area_gr":"ΜΕΣΣΗΝΙΑΣ",
       "area_en":"Messenia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":109742,
       "totaldose1":109742,
       "totaldose2":107651,
-      "totaldose3":96730,
-      "totalvaccinations":306191
+      "totaldose3":96793,
+      "totalvaccinations":306254
    },
    {
       "area_gr":"ΜΑΓΝΗΣΙΑΣ",
       "area_en":"Magnesia",
-      "referencedate":"2023-01-02",
-      "totaldistinctpersons":133579,
-      "totaldose1":133580,
-      "totaldose2":129564,
-      "totaldose3":118878,
-      "totalvaccinations":375240
+      "referencedate":"2023-01-03",
+      "totaldistinctpersons":133589,
+      "totaldose1":133590,
+      "totaldose2":129574,
+      "totaldose3":118920,
+      "totalvaccinations":375292
    },
    {
       "area_gr":"ΛΗΜΝΟΥ",
       "area_en":"Lemnos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":13641,
       "totaldose1":13641,
       "totaldose2":13489,
@@ -102,7 +102,7 @@
    {
       "area_gr":"ΛΕΣΒΟΥ",
       "area_en":"Lesbos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":62054,
       "totaldose1":62054,
       "totaldose2":60466,
@@ -112,37 +112,37 @@
    {
       "area_gr":"ΛΑΣΙΘΙΟΥ",
       "area_en":"Lasithi",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":65822,
       "totaldose1":65822,
       "totaldose2":64554,
-      "totaldose3":52759,
-      "totalvaccinations":173935
+      "totaldose3":52768,
+      "totalvaccinations":173944
    },
    {
       "area_gr":"ΛΑΡΙΣΑΣ",
       "area_en":"Larissa",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":182595,
       "totaldose1":182595,
       "totaldose2":173753,
-      "totaldose3":155762,
-      "totalvaccinations":501814
+      "totaldose3":155826,
+      "totalvaccinations":501878
    },
    {
       "area_gr":"ΛΑΚΩΝΙΑΣ",
       "area_en":"Laconia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":57125,
       "totaldose1":57125,
       "totaldose2":56133,
-      "totaldose3":48977,
-      "totalvaccinations":155941
+      "totaldose3":48994,
+      "totalvaccinations":155958
    },
    {
       "area_gr":"ΚΩ",
       "area_en":"Kos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":33675,
       "totaldose1":33675,
       "totaldose2":33180,
@@ -152,127 +152,127 @@
    {
       "area_gr":"ΚΟΡΙΝΘΙΑΣ",
       "area_en":"Corinthia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":98116,
       "totaldose1":98117,
       "totaldose2":94747,
-      "totaldose3":86153,
-      "totalvaccinations":272730
+      "totaldose3":86186,
+      "totalvaccinations":272763
    },
    {
       "area_gr":"ΠΕΙΡΑΙΩΣ",
       "area_en":"Piraeus",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":230134,
       "totaldose1":230134,
       "totaldose2":219652,
-      "totaldose3":235976,
-      "totalvaccinations":670001
+      "totaldose3":236120,
+      "totalvaccinations":670145
    },
    {
       "area_gr":"ΚΟΖΑΝΗΣ",
       "area_en":"Kozani",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":92739,
       "totaldose1":92739,
       "totaldose2":88408,
-      "totaldose3":79254,
-      "totalvaccinations":253079
+      "totaldose3":79297,
+      "totalvaccinations":253122
    },
    {
       "area_gr":"ΠΕΛΛΑΣ",
       "area_en":"Pella",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":94005,
       "totaldose1":94009,
       "totaldose2":89920,
-      "totaldose3":74024,
-      "totalvaccinations":251356
+      "totaldose3":74058,
+      "totalvaccinations":251390
    },
    {
       "area_gr":"ΠΡΕΒΕΖΑΣ",
       "area_en":"Preveza",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":41723,
       "totaldose1":41723,
       "totaldose2":41475,
-      "totaldose3":42898,
-      "totalvaccinations":122898
+      "totaldose3":42930,
+      "totalvaccinations":122930
    },
    {
       "area_gr":"ΧΙΟΥ",
       "area_en":"Chios",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":42846,
       "totaldose1":42848,
       "totaldose2":42087,
-      "totaldose3":38801,
-      "totalvaccinations":115441
+      "totaldose3":38827,
+      "totalvaccinations":115467
    },
    {
       "area_gr":"ΧΑΝΙΩΝ",
       "area_en":"Chania",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":125375,
       "totaldose1":125376,
       "totaldose2":120521,
-      "totaldose3":96540,
-      "totalvaccinations":335812
+      "totaldose3":96580,
+      "totalvaccinations":335852
    },
    {
       "area_gr":"ΧΑΛΚΙΔΙΚΗΣ",
       "area_en":"Chalkidiki",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":74050,
       "totaldose1":74050,
       "totaldose2":72027,
-      "totaldose3":61536,
-      "totalvaccinations":202888
+      "totaldose3":61599,
+      "totalvaccinations":202951
    },
    {
       "area_gr":"ΦΩΚΙΔΑΣ",
       "area_en":"Phocis",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":21062,
       "totaldose1":21062,
       "totaldose2":20231,
-      "totaldose3":15963,
-      "totalvaccinations":54988
+      "totaldose3":15967,
+      "totalvaccinations":54992
    },
    {
       "area_gr":"ΦΛΩΡΙΝΑΣ",
       "area_en":"Florina",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":35095,
       "totaldose1":35095,
       "totaldose2":33608,
-      "totaldose3":29077,
-      "totalvaccinations":95358
+      "totaldose3":29129,
+      "totalvaccinations":95410
    },
    {
       "area_gr":"ΦΘΙΩΤΙΔΑΣ",
       "area_en":"Phthiotis",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":97901,
       "totaldose1":97901,
       "totaldose2":95842,
-      "totaldose3":90148,
-      "totalvaccinations":278998
+      "totaldose3":90202,
+      "totalvaccinations":279052
    },
    {
       "area_gr":"ΤΡΙΚΑΛΩΝ",
       "area_en":"Trikala",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":84612,
       "totaldose1":84612,
       "totaldose2":83888,
-      "totaldose3":81297,
-      "totalvaccinations":244750
+      "totaldose3":81345,
+      "totalvaccinations":244798
    },
    {
       "area_gr":"ΤΗΝΟΥ",
       "area_en":"Tinos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":7416,
       "totaldose1":7416,
       "totaldose2":7327,
@@ -282,7 +282,7 @@
    {
       "area_gr":"ΣΥΡΟΥ",
       "area_en":"Syros",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":19806,
       "totaldose1":19806,
       "totaldose2":20370,
@@ -292,47 +292,47 @@
    {
       "area_gr":"ΣΠΟΡΑΔΩΝ",
       "area_en":"Sporades",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":11089,
       "totaldose1":11089,
-      "totaldose2":10859,
+      "totaldose2":10860,
       "totaldose3":8260,
-      "totalvaccinations":28646
+      "totalvaccinations":28647
    },
    {
       "area_gr":"ΣΕΡΡΩΝ",
       "area_en":"Serres",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":99694,
       "totaldose1":99695,
       "totaldose2":95897,
-      "totaldose3":98244,
-      "totalvaccinations":288402
+      "totaldose3":98281,
+      "totalvaccinations":288439
    },
    {
       "area_gr":"ΣΑΜΟΥ",
       "area_en":"Samos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":23875,
       "totaldose1":23875,
       "totaldose2":23580,
-      "totaldose3":18839,
-      "totalvaccinations":62721
+      "totaldose3":18849,
+      "totalvaccinations":62731
    },
    {
       "area_gr":"ΡΟΔΟΥ",
       "area_en":"Rhodes",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":98276,
       "totaldose1":98276,
       "totaldose2":96589,
-      "totaldose3":79850,
-      "totalvaccinations":251666
+      "totaldose3":79859,
+      "totalvaccinations":251675
    },
    {
       "area_gr":"ΡΟΔΟΠΗΣ",
       "area_en":"Rhodope",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":75392,
       "totaldose1":75392,
       "totaldose2":73976,
@@ -342,37 +342,37 @@
    {
       "area_gr":"ΡΕΘΥΜΝΟΥ",
       "area_en":"Rethymno",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":62189,
       "totaldose1":62189,
       "totaldose2":59733,
-      "totaldose3":48595,
-      "totalvaccinations":164932
+      "totaldose3":48630,
+      "totalvaccinations":164967
    },
    {
       "area_gr":"ΠΙΕΡΙΑΣ",
       "area_en":"Pieria",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":84457,
       "totaldose1":84457,
       "totaldose2":80830,
-      "totaldose3":67798,
-      "totalvaccinations":228532
+      "totaldose3":67830,
+      "totalvaccinations":228564
    },
    {
       "area_gr":"ΚΙΛΚΙΣ",
       "area_en":"Kilkis",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":48762,
       "totaldose1":48762,
       "totaldose2":46552,
-      "totaldose3":41237,
-      "totalvaccinations":131808
+      "totaldose3":41243,
+      "totalvaccinations":131814
    },
    {
       "area_gr":"ΛΕΥΚΑΔΑΣ",
       "area_en":"Lefkada",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":26312,
       "totaldose1":26312,
       "totaldose2":25999,
@@ -382,147 +382,147 @@
    {
       "area_gr":"ΚΕΡΚΥΡΑΣ",
       "area_en":"Corfu (Kerkyra)",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":84152,
       "totaldose1":84152,
       "totaldose2":82268,
-      "totaldose3":69205,
-      "totalvaccinations":224462
+      "totaldose3":69249,
+      "totalvaccinations":224506
    },
    {
       "area_gr":"ΕΥΡΥΤΑΝΙΑΣ",
       "area_en":"Evrytania",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":9813,
       "totaldose1":9813,
       "totaldose2":9345,
-      "totaldose3":7239,
-      "totalvaccinations":24938
+      "totaldose3":7247,
+      "totalvaccinations":24946
    },
    {
       "area_gr":"ΕΥΒΟΙΑΣ",
       "area_en":"Euboea",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":143012,
       "totaldose1":143015,
       "totaldose2":140211,
-      "totaldose3":118909,
-      "totalvaccinations":391376
+      "totaldose3":118947,
+      "totalvaccinations":391414
    },
    {
       "area_gr":"ΕΒΡΟΥ",
       "area_en":"Evros",
-      "referencedate":"2023-01-02",
-      "totaldistinctpersons":97910,
-      "totaldose1":97913,
-      "totaldose2":94850,
-      "totaldose3":86965,
-      "totalvaccinations":271996
+      "referencedate":"2023-01-03",
+      "totaldistinctpersons":97911,
+      "totaldose1":97914,
+      "totaldose2":94851,
+      "totaldose3":87017,
+      "totalvaccinations":272049
    },
    {
       "area_gr":"ΔΥΤΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "area_en":"West Athens",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":487689,
       "totaldose1":487692,
       "totaldose2":463001,
-      "totaldose3":374954,
-      "totalvaccinations":1312043
+      "totaldose3":375088,
+      "totalvaccinations":1312177
    },
    {
       "area_gr":"ΔΥΤΙΚΗΣ ΑΤΤΙΚΗΣ",
       "area_en":"West Attica",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":64751,
       "totaldose1":64752,
       "totaldose2":60603,
-      "totaldose3":56174,
-      "totalvaccinations":181476
+      "totaldose3":56209,
+      "totalvaccinations":181511
    },
    {
       "area_gr":"ΚΕΦΑΛΛΗΝΙΑΣ",
       "area_en":"Cephalonia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":28011,
       "totaldose1":28012,
       "totaldose2":27947,
-      "totaldose3":23834,
-      "totalvaccinations":75661
+      "totaldose3":23842,
+      "totalvaccinations":75669
    },
    {
       "area_gr":"ΓΡΕΒΕΝΩΝ",
       "area_en":"Grevena",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":21060,
       "totaldose1":21060,
       "totaldose2":19780,
-      "totaldose3":18827,
-      "totalvaccinations":57209
+      "totaldose3":18832,
+      "totalvaccinations":57214
    },
    {
       "area_gr":"ΖΑΚΥΝΘΟΥ",
       "area_en":"Zakynthos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":35186,
       "totaldose1":35187,
       "totaldose2":34470,
-      "totaldose3":24425,
-      "totalvaccinations":88351
+      "totaldose3":24442,
+      "totalvaccinations":88368
    },
    {
       "area_gr":"ΒΟΡΕΙΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "area_en":"North Athens",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":728604,
       "totaldose1":728614,
       "totaldose2":710667,
-      "totaldose3":739774,
-      "totalvaccinations":2143115
+      "totaldose3":740004,
+      "totalvaccinations":2143345
    },
    {
       "area_gr":"ΑΧΑΪΑΣ",
       "area_en":"Achaea",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":224490,
       "totaldose1":224490,
       "totaldose2":214221,
-      "totaldose3":181676,
-      "totalvaccinations":606354
+      "totaldose3":181705,
+      "totalvaccinations":606383
    },
    {
       "area_gr":"ΑΡΤΑΣ",
       "area_en":"Arta",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":46471,
       "totaldose1":46471,
       "totaldose2":45982,
-      "totaldose3":40376,
-      "totalvaccinations":127539
+      "totaldose3":40388,
+      "totalvaccinations":127551
    },
    {
       "area_gr":"ΑΡΚΑΔΙΑΣ",
       "area_en":"Arcadia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":53609,
       "totaldose1":53609,
       "totaldose2":51538,
-      "totaldose3":49185,
-      "totalvaccinations":150273
+      "totaldose3":49209,
+      "totalvaccinations":150297
    },
    {
       "area_gr":"ΑΡΓΟΛΙΔΑΣ",
       "area_en":"Argolis",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":76332,
       "totaldose1":76332,
       "totaldose2":74826,
-      "totaldose3":59823,
-      "totalvaccinations":202278
+      "totaldose3":59843,
+      "totalvaccinations":202298
    },
    {
       "area_gr":"ΑΝΔΡΟΥ",
       "area_en":"Andros",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":7488,
       "totaldose1":7488,
       "totaldose2":7230,
@@ -532,77 +532,77 @@
    {
       "area_gr":"ΑΝΑΤΟΛΙΚΗΣ ΑΤΤΙΚΗΣ",
       "area_en":"East Attica",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":198556,
       "totaldose1":198560,
       "totaldose2":193225,
-      "totaldose3":252013,
-      "totalvaccinations":635406
+      "totaldose3":252180,
+      "totalvaccinations":635573
    },
    {
       "area_gr":"ΑΙΤΩΛΟΑΚΑΡΝΑΝΙΑΣ",
       "area_en":"Aetolia-Acarnania",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":126754,
       "totaldose1":126754,
       "totaldose2":121982,
-      "totaldose3":107689,
-      "totalvaccinations":348808
+      "totaldose3":107713,
+      "totalvaccinations":348832
    },
    {
       "area_gr":"ΒΟΙΩΤΙΑΣ",
       "area_en":"Boeotia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":90562,
       "totaldose1":90563,
       "totaldose2":85399,
-      "totaldose3":74323,
-      "totalvaccinations":242681
+      "totaldose3":74350,
+      "totalvaccinations":242708
    },
    {
       "area_gr":"ΗΛΕΙΑΣ",
       "area_en":"Elis",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":97926,
       "totaldose1":97927,
       "totaldose2":94910,
-      "totaldose3":79109,
-      "totalvaccinations":264702
+      "totaldose3":79149,
+      "totalvaccinations":264742
    },
    {
       "area_gr":"ΔΡΑΜΑΣ",
       "area_en":"Drama",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":57759,
       "totaldose1":57759,
       "totaldose2":55919,
-      "totaldose3":48940,
-      "totalvaccinations":157651
+      "totaldose3":48979,
+      "totalvaccinations":157690
    },
    {
       "area_gr":"ΚΕΝΤΡΙΚΟΥ ΤΟΜΕΑ ΑΘΗΝΩΝ",
       "area_en":"Central Athens",
-      "referencedate":"2023-01-02",
-      "totaldistinctpersons":919496,
-      "totaldose1":919593,
-      "totaldose2":877565,
-      "totaldose3":882478,
-      "totalvaccinations":2606745
+      "referencedate":"2023-01-03",
+      "totaldistinctpersons":919508,
+      "totaldose1":919605,
+      "totaldose2":877577,
+      "totaldose3":883064,
+      "totalvaccinations":2607354
    },
    {
       "area_gr":"ΗΜΑΘΙΑΣ",
       "area_en":"Imathia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":83814,
       "totaldose1":83814,
       "totaldose2":80573,
-      "totaldose3":72888,
-      "totalvaccinations":231084
+      "totaldose3":72931,
+      "totalvaccinations":231127
    },
    {
       "area_gr":"ΚΕΑΣ-ΚΥΘΝΟΥ",
       "area_en":"Kea-Kythnos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":4386,
       "totaldose1":4386,
       "totaldose2":4094,
@@ -612,67 +612,67 @@
    {
       "area_gr":"ΚΑΣΤΟΡΙΑΣ",
       "area_en":"Kastoria",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":34743,
       "totaldose1":34743,
       "totaldose2":33404,
-      "totaldose3":29851,
-      "totalvaccinations":95265
+      "totaldose3":29868,
+      "totalvaccinations":95282
    },
    {
       "area_gr":"ΚΑΡΠΑΘΟΥ",
       "area_en":"Karpathos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":5721,
       "totaldose1":5721,
       "totaldose2":5438,
-      "totaldose3":4475,
-      "totalvaccinations":15403
+      "totaldose3":4483,
+      "totalvaccinations":15411
    },
    {
       "area_gr":"ΚΑΡΔΙΤΣΑΣ",
       "area_en":"Karditsa",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":78112,
       "totaldose1":78112,
       "totaldose2":75096,
-      "totaldose3":63634,
-      "totalvaccinations":212756
+      "totaldose3":63649,
+      "totalvaccinations":212771
    },
    {
       "area_gr":"ΚΑΒΑΛΑΣ",
       "area_en":"Kavala",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":81839,
       "totaldose1":81840,
       "totaldose2":79485,
-      "totaldose3":74167,
-      "totalvaccinations":230597
+      "totaldose3":74239,
+      "totalvaccinations":230669
    },
    {
       "area_gr":"ΙΩΑΝΝΙΝΩΝ",
       "area_en":"Ioannina",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":120945,
       "totaldose1":120946,
       "totaldose2":117898,
-      "totaldose3":117377,
-      "totalvaccinations":347594
+      "totaldose3":117444,
+      "totalvaccinations":347661
    },
    {
       "area_gr":"ΚΑΛΥΜΝΟΥ",
       "area_en":"Kalymnos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":20193,
       "totaldose1":20193,
       "totaldose2":19464,
-      "totaldose3":15785,
-      "totalvaccinations":51458
+      "totaldose3":15799,
+      "totalvaccinations":51472
    },
    {
       "area_gr":"ΙΘΑΚΗΣ",
       "area_en":"Ithaca",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":2492,
       "totaldose1":2492,
       "totaldose2":2405,
@@ -682,7 +682,7 @@
    {
       "area_gr":"ΘΗΡΑΣ",
       "area_en":"Santorini (Thira)",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":26392,
       "totaldose1":26392,
       "totaldose2":26105,
@@ -692,27 +692,27 @@
    {
       "area_gr":"ΘΕΣΣΑΛΟΝΙΚΗΣ",
       "area_en":"Thessaloniki",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":772582,
       "totaldose1":772591,
       "totaldose2":740358,
-      "totaldose3":705744,
-      "totalvaccinations":2182984
+      "totaldose3":706116,
+      "totalvaccinations":2183356
    },
    {
       "area_gr":"ΘΕΣΠΡΩΤΙΑΣ",
       "area_en":"Thesprotia",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":37905,
       "totaldose1":37905,
       "totaldose2":36338,
-      "totaldose3":29804,
-      "totalvaccinations":101076
+      "totaldose3":29813,
+      "totalvaccinations":101085
    },
    {
       "area_gr":"ΘΑΣΟΥ",
       "area_en":"Thasos",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":12447,
       "totaldose1":12448,
       "totaldose2":12159,
@@ -722,17 +722,17 @@
    {
       "area_gr":"ΗΡΑΚΛΕΙΟΥ",
       "area_en":"Heraklion",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":220492,
       "totaldose1":220495,
       "totaldose2":215919,
-      "totaldose3":197810,
-      "totalvaccinations":622047
+      "totaldose3":197922,
+      "totalvaccinations":622159
    },
    {
       "area_gr":"ΙΚΑΡΙΑΣ",
       "area_en":"Ikaria",
-      "referencedate":"2023-01-02",
+      "referencedate":"2023-01-03",
       "totaldistinctpersons":6838,
       "totaldose1":6838,
       "totaldose2":6597,
